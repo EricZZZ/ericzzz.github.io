@@ -1,9 +1,89 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My New Hugo Site</title>
+        <title>🐡ErᎥc的数字花园</title>
         <link>http://example.org/</link>
-        <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language>
+        <description>欢迎来到我的小站～</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Wed, 31 Aug 2022 14:47:24 &#43;0800</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <item>
+    <title>乔迁之喜，博客换新家</title>
+    <link>http://example.org/blog-test/</link>
+    <pubDate>Wed, 31 Aug 2022 14:47:24 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/blog-test/</guid>
+    <description><![CDATA[🎉🎉🎉值得记录下，博客由以前的WordPress换成Hugo，其中心酸路程，只有自己懂得💦。下次记录下本网站的的搭建过程，欢迎关注👀]]></description>
+</item>
+<item>
+    <title>读《权利48法则》有感</title>
+    <link>http://example.org/reading-the-48-laws-of-power/</link>
+    <pubDate>Thu, 25 Aug 2022 22:45:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/reading-the-48-laws-of-power/</guid>
+    <description><![CDATA[外国版厚黑学，刷新了部分认知，各种勾心斗角，明争暗斗，害人之心不可有，防人之心不可无，多看看也没有坏处，48种权利法则如下： 永远不要盖过上司]]></description>
+</item>
+<item>
+    <title>使用python播放音频（.mp3格式）</title>
+    <link>http://example.org/play-audio-.mp3-format-using-python/</link>
+    <pubDate>Tue, 29 Mar 2022 20:32:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/play-audio-.mp3-format-using-python/</guid>
+    <description><![CDATA[第一种方式playsound 1.安装依赖包 1 pip install playsound 2.使用 1 2 3 4 from playsound import playsound playsound(&#39;your music file path&#39;) print(&#39;music play finished&#39;) 第二种方式pygame.mixer.music(推荐]]></description>
+</item>
+<item>
+    <title>记录pip安装模块时踩过的坑</title>
+    <link>http://example.org/record-the-pits-stepped-on-when-pip-installs-modules/</link>
+    <pubDate>Thu, 24 Mar 2022 16:49:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/record-the-pits-stepped-on-when-pip-installs-modules/</guid>
+    <description><![CDATA[在网上下了个python脚本，第一个问题如何安装包， 在使用pip 命令行，出现的问题记录下（针对Windows用户） 1.pip源更换为国内镜像]]></description>
+</item>
+<item>
+    <title>读《MR.HUA 创业手记》有感</title>
+    <link>http://example.org/feelings-after-reading-mr.hua-entrepreneurship-notes/</link>
+    <pubDate>Sun, 20 Mar 2022 18:55:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/feelings-after-reading-mr.hua-entrepreneurship-notes/</guid>
+    <description><![CDATA[老华是谁？80后创业达人，早年出国新西兰留学，为赚生活费，去餐馆打过黑工，跑过外卖，找到二手车生意赚取了人生第一桶金，商业嗅觉灵敏开碟店，扩]]></description>
+</item>
+<item>
+    <title>荒废的Blog</title>
+    <link>http://example.org/abandoned-blog/</link>
+    <pubDate>Thu, 03 Mar 2022 22:45:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/abandoned-blog/</guid>
+    <description><![CDATA[很久没有写blog了，荒废了很久&hellip; 今天看了下服务器续费的钱，人直接傻了，这些云服务器厂商简直像是在抢钱，续费一年顶我刚开始买三]]></description>
+</item>
+<item>
+    <title>优化项目中大量if...else...</title>
+    <link>http://example.org/optimize-a-lot-of-if...else.../</link>
+    <pubDate>Sat, 27 Mar 2021 00:17:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/optimize-a-lot-of-if...else.../</guid>
+    <description><![CDATA[在项目中经常会用if..else&hellip;去判断逻辑，当业务越来越复杂，一个逻辑会有大量的判断，如下面的代码 1 2 3 4 5 6 7 8 9 10 11 if(type.equals(&#34;o1&#34;)){ //]]></description>
+</item>
+<item>
+    <title>Linux安装部署Nginx</title>
+    <link>http://example.org/linux-installation-and-deployment-of-nginx/</link>
+    <pubDate>Fri, 04 Dec 2020 00:09:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/linux-installation-and-deployment-of-nginx/</guid>
+    <description><![CDATA[1.下载Nginx http://nginx.org/en/download.html 2.上传到服务器上 解压 1 tar -xzf nginx-1.16.1.tar.gz 3.安装 进入nginx 解压后的目录并执行 1 ./configure nginx会自动检查运行nginx所需要的库 其]]></description>
+</item>
+<item>
+    <title>Linux 环境下安装、部署Nacos</title>
+    <link>http://example.org/install-and-deploy-nacos-in-linux-environment/</link>
+    <pubDate>Mon, 16 Nov 2020 16:09:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/install-and-deploy-nacos-in-linux-environment/</guid>
+    <description><![CDATA[1.环境准备 64位Linux操作系统 64位JDK1.8+ 2.下载源码或安装包 https://github.com/alibaba/nacos/releases 3.启动、关闭命令 1 2 sh startup.sh -m standalone # 单机模式启动命令 sh shutdown.sh # 关闭命令]]></description>
+</item>
+<item>
+    <title>Linux如何安装、部署RocketMQ</title>
+    <link>http://example.org/how-to-install-and-deploy-rocketmq-in-linux/</link>
+    <pubDate>Tue, 10 Nov 2020 09:04:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/how-to-install-and-deploy-rocketmq-in-linux/</guid>
+    <description><![CDATA[1.环境配置 64位 Linux操作系统 64位 JDK1.8+ RocketMQ二进制版本 http://rocketmq.apache.org/dowloading/releases/ 2.修改RocketMQ内存配置 修改runserver.sh、run]]></description>
+</item>
+</channel>
 </rss>

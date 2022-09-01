@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>碎碎念 - 分类 - 🐡ErᎥc的数字花园</title>
+        <link>http://example.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</link>
+        <description>碎碎念 - 分类 - 🐡ErᎥc的数字花园</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 03 Mar 2022 22:45:56 &#43;0800</lastBuildDate><atom:link href="http://example.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/" rel="self" type="application/rss+xml" /><item>
+    <title>荒废的Blog</title>
+    <link>http://example.org/abandoned-blog/</link>
+    <pubDate>Thu, 03 Mar 2022 22:45:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/abandoned-blog/</guid>
+    <description><![CDATA[很久没有写blog了，荒废了很久&hellip; 今天看了下服务器续费的钱，人直接傻了，这些云服务器厂商简直像是在抢钱，续费一年顶我刚开始买三]]></description>
+</item>
+</channel>
+</rss>

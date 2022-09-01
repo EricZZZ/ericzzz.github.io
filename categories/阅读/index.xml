@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>阅读 - 分类 - 🐡ErᎥc的数字花园</title>
+        <link>http://example.org/categories/%E9%98%85%E8%AF%BB/</link>
+        <description>阅读 - 分类 - 🐡ErᎥc的数字花园</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 25 Aug 2022 22:45:56 &#43;0800</lastBuildDate><atom:link href="http://example.org/categories/%E9%98%85%E8%AF%BB/" rel="self" type="application/rss+xml" /><item>
+    <title>读《权利48法则》有感</title>
+    <link>http://example.org/reading-the-48-laws-of-power/</link>
+    <pubDate>Thu, 25 Aug 2022 22:45:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/reading-the-48-laws-of-power/</guid>
+    <description><![CDATA[外国版厚黑学，刷新了部分认知，各种勾心斗角，明争暗斗，害人之心不可有，防人之心不可无，多看看也没有坏处，48种权利法则如下： 永远不要盖过上司]]></description>
+</item>
+<item>
+    <title>读《MR.HUA 创业手记》有感</title>
+    <link>http://example.org/feelings-after-reading-mr.hua-entrepreneurship-notes/</link>
+    <pubDate>Sun, 20 Mar 2022 18:55:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/feelings-after-reading-mr.hua-entrepreneurship-notes/</guid>
+    <description><![CDATA[老华是谁？80后创业达人，早年出国新西兰留学，为赚生活费，去餐馆打过黑工，跑过外卖，找到二手车生意赚取了人生第一桶金，商业嗅觉灵敏开碟店，扩]]></description>
+</item>
+</channel>
+</rss>

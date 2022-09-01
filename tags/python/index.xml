@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Python - 标签 - 🐡ErᎥc的数字花园</title>
+        <link>http://example.org/tags/python/</link>
+        <description>Python - 标签 - 🐡ErᎥc的数字花园</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 29 Mar 2022 20:32:56 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/python/" rel="self" type="application/rss+xml" /><item>
+    <title>使用python播放音频（.mp3格式）</title>
+    <link>http://example.org/play-audio-.mp3-format-using-python/</link>
+    <pubDate>Tue, 29 Mar 2022 20:32:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/play-audio-.mp3-format-using-python/</guid>
+    <description><![CDATA[第一种方式playsound 1.安装依赖包 1 pip install playsound 2.使用 1 2 3 4 from playsound import playsound playsound(&#39;your music file path&#39;) print(&#39;music play finished&#39;) 第二种方式pygame.mixer.music(推荐]]></description>
+</item>
+<item>
+    <title>记录pip安装模块时踩过的坑</title>
+    <link>http://example.org/record-the-pits-stepped-on-when-pip-installs-modules/</link>
+    <pubDate>Thu, 24 Mar 2022 16:49:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/record-the-pits-stepped-on-when-pip-installs-modules/</guid>
+    <description><![CDATA[在网上下了个python脚本，第一个问题如何安装包， 在使用pip 命令行，出现的问题记录下（针对Windows用户） 1.pip源更换为国内镜像]]></description>
+</item>
+</channel>
+</rss>
