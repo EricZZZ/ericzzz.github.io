@@ -3,7 +3,23 @@
         <title>所有文章 - 🐡ErᎥc的数字花园</title>
         <link>http://example.org/posts/</link>
         <description>所有文章 | 🐡ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Wed, 31 Aug 2022 14:47:24 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 08 Sep 2022 22:45:56 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>读《掌控习惯》有感</title>
+    <link>http://example.org/reading-atomic-habits/</link>
+    <pubDate>Thu, 08 Sep 2022 22:45:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/reading-atomic-habits/</guid>
+    <description><![CDATA[推荐指数 ❤️❤️❤️❤️ 到底怎么才能养成好习惯，为什么有的人坚持健身好几年，而有的人坚持几天就放弃了，一个习惯怎样才能坚持的更久，是靠意志力]]></description>
+</item>
+<item>
+    <title>2022年9月-碎碎念</title>
+    <link>http://example.org/broken-thoughts-in-september/</link>
+    <pubDate>Thu, 08 Sep 2022 19:02:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/broken-thoughts-in-september/</guid>
+    <description><![CDATA[2022.9.8 今天写《掌控习惯》读书笔记，没写之前想的写个读书笔记应该很快，但是写完之后足足用了3个🍅时间（一个半小时），后来有感而发。 一条朋友圈，一条]]></description>
+</item>
+<item>
     <title>乔迁之喜，博客换新家</title>
     <link>http://example.org/blog-test/</link>
     <pubDate>Wed, 31 Aug 2022 14:47:24 &#43;0800</pubDate>
@@ -66,22 +82,6 @@
     <author>EricZhao</author>
     <guid>http://example.org/linux-installation-and-deployment-of-nginx/</guid>
     <description><![CDATA[1.下载Nginx http://nginx.org/en/download.html 2.上传到服务器上 解压 1 tar -xzf nginx-1.16.1.tar.gz 3.安装 进入nginx 解压后的目录并执行 1 ./configure nginx会自动检查运行nginx所需要的库 其]]></description>
-</item>
-<item>
-    <title>Linux 环境下安装、部署Nacos</title>
-    <link>http://example.org/install-and-deploy-nacos-in-linux-environment/</link>
-    <pubDate>Mon, 16 Nov 2020 16:09:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>http://example.org/install-and-deploy-nacos-in-linux-environment/</guid>
-    <description><![CDATA[1.环境准备 64位Linux操作系统 64位JDK1.8+ 2.下载源码或安装包 https://github.com/alibaba/nacos/releases 3.启动、关闭命令 1 2 sh startup.sh -m standalone # 单机模式启动命令 sh shutdown.sh # 关闭命令]]></description>
-</item>
-<item>
-    <title>Linux如何安装、部署RocketMQ</title>
-    <link>http://example.org/how-to-install-and-deploy-rocketmq-in-linux/</link>
-    <pubDate>Tue, 10 Nov 2020 09:04:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>http://example.org/how-to-install-and-deploy-rocketmq-in-linux/</guid>
-    <description><![CDATA[1.环境配置 64位 Linux操作系统 64位 JDK1.8+ RocketMQ二进制版本 http://rocketmq.apache.org/dowloading/releases/ 2.修改RocketMQ内存配置 修改runserver.sh、run]]></description>
 </item>
 </channel>
 </rss>
