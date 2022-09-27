@@ -24,3 +24,6 @@
 ### 2022.09.26
 疯了，脑袋一团浆糊，[面试题 17.19. 消失的两个数字](https://leetcode.cn/problems/missing-two-lcci/)
 
+### 2022.09.27
+今天尝试了下云IDE，感觉非常不错，少了配置环境，即开即用，适用web前后端项目，小工具之类的，只要有网络就能通过浏览器写代码(iPad Pro当生产工具不是梦)。试用了两个平台云IDE，国内的[阿里云效](https://ide.aliyun.com/)，和国外[gitpod](https://gitpod.io/),阿里云在公测，免费使用。国外这个平台是50小时免费使用，我觉得目前足够了，个人版100个小时，9美金。也可以自建费用更低（代码开源[源码](https://github.com/gitpod-io/openvscode-server/tree/main)）。自建以后再研究吧。
+
