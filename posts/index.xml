@@ -3,7 +3,15 @@
         <title>所有文章 - 🐡ErᎥc的数字花园</title>
         <link>http://example.org/posts/</link>
         <description>所有文章 | 🐡ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Wed, 14 Sep 2022 17:45:56 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 18 Oct 2022 15:46:17 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>2022年10月-碎碎念</title>
+    <link>http://example.org/broken-thoughts-in-october/</link>
+    <pubDate>Tue, 18 Oct 2022 15:46:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/broken-thoughts-in-october/</guid>
+    <description><![CDATA[2022.10.18 往事止于此，未来始于斯。]]></description>
+</item>
+<item>
     <title>读《睡眠革命》有感</title>
     <link>http://example.org/reading-the-sleep-revolution/</link>
     <pubDate>Wed, 14 Sep 2022 17:45:56 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>EricZhao</author>
     <guid>http://example.org/abandoned-blog/</guid>
     <description><![CDATA[很久没有写blog了，荒废了很久&hellip; 今天看了下服务器续费的钱，人直接傻了，这些云服务器厂商简直像是在抢钱，续费一年顶我刚开始买三]]></description>
-</item>
-<item>
-    <title>优化项目中大量if...else...</title>
-    <link>http://example.org/optimize-a-lot-of-if...else.../</link>
-    <pubDate>Sat, 27 Mar 2021 00:17:56 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>http://example.org/optimize-a-lot-of-if...else.../</guid>
-    <description><![CDATA[在项目中经常会用if..else&hellip;去判断逻辑，当业务越来越复杂，一个逻辑会有大量的判断，如下面的代码 1 2 3 4 5 6 7 8 9 10 11 if(type.equals(&#34;o1&#34;)){ //]]></description>
 </item>
 </channel>
 </rss>
