@@ -38,6 +38,8 @@
 
 ![Remember me](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/10/23/8b37aa53c7797c3bcf190252ac00e0dc.png "Remember me")
 
+### 2022.10.24
+今天是1024程序员节，拿到了leetcode 1024限定徽章，开心😄
 
 
 
