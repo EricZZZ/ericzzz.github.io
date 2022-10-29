@@ -50,5 +50,15 @@
 ### 2022.10.27
 [张一鸣](https://zh.wikipedia.org/wiki/%E5%BC%A0%E4%B8%80%E9%B8%A3)说过”世界上只有两类书值得读,一类是传记类，一类是教科书。“[张一鸣的书单](https://www.douban.com/people/onebird/?_i=6928552n03YLPu)
 
+### 2022.10.28
+本来想通过[github actions](https://github.com/features/actions)开发个炫酷小玩意儿，中途遇到docker COPY命令的小bug，解决完docker之后发现actions原来不支持启动docker，我的心拔凉拔凉滴。
+
+![凉透了](https://p3.itc.cn/q_70/images03/20210218/f6e906be96804952afdcf24782e00e86.jpeg)
+
+### 2022.10.29
+``` md
+做人的第一点就是要坦诚。不管是与家人，朋友，同事之间要做到坦诚相待。少装，遇到爱装的人一定要躲的远远儿的。
+```
+
 
 
