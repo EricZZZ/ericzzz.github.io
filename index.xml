@@ -3,9 +3,17 @@
         <title>🐡ErᎥc的数字花园</title>
         <link>http://example.org/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 18 Oct 2022 15:46:17 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sun, 30 Oct 2022 00:24:56 &#43;0800</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>读《低欲望社会》有感</title>
+    <link>http://example.org/reading-low-desire-society/</link>
+    <pubDate>Sun, 30 Oct 2022 00:24:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>http://example.org/reading-low-desire-society/</guid>
+    <description><![CDATA[推荐指数 ❤️❤️❤️❤️ 作者大前研一，日本著名管理学家，经济评论家。曾任马兰西亚前首相经济顾问。 谈到低欲望社会都会想到日本，日本经济自90年]]></description>
+</item>
+<item>
     <title>2022年10月-碎碎念</title>
     <link>http://example.org/broken-thoughts-in-october/</link>
     <pubDate>Tue, 18 Oct 2022 15:46:17 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>http://example.org/feelings-after-reading-mr.hua-entrepreneurship-notes/</guid>
     <description><![CDATA[老华是谁？80后创业达人，早年出国新西兰留学，为赚生活费，去餐馆打过黑工，跑过外卖，找到二手车生意赚取了人生第一桶金，商业嗅觉灵敏开碟店，扩]]></description>
-</item>
-<item>
-    <title>荒废的Blog</title>
-    <link>http://example.org/abandoned-blog/</link>
-    <pubDate>Thu, 03 Mar 2022 22:45:56 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>http://example.org/abandoned-blog/</guid>
-    <description><![CDATA[很久没有写blog了，荒废了很久&hellip; 今天看了下服务器续费的钱，人直接傻了，这些云服务器厂商简直像是在抢钱，续费一年顶我刚开始买三]]></description>
 </item>
 </channel>
 </rss>
