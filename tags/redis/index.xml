@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Redis - 标签 - 🐡ErᎥc的数字花园</title>
-        <link>http://example.org/tags/redis/</link>
+        <link>https://miasanmia.cc/tags/redis/</link>
         <description>Redis - 标签 - 🐡ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sat, 07 Nov 2020 19:02:17 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/redis/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sat, 07 Nov 2020 19:02:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/redis/" rel="self" type="application/rss+xml" /><item>
     <title>Linux 安装、部署Redis（单机）</title>
-    <link>http://example.org/linux-installation-and-deployment-of-redis-single-machine/</link>
+    <link>https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/</link>
     <pubDate>Sat, 07 Nov 2020 19:02:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/linux-installation-and-deployment-of-redis-single-machine/</guid>
+    <guid>https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/</guid>
     <description><![CDATA[1.下载Redis http://www.redis.cn/download.html 下载相应redis版本，并上传到服务器上 2.安装 解压，编译 1 2 3 tar -xzf redis-5.0.5.tar.gz cd redis-5.0.5 make 编译完成后，通过如下命令开启Redis 1 src/redis-server 3]]></description>
 </item>
 </channel>

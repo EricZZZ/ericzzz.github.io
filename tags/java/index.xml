@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Java - 标签 - 🐡ErᎥc的数字花园</title>
-        <link>http://example.org/tags/java/</link>
+        <link>https://miasanmia.cc/tags/java/</link>
         <description>Java - 标签 - 🐡ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 05 Nov 2020 22:03:17 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/java/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 05 Nov 2020 22:03:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/java/" rel="self" type="application/rss+xml" /><item>
     <title>Linux环境下如何安装JDK</title>
-    <link>http://example.org/how-to-install-jdk-in-linux-environment/</link>
+    <link>https://miasanmia.cc/how-to-install-jdk-in-linux-environment/</link>
     <pubDate>Thu, 05 Nov 2020 22:03:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/how-to-install-jdk-in-linux-environment/</guid>
+    <guid>https://miasanmia.cc/how-to-install-jdk-in-linux-environment/</guid>
     <description><![CDATA[1.下载JDK 根据需求下载不同版本的JDK openJDK http://hg.openjdk.java.net/ OracleJDK https://www.oracle.com/technetwork/java/archive-139210.html 2. 上传至服务器并解压 上传至服务器相应的目录下 使用 tar zxvf 命令解压 3. 配置环境变量 配置当前用户下的]]></description>
 </item>
 </channel>

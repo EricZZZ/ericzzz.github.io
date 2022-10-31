@@ -1,88 +1,88 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>🐡ErᎥc的数字花园</title>
-        <link>http://example.org/</link>
+        <link>https://miasanmia.cc/</link>
         <description>欢迎来到我的小站～</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sun, 30 Oct 2022 00:24:56 &#43;0800</lastBuildDate>
-            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://miasanmia.cc/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>读《低欲望社会》有感</title>
-    <link>http://example.org/reading-low-desire-society/</link>
+    <link>https://miasanmia.cc/reading-low-desire-society/</link>
     <pubDate>Sun, 30 Oct 2022 00:24:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/reading-low-desire-society/</guid>
+    <guid>https://miasanmia.cc/reading-low-desire-society/</guid>
     <description><![CDATA[推荐指数 ❤️❤️❤️❤️ 作者大前研一，日本著名管理学家，经济评论家。曾任马兰西亚前首相经济顾问。 谈到低欲望社会都会想到日本，日本经济自90年]]></description>
 </item>
 <item>
     <title>2022年10月-碎碎念</title>
-    <link>http://example.org/broken-thoughts-in-october/</link>
+    <link>https://miasanmia.cc/broken-thoughts-in-october/</link>
     <pubDate>Tue, 18 Oct 2022 15:46:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/broken-thoughts-in-october/</guid>
+    <guid>https://miasanmia.cc/broken-thoughts-in-october/</guid>
     <description><![CDATA[2022.10.18 1 往事止于此，未来始于斯。 参与 leetcode1024活动有感马尔可夫链 2022.10.19 如何阅读一份代码 2022.10.20 1 2 3 当你过了30岁，如果你还没有 买房，结婚，]]></description>
 </item>
 <item>
     <title>读《睡眠革命》有感</title>
-    <link>http://example.org/reading-the-sleep-revolution/</link>
+    <link>https://miasanmia.cc/reading-the-sleep-revolution/</link>
     <pubDate>Wed, 14 Sep 2022 17:45:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/reading-the-sleep-revolution/</guid>
+    <guid>https://miasanmia.cc/reading-the-sleep-revolution/</guid>
     <description><![CDATA[推荐指数 ❤️❤️❤️❤️ 关于睡眠需要知道的事 昼夜节律 生物钟，人类是早出晚归的动物，几千年来保持着日落而息，日出而作的生物规律。熬过夜班的小伙]]></description>
 </item>
 <item>
     <title>读《掌控习惯》有感</title>
-    <link>http://example.org/reading-atomic-habits/</link>
+    <link>https://miasanmia.cc/reading-atomic-habits/</link>
     <pubDate>Thu, 08 Sep 2022 22:45:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/reading-atomic-habits/</guid>
+    <guid>https://miasanmia.cc/reading-atomic-habits/</guid>
     <description><![CDATA[推荐指数 ❤️❤️❤️❤️ 到底怎么才能养成好习惯，为什么有的人坚持健身好几年，而有的人坚持几天就放弃了，一个习惯怎样才能坚持的更久，是靠意志力]]></description>
 </item>
 <item>
     <title>2022年9月-碎碎念</title>
-    <link>http://example.org/broken-thoughts-in-september/</link>
+    <link>https://miasanmia.cc/broken-thoughts-in-september/</link>
     <pubDate>Thu, 08 Sep 2022 19:02:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/broken-thoughts-in-september/</guid>
+    <guid>https://miasanmia.cc/broken-thoughts-in-september/</guid>
     <description><![CDATA[2022.9.08 今天写《掌控习惯》读书笔记，没写之前想的写个读书笔记应该很快，但是写完之后足足用了3个🍅时间（一个半小时），后来有感而发。 一条朋友圈，一条]]></description>
 </item>
 <item>
     <title>乔迁之喜，博客换新家</title>
-    <link>http://example.org/blog-test/</link>
+    <link>https://miasanmia.cc/blog-test/</link>
     <pubDate>Wed, 31 Aug 2022 14:47:24 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/blog-test/</guid>
+    <guid>https://miasanmia.cc/blog-test/</guid>
     <description><![CDATA[🎉🎉🎉值得记录下，博客由以前的WordPress换成Hugo，其中心酸路程，只有自己懂得💦。下次记录下本网站的的搭建过程，欢迎关注👀]]></description>
 </item>
 <item>
     <title>读《权利48法则》有感</title>
-    <link>http://example.org/reading-the-48-laws-of-power/</link>
+    <link>https://miasanmia.cc/reading-the-48-laws-of-power/</link>
     <pubDate>Thu, 25 Aug 2022 22:45:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/reading-the-48-laws-of-power/</guid>
+    <guid>https://miasanmia.cc/reading-the-48-laws-of-power/</guid>
     <description><![CDATA[外国版厚黑学，刷新了部分认知，各种勾心斗角，明争暗斗，害人之心不可有，防人之心不可无，多看看也没有坏处，48种权利法则如下： 永远不要盖过上司]]></description>
 </item>
 <item>
     <title>使用python播放音频（.mp3格式）</title>
-    <link>http://example.org/play-audio-.mp3-format-using-python/</link>
+    <link>https://miasanmia.cc/play-audio-.mp3-format-using-python/</link>
     <pubDate>Tue, 29 Mar 2022 20:32:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/play-audio-.mp3-format-using-python/</guid>
+    <guid>https://miasanmia.cc/play-audio-.mp3-format-using-python/</guid>
     <description><![CDATA[第一种方式playsound 1.安装依赖包 1 pip install playsound 2.使用 1 2 3 4 from playsound import playsound playsound(&#39;your music file path&#39;) print(&#39;music play finished&#39;) 第二种方式pygame.mixer.music(推荐]]></description>
 </item>
 <item>
     <title>记录pip安装模块时踩过的坑</title>
-    <link>http://example.org/record-the-pits-stepped-on-when-pip-installs-modules/</link>
+    <link>https://miasanmia.cc/record-the-pits-stepped-on-when-pip-installs-modules/</link>
     <pubDate>Thu, 24 Mar 2022 16:49:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/record-the-pits-stepped-on-when-pip-installs-modules/</guid>
+    <guid>https://miasanmia.cc/record-the-pits-stepped-on-when-pip-installs-modules/</guid>
     <description><![CDATA[在网上下了个python脚本，第一个问题如何安装包， 在使用pip 命令行，出现的问题记录下（针对Windows用户） 1.pip源更换为国内镜像]]></description>
 </item>
 <item>
     <title>读《MR.HUA 创业手记》有感</title>
-    <link>http://example.org/feelings-after-reading-mr.hua-entrepreneurship-notes/</link>
+    <link>https://miasanmia.cc/feelings-after-reading-mr.hua-entrepreneurship-notes/</link>
     <pubDate>Sun, 20 Mar 2022 18:55:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>http://example.org/feelings-after-reading-mr.hua-entrepreneurship-notes/</guid>
+    <guid>https://miasanmia.cc/feelings-after-reading-mr.hua-entrepreneurship-notes/</guid>
     <description><![CDATA[老华是谁？80后创业达人，早年出国新西兰留学，为赚生活费，去餐馆打过黑工，跑过外卖，找到二手车生意赚取了人生第一桶金，商业嗅觉灵敏开碟店，扩]]></description>
 </item>
 </channel>
