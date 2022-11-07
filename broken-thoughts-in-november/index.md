@@ -13,5 +13,8 @@
 一种可成为有限游戏，另一种为无限游戏。
 ```
 ### 2022.11.05
-又给自己开了一个坑[Elixir](https://elixir-lang.org/getting-started/introduction.html),学习一下Elixir语言🤓
+又给自己开了一个坑[Elixir](https://elixir-lang.org/getting-started/introduction.html),学习一下Elixir语言🤓,可惜安装[Phoenix](https://hexdocs.pm/phoenix/installation.html#phoenix)框架的时候，依赖下载不下来，贼气在公司里不能摸鱼了😣
+
+### 2022.11.06
+一口气跑了16km🤣
 
