@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>再见了WordPress，全面拥抱Hugo - 🐡ErᎥc的数字花园</title><meta name="Description" content="欢迎来到我的小站～"><meta property="og:title" content="再见了WordPress，全面拥抱Hugo" />
+<meta property="og:description" content="再见了WordPress，全面拥抱Hugo 2020年11月的某天心血来潮，想开个Blog吧，说干就干，买服务器，买域名，远程安装phpstu" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://miasanmia.cc/build-blog-with-hugo/" /><meta property="og:image" content="https://miasanmia.cc/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-24T15:13:17+08:00" />
+<meta property="article:modified_time" content="2022-11-24T15:13:17+08:00" /><meta property="og:site_name" content="🐡ErᎥc的数字花园" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://miasanmia.cc/logo.png"/>
+
+<meta name="twitter:title" content="再见了WordPress，全面拥抱Hugo"/>
+<meta name="twitter:description" content="再见了WordPress，全面拥抱Hugo 2020年11月的某天心血来潮，想开个Blog吧，说干就干，买服务器，买域名，远程安装phpstu"/>
+<meta name="application-name" content="我的网站">
+<meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://miasanmia.cc/build-blog-with-hugo/" /><link rel="prev" href="https://miasanmia.cc/broken-thoughts-in-november/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "再见了WordPress，全面拥抱Hugo",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/miasanmia.cc\/build-blog-with-hugo\/"
+        },"genre": "posts","keywords": "Blog, Hugo","wordcount":  3480 ,
+        "url": "https:\/\/miasanmia.cc\/build-blog-with-hugo\/","datePublished": "2022-11-24T15:13:17+08:00","dateModified": "2022-11-24T15:13:17+08:00","license": "EricZhao","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "EricZhao"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="🐡ErᎥc的数字花园">🐡ErᎥc的数字花园</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="🐡ErᎥc的数字花园">🐡ErᎥc的数字花园</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">再见了WordPress，全面拥抱Hugo</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EricZhao</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%BC%80%E5%8F%91/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>开发</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-11-24">2022-11-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3480 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 7 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#再见了wordpress全面拥抱hugo">再见了WordPress，全面拥抱Hugo</a>
+      <ul>
+        <li><a href="#安装hugo">安装Hugo</a>
+          <ul>
+            <li><a href="#1创建项目">1.创建项目</a></li>
+            <li><a href="#2安装主题">2.安装主题</a></li>
+            <li><a href="#3hugo配置">3.Hugo配置</a></li>
+            <li><a href="#4启动服务">4.启动服务</a></li>
+          </ul>
+        </li>
+        <li><a href="#配置github-pages">配置GitHub Pages</a>
+          <ul>
+            <li><a href="#自动发布">自动发布</a></li>
+          </ul>
+        </li>
+        <li><a href="#配置netlify">配置Netlify</a></li>
+        <li><a href="#配置域名">配置域名</a>
+          <ul>
+            <li><a href="#购买域名">购买域名</a></li>
+            <li><a href="#netlify域名配置">Netlify域名配置</a>
+              <ul>
+                <li><a href="#修改dns">修改DNS</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#大功告成">大功告成🎉</a></li>
+        <li><a href="#其他">其他</a>
+          <ul>
+            <li><a href="#配置google-analyticsgoogle-search-console">配置Google Analytics，Google Search Console</a></li>
+            <li><a href="#配置评论">配置评论</a></li>
+          </ul>
+        </li>
+        <li><a href="#参考链接">参考链接</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="再见了wordpress全面拥抱hugo">再见了WordPress，全面拥抱Hugo</h2>
+<p>2020年11月的某天心血来潮，想开个Blog吧，说干就干，买服务器，买域名，远程安装phpstudy，登录phpstudy后台，使用WordPress搭建个人Blog网站，最终完成了Blog搭建。花费不小，服务器和域名都是白花花的银子，不过是在促销活动中买的省了不少钱（ps：暂时安慰自己😭）。WordPress虽然号称全球有40%的网站是用它构建的，但是毕竟时代在进步，以前PHP横扫互联网的日子一去不复返了，毕竟它与服务器是动态交互的，数据是存储在数据库中的，黑客们会不断请求服务器寻找软件漏洞，而且经常有一些不友好的评论，虽然有评论拦截器，但还是深受其扰，经常登录后台看到有几千条垃圾评论。</p>
+<p>直到2022年的某一天，静态Blog搭建进入我的视线。操作优雅，而且关键省去了服务器的钱。从此之后Blog迁移提上日程（ps:其实也没有多少文章😅）。</p>
+<h3 id="安装hugo">安装Hugo</h3>
+<p><a href="https://gohugo.io" target="_blank" rel="noopener noreffer ">Hugo</a>是一个用Go语言编写的静态网站生成器。</p>
+<p>使用Hugo创建网站之前</p>
+<ol>
+<li>需要<a href="https://gohugo.io/installation/" target="_blank" rel="noopener noreffer ">安装Hugo</a></li>
+<li>需要<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank" rel="noopener noreffer ">安装Git</a></li>
+</ol>
+<p>完成上述步骤之后，让我们本地创建新的Hugo网站吧。</p>
+<h4 id="1创建项目">1.创建项目</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new site my_website
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> my_website
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="2安装主题">2.安装主题</h4>
+<p>Hugo 提供了<a href="https://themes.gohugo.io/" target="_blank" rel="noopener noreffer ">丰富的主题</a>，可在官网中预览主题，挑选自己喜欢的主题。</p>
+<p>我选择的是<a href="https://hugoloveit.com/zh-cn/" target="_blank" rel="noopener noreffer ">LoveIt</a>主题。</p>
+<p>初始化你的项目目录为git仓库， 并且把主题仓库作为你的网站目录的子模块:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="3hugo配置">3.Hugo配置</h4>
+<p>以LoveIt主题为例</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">baseURL</span> <span class="p">=</span> <span class="s2">&#34;http://example.org/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># 更改使用 Hugo 构建网站时使用的默认主题</span>
+</span></span><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;LoveIt&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># 网站标题</span>
+</span></span><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;我的全新 Hugo 网站&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># 网站语言, 仅在这里 CN 大写 [&#34;en&#34;, &#34;zh-CN&#34;, &#34;fr&#34;, &#34;pl&#34;, ...]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">languageCode</span> <span class="p">=</span> <span class="s2">&#34;zh-CN&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c"># 语言名称 [&#34;English&#34;, &#34;简体中文&#34;, &#34;Français&#34;, &#34;Polski&#34;, ...]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;简体中文&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c"># 是否包括中日韩文字</span>
+</span></span><span class="line"><span class="cl"><span class="nx">hasCJKLanguage</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># 作者配置</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">author</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;xxxx&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">email</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">link</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># 菜单配置</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">menu</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;posts&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">post</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;文章&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/posts/&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># 当你将鼠标悬停在此菜单链接上时, 将显示的标题</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">post</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;标签&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/tags/&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">3</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">post</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;分类&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/categories/&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Hugo 解析文档的配置</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="c"># 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">highlight</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">noClasses</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="4启动服务">4.启动服务</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo serve
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>执行后本地访问http://localhost:1313 就能看到Hugo生成的网站了</p>
+<h3 id="配置github-pages">配置GitHub Pages</h3>
+<p>网站生成了，怎么把他放到互联网上呢🤔，这里用到了<a href="https://pages.github.com/" target="_blank" rel="noopener noreffer ">GitHub Pages</a>。</p>
+<p>GitHub Pages 是GitHub提供的一个网页代管服务，于2008年推出。可以用于存放静态网页，包括Blog，项目文档甚至整本书。</p>
+<p>首先创建个公有仓库，用于存放Hugo构建后生成的静态文件，仓库名必须是<strong>user.github.io</strong>，<strong>user</strong>是你的GitHub用户名且全小写。</p>
+<p>创建完成后点击仓库的Settings，选择Pages打开，打开之后的效果。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gitpages.png"
+        data-srcset="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gitpages.png, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gitpages.png 1.5x, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gitpages.png 2x"
+        data-sizes="auto"
+        alt="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gitpages.png"
+        title="gitpages" /></p>
+<h4 id="自动发布">自动发布</h4>
+<p>精髓，优雅的地方来了~🤩</p>
+<p>有了Git公有仓库，虽然每次写完文章，本地Hugo生成静态文件后，再推到远程仓库上，但是操作繁琐。不应该是写好文章自动部署到公有仓库上嘛？</p>
+<p>你想到的Github它想不到嘛？🤣</p>
+<p>隆重推出Github家又一款明星产品<a href="https://github.com/features/actions" target="_blank" rel="noopener noreffer ">GitHub Action</a>，GItHub Actions是一个持续集成和持续交付的平台，能够让你自动化你的编译、测试和部署流程。</p>
+<p>简单说的就是，Action会监听仓库某些事件（如提交），触发一些操作（编译，计算，打包等），这里就是所说的自动化。</p>
+<p>配置Action工作流，需要git仓库根目录下创建**.github/workflows<strong>目录，配置文件</strong>.yml**结尾，以下是我的配置文件内容。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">workflow_dispatch</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">schedule</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c"># Runs everyday at 8:00 AM</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">cron</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;0 0 * * *&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">build</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;latest&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">PERSONAL_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.PERSONAL_TOKEN }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">EXTERNAL_REPOSITORY</span><span class="p">:</span><span class="w"> </span><span class="l">EricZZZ/ericzzz.github.io</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">master</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">commit_message</span><span class="p">:</span><span class="w"> </span><span class="l">${{ github.event.head_commit.message }}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>PERSONAL_TOKEN</code> ：因为是从私有仓库推到GitHub Pages的公有仓库上需要权限，这里需要创建个Token，权限开启 <code>repo</code> 与 <code>workflow</code>。</p>
+<p><code>PUBLISH_BRANCH</code>：监听哪个分支。</p>
+<p><code>PUBLISH_DIR</code>：编译后生成的静态文件目录。</p>
+<p><code>EXTERNAL_REPOSITORY</code>：推送到的远程仓库地址。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gittoken.png"
+        data-srcset="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gittoken.png, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gittoken.png 1.5x, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gittoken.png 2x"
+        data-sizes="auto"
+        alt="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gittoken.png"
+        title="gittoken" /></p>
+<p>再到私有仓库setting里的Actions secrets，把刚才的Token添加进去。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiontoken.png"
+        data-srcset="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiontoken.png, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiontoken.png 1.5x, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiontoken.png 2x"
+        data-sizes="auto"
+        alt="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiontoken.png"
+        title="actiontoken" /></p>
+<p>好了万事俱备，只欠东风。在私有仓库里创建一篇文章并提交到远程。查看Action是否触发构建。</p>
+<p>如果Action运行正常后，通过访问 <a href="http://ericzzz.github.io" target="_blank" rel="noopener noreffer ">http://ericzzz.github.io</a> 查看刚才自己提交的文章有没有部署成功。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiondeploy.png"
+        data-srcset="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiondeploy.png, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiondeploy.png 1.5x, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiondeploy.png 2x"
+        data-sizes="auto"
+        alt="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiondeploy.png"
+        title="actiondep" /></p>
+<h3 id="配置netlify">配置Netlify</h3>
+<p>到现在为止网站已经部署成功了，但是用的GitHub的流量，在国内访问可就太痛苦了，网站经常会打不开。怎么办呢？使用Netlify来部署咱们的静态网站。</p>
+<p>Netlify跟GitHub搭配也很好用，不用配置Action了。</p>
+<p>创建Netlify账号并与GitHub关联。</p>
+<p>新建网站，选择你的私有仓库，选择分支，使用Hugo构建，静态public目录。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/netlify.png"
+        data-srcset="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/netlify.png, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/netlify.png 1.5x, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/netlify.png 2x"
+        data-sizes="auto"
+        alt="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/netlify.png"
+        title="netlify" /></p>
+<p>部署完成后通过netlify分配的域名访问https://rad-seahorse-8dd9c0.netlify.app</p>
+<h3 id="配置域名">配置域名</h3>
+<p>到目前为止，用的都是第三方平台的二级域名，这样不利于建立个人品牌。</p>
+<p>配置属于自己域名的Blog。</p>
+<h4 id="购买域名">购买域名</h4>
+<p>购买域名平台很多，国内的阿里云，腾讯云，华为云等，国外有亚马逊，GoDaddy等，不过在国内域名都要备案，稍微有一丢丢麻烦。</p>
+<h4 id="netlify域名配置">Netlify域名配置</h4>
+<p>购买域名后，我们需要用自己的域名访问到Netlify给分配的网站https://rad-seahorse-8dd9c0.netlify.app。</p>
+<p>我是在GoDaddy平台上购买的域名，用GoDaddy来举例。</p>
+<h5 id="修改dns">修改DNS</h5>
+<p>先去Netlify新增一个域名，Netlify会告诉你要去域名提供商添加一条CNAME记录。再到GoDaddy后台DNS管理那里新增一条记录。（ps:这里A标签也改成了Netlify的地址）</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/dns.png"
+        data-srcset="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/dns.png, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/dns.png 1.5x, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/dns.png 2x"
+        data-sizes="auto"
+        alt="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/dns.png"
+        title="dns" /></p>
+<p>新增完成后过上一会儿，Netlify自动检查成功就能通过自己域名访问了，记得在Netlify中把HTTPS配置上https://miasanmia.cc/</p>
+<h3 id="大功告成">大功告成🎉</h3>
+<p>以上就完成了静态Blog网站的搭建，以后每写一篇文章提交到远程仓库，网站就会自动部署发布新文章了🙂。</p>
+<h3 id="其他">其他</h3>
+<h4 id="配置google-analyticsgoogle-search-console">配置Google Analytics，Google Search Console</h4>
+<p>修改Hugo 配置文件<strong>config.toml</strong>，我用<strong>LoveIt</strong>主题刚好有配置的地方，把信息填上即可。</p>
+<p><a href="https://analytics.google.com/" target="_blank" rel="noopener noreffer ">Google Analytics</a>登录后台，搜索<strong>Measurement</strong>，就能找到谷歌分析代码。如下图：</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/analytics-1.png"
+        data-srcset="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/analytics-1.png, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/analytics-1.png 1.5x, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/analytics-1.png 2x"
+        data-sizes="auto"
+        alt="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/analytics-1.png"
+        title="Google Analytics" /></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl">  <span class="c">#  网站分析配置</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">analytics</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">enable</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Google Analytics</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">analytics</span><span class="p">.</span><span class="nx">google</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">id</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span> <span class="c">#这里填Google分析代码</span>
+</span></span><span class="line"><span class="cl">      <span class="c"># 是否匿名化用户 IP</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">anonymizeIP</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>设置完成后，别忘了到<a href="https://analytics.google.com/" target="_blank" rel="noopener noreffer ">Google Analytics</a>管理后台与Google Search Console关联，<a href="https://search.google.com/search-console/about" target="_blank" rel="noopener noreffer ">Google Search Console</a>帮助人们管理Google SEO。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/search-1.png"
+        data-srcset="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/search-1.png, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/search-1.png 1.5x, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/search-1.png 2x"
+        data-sizes="auto"
+        alt="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/search-1.png"
+        title="Google Search Console关联" /></p>
+<p>给Google提交sitemap方便快速建立索引，增加你的网站曝光率。</p>
+<p>使用Hugo建站会自动生成sitemap，地址是在根目录下，也就是 https://你的域名/sitemap.xml。例如本站的sitemap地址就是https://miasanmia.cc/sitemap.xml</p>
+<h4 id="配置评论">配置评论</h4>
+<p>网站建好了，该有的评论也整上，很简单不需要额外的花费。</p>
+<p>这里用到的评论系统插件是<a href="https://giscus.app/zh-CN" target="_blank" rel="noopener noreffer ">giscus</a>，下面是使用giscus的必要条件，尤其是2，3一定要去github上开启。</p>
+<ol>
+<li><strong>此仓库是<a href="https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/setting-repository-visibility#making-a-repository-public" target="_blank" rel="noopener noreffer ">公开的</a></strong>，否则访客将无法查看 discussion。</li>
+<li><strong><a href="https://github.com/apps/giscus" target="_blank" rel="noopener noreffer ">giscus</a> app 已安装</strong>否则访客将无法评论和回应。</li>
+<li><strong>Discussions</strong>功能已<a href="https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/enabling-or-disabling-github-discussions-for-a-repository" target="_blank" rel="noopener noreffer ">在你的仓库中启用</a>。</li>
+</ol>
+<p>检测仓库是否满足条件。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-1.png"
+        data-srcset="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-1.png, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-1.png 1.5x, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-1.png 2x"
+        data-sizes="auto"
+        alt="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-1.png"
+        title="giscus" /></p>
+<p>开启时之后，在<a href="https://giscus.app/zh-CN" target="_blank" rel="noopener noreffer ">giscus</a>页面上填上你的公开仓库地址，自己选择配置，<a href="https://giscus.app/zh-CN" target="_blank" rel="noopener noreffer ">giscus</a>会自动生成配置，我们需要把这些配置填到Hugo的<strong>config.toml</strong>文件里。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-2.png"
+        data-srcset="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-2.png, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-2.png 1.5x, https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-2.png 2x"
+        data-sizes="auto"
+        alt="https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-2.png"
+        title="giscus" /></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl">   <span class="c"># giscus comment 评论系统设置 (https://giscus.app/zh-CN)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">page</span><span class="p">.</span><span class="nx">comment</span><span class="p">.</span><span class="nx">giscus</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># 你可以参考官方文档来使用下列配置</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">enable</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">repo</span> <span class="p">=</span> <span class="s2">&#34;xxxxx&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">repoId</span> <span class="p">=</span> <span class="s2">&#34;xxxxx&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">category</span> <span class="p">=</span> <span class="s2">&#34;Announcements&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">categoryId</span> <span class="p">=</span> <span class="s2">&#34;xxxxxxx&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># 为空时自动适配当前主题 i18n 配置</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">lang</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">mapping</span> <span class="p">=</span> <span class="s2">&#34;pathname&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">reactionsEnabled</span> <span class="p">=</span> <span class="s2">&#34;1&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">emitMetadata</span> <span class="p">=</span> <span class="s2">&#34;0&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">inputPosition</span> <span class="p">=</span> <span class="s2">&#34;bottom&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">lazyLoading</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">lightTheme</span> <span class="p">=</span> <span class="s2">&#34;light&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">darkTheme</span> <span class="p">=</span> <span class="s2">&#34;dark&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>部署之后就能在文章下面看到评论区了，看到这里的朋友们还不到评论区里留下你的痕迹🤗。</p>
+<h3 id="参考链接">参考链接</h3>
+<p><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_Blog_using_hugo_and_github_action/" target="_blank" rel="noopener noreffer ">Hugo + GitHub Action，搭建你的博客自动发布系统</a></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2022-11-24</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://miasanmia.cc/build-blog-with-hugo/" data-title="再见了WordPress，全面拥抱Hugo" data-via="Eric_Zzz0" data-hashtags="Blog,Hugo"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://miasanmia.cc/build-blog-with-hugo/" data-hashtag="Blog"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://miasanmia.cc/build-blog-with-hugo/" data-title="再见了WordPress，全面拥抱Hugo"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://miasanmia.cc/build-blog-with-hugo/" data-title="再见了WordPress，全面拥抱Hugo"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://miasanmia.cc/build-blog-with-hugo/" data-title="再见了WordPress，全面拥抱Hugo"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/blog/">Blog</a>,&nbsp;<a href="/tags/hugo/">Hugo</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/broken-thoughts-in-november/" class="prev" rel="prev" title="2022年11月-碎碎念"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>2022年11月-碎碎念</a></div>
+</div>
+<div id="comments"><div id="giscus" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://giscus.app">Giscus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.106.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">EricZhao</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"giscus":{"category":"Announcements","categoryId":"DIC_kwDOH6y4YM4CSkgo","darkTheme":"dark","emitMetadata":"0","inputPosition":"bottom","lang":"zh-CN","lazyLoading":true,"lightTheme":"light","mapping":"pathname","reactionsEnabled":"1","repo":"EricZZZ/ericzzz.github.io","repoId":"R_kgDOH6y4YA"}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-BB6GHBGV7Z', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-BB6GHBGV7Z" async></script></body>
+</html>
