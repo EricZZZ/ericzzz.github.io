@@ -132,3 +132,11 @@
 
 ![向乌鲁木齐11.24的遇难者默哀](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/26/7312d8ad1981085acbd9cd21162b720a.jpeg)
 
+### 2022.11.26
+又是不平凡的一夜。
+
+Do You Hear the People Sing?
+
+
+
+
