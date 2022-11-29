@@ -137,6 +137,18 @@
 
 Do You Hear the People Sing?
 
+### 2022.11.27
+[人生果实](https://movie.douban.com/subject/26874505/)这部记录片不错，现在发现记录片比一些电影好看，比起电影的视觉冲击，记录片更多是对人生，社会的深度思考，一部记录片都会改变你的价值观。
 
+![梦想，童话？](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/29/9011e4bd1e58e40561014aa448d9cf14.webp)
+
+![人比钱重要](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/29/ea4eac0f552d40117d5524c911a1f8ef.webp)
+
+![慢慢来](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/29/a36960e597818ac6bba3ca172ec9cce7.webp)
+
+![她是我最好的女朋友](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/29/00505e4c2b31eaaa21c5028d1c9e0279.webp)
+
+### 2022.11.28
+每次居家办公的时候，时间就过的飞快，感觉什么还没做呢，就下午6点半了🥲
 
 
