@@ -3,9 +3,17 @@
         <title>🐡ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 24 Nov 2022 15:13:17 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 02 Dec 2022 11:22:17 &#43;0800</lastBuildDate>
             <atom:link href="https://miasanmia.cc/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>2022年12月-碎碎念</title>
+    <link>https://miasanmia.cc/broken-thoughts-in-december-2022/</link>
+    <pubDate>Fri, 02 Dec 2022 11:22:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/broken-thoughts-in-december-2022/</guid>
+    <description><![CDATA[###2022.12.01 睡觉？ 看球？ 这是一个问题🤔]]></description>
+</item>
+<item>
     <title>再见了WordPress，全面拥抱Hugo</title>
     <link>https://miasanmia.cc/build-blog-with-hugo/</link>
     <pubDate>Thu, 24 Nov 2022 15:13:17 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/reading-the-48-laws-of-power/</guid>
     <description><![CDATA[外国版厚黑学，刷新了部分认知，各种勾心斗角，明争暗斗，害人之心不可有，防人之心不可无，多看看也没有坏处，48种权利法则如下： 永远不要盖过上司]]></description>
-</item>
-<item>
-    <title>使用python播放音频（.mp3格式）</title>
-    <link>https://miasanmia.cc/play-audio-.mp3-format-using-python/</link>
-    <pubDate>Tue, 29 Mar 2022 20:32:56 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/play-audio-.mp3-format-using-python/</guid>
-    <description><![CDATA[第一种方式playsound 1.安装依赖包 1 pip install playsound 2.使用 1 2 3 4 from playsound import playsound playsound(&#39;your music file path&#39;) print(&#39;music play finished&#39;) 第二种方式pygame.mixer.music(推荐]]></description>
 </item>
 </channel>
 </rss>
