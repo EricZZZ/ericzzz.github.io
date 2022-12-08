@@ -3,9 +3,17 @@
         <title>🐡ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 02 Dec 2022 11:22:17 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 08 Dec 2022 11:22:17 &#43;0800</lastBuildDate>
             <atom:link href="https://miasanmia.cc/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>注册使用ChatGPT</title>
+    <link>https://miasanmia.cc/use-chatgpt/</link>
+    <pubDate>Thu, 08 Dec 2022 11:22:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/use-chatgpt/</guid>
+    <description><![CDATA[最近ChatGPT在国外特别火💥，想要体验的朋友会被手机验证码拦住，必须使用国外手机号注册，用Google Voice虚拟号码接收不到验证码。]]></description>
+</item>
+<item>
     <title>2022年12月-碎碎念</title>
     <link>https://miasanmia.cc/broken-thoughts-in-december-2022/</link>
     <pubDate>Fri, 02 Dec 2022 11:22:17 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/blog-test/</guid>
     <description><![CDATA[🎉🎉🎉值得记录下，博客由以前的WordPress换成Hugo，其中心酸路程，只有自己懂得💦。下次记录下本网站的的搭建过程，欢迎关注👀]]></description>
-</item>
-<item>
-    <title>读《权利48法则》有感</title>
-    <link>https://miasanmia.cc/reading-the-48-laws-of-power/</link>
-    <pubDate>Thu, 25 Aug 2022 22:45:56 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/reading-the-48-laws-of-power/</guid>
-    <description><![CDATA[外国版厚黑学，刷新了部分认知，各种勾心斗角，明争暗斗，害人之心不可有，防人之心不可无，多看看也没有坏处，48种权利法则如下： 永远不要盖过上司]]></description>
 </item>
 </channel>
 </rss>
