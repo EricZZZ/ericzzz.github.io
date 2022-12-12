@@ -58,6 +58,21 @@
 听说[琅琊榜](https://www.czspp.com/v_play/bXZfNzU4OC1ubV8y.html)挺好看的，追一追🤨
 
 ### 2022.12.11
-这哪是看世界杯啊，简直是折寿啊
+这哪是看世界杯啊，简直是折寿啊。
+
+### 2022.12.12
+83岁老奶奶给自己孙女的人生建议。
+
+{{< youtube N90UIXMuMMU >}}
+
+1. Do what is right,not what is easy.
+2. Take action on your dreams.
+3. Treat others with respect.
+4. Don't quit.
+5. Trust your instincts.
+6. Learn something new everyday.
+7. Believe in yourself.
+8. Be memorable. Be proud. Be you.
+
 
 
