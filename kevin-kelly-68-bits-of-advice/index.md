@@ -123,6 +123,66 @@ Kevin Kelly 2020年在他68岁生日时给年轻人提的68条建议：
 
     不要卷入亚洲领土争端。
 
+31. You can obsess about serving your customers, clients, audiences, or you can obsess about beating the competition. Both work. But of the two, obsessing about your customers will take you much further.
+
+    取悦你的客户，你将会走的更远。
+
+32. Show up. Keep showing up.  Somebody successful once said ‘99% of success is just showing up.’
+
+    坚持不下牌桌，最终会取胜。
+
+33. Separate the process of creation from improving. You can't write and edit, or sculpt and polish, or make and analyze at the same time. If you do, the editor stops the creator. While you invent, don't select. While you sketch, don't inspect. While you write the first draft, don't reflect. At the start the creator mind must be unleashed from judgment. 
+
+    创造和改造要分开不能同步进行。
+
+34. If you're not falling down occasionally, you're just coasting.
+
+    这句没看懂😑
+
+35. Perhaps the most counterintuitive truth of the universe is that the more you give to others, the more you'll get. Understanding that is the beginning of wisdom.
+
+    无私一点吧，你给予越多收到的越多。
+
+36. Friends are better than money. Almost anything that money can do, friends can do better. In so many ways, a friend with a boat is better than owning a boat.
+
+    拥有朋友比金钱更重要。一方有难，八方支援。
+
+37. This is true: it is hard to cheat an honest man.
+
+    很难欺骗一个诚实的人。
+
+38. When an object is lost, 99% of the time it is hiding within arm's reach of where it was last seen. So, search in all possible locations in that radius and you'll find it.
+
+    找东西好办法，当东西丢失时，99%可能在最后一次看到它的地方。
+
+39. You are what you do. Not what you say, not what you believe, not how you vote, but what you spend your time on.
+
+    你成为什么样的人，不是你想象的，不是你说的，而是你花费时间做的。
+
+40. If you lose or forget to bring a cable and adapter or charger, check with your hotel. Most hotels have a drawer full of cables, adapters, and chargers that others have left behind and probably have the one that you want if you can claim it after you borrow it.
+
+    暂时用不到，如果去酒店没带数据线，可以让酒店提供之前客人丢失的数据线拿来一用。
+
+41. Hatred is a curse that does not affect the hated. It only affects the hater. So release a grudge as if it was poison.
+
+    仇恨就像是诅咒，它只会影响仇恨的人。
+
+42. There is no limit on better. Talent is unevenly distributed, but there is no limit on how much we can do with what we start with.
+
+    没看懂😑
+
+43. Be prepared. When you are 90% done any large project, like a house, a film, an event, an app, the rest of the myriad details will take a second 90% to complete.
+
+    机会是留给有准备的人。
+
+44. When you die, you take absolutely nothing with you except your reputation.
+
+    当你死去，除了你的名誉，你什么也带不走。
+
+45. Before you are old attend as many funerals as you can bear and listen. Nobody talks about the departed's achievements. The only thing people mention is what kind of person you were while you were achieving.
+
+    在你年老之前，尽可能多地参加你能承受的葬礼并倾听。没有人谈及逝者的成就。人们唯一提到的是你在取得成就时是个什么样的人。
+
 未完待续...
 
 
