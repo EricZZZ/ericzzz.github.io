@@ -183,7 +183,35 @@ Kevin Kelly 2020年在他68岁生日时给年轻人提的68条建议：
 
     在你年老之前，尽可能多地参加你能承受的葬礼并倾听。没有人谈及逝者的成就。人们唯一提到的是你在取得成就时是个什么样的人。
 
-未完待续...
+46. For every dollar you spend purchasing something substantial, expect to pay a dollar in repairs, maintenance, or disposal, by the end of its life.
+
+    在你买东西时要考虑维修费，处理费。
+
+47. Anything real begins with a fiction of what it could be. Imagination therefore is the most potent force in the universe and a skill you can get better at. It's the one skill in life that benefits from ignoring what everybody else knows.
+
+    想象力非常重要。伟大的产品都来自天马行空的想象。
+
+48. When crisis and disaster strike, don't waste them. No problems, no progress.
+49. On vacation, go to the most remote place on your itinerary first, bypassing the cities. You'll maximize the shock of otherness in the remote and then later you'll welcome the familiar comforts of a city on the way back.
+50. When you get an invitation to do something in the future, ask yourself, ‘Would I accept this if it was scheduled for tomorrow?’ Not too many promises will pass that immediacy filter.
+51. Don't say anything about someone in an email that you would not be comfortable saying to them directly because eventually they will read it.
+52. If you desperately need a job, you are just another problem for a boss. But if you can solve many of the problems the boss has right now, you are hired. To be hired, think like your boss.
+53. Art is in what you leave out.
+54. Acquiring things will rarely bring you deep satisfaction, but acquiring experiences will.
+55. Rule of 7 in research: you can find out almost anything if you're willing to go seven levels. If the first source you ask doesn't know, then you ask them who you should ask next. And so on, down the line. If you're willing to do that to the seventh source, you will almost always get your answer.
+56. How to apologize? Quickly, specifically, sincerely.
+57. Don't ever respond to a solicitation or proposal on the phone. The urgency is a disguise.
+58. When someone is nasty, or rude, or hateful, or mean with you, pretend that they have a disease. That makes it easier to have empathy towards them which can often soften the conflict. 
+59. Eliminating clutter makes room for your true treasures.
+60. You don't really want to be famous. Read the biography of any famous person.
+61. Experience is overrated. When hiring, hire for aptitude, train for skills. Most really amazing or great things have been done by people doing them for the very first time.
+62. A vacation plus a disaster equals an adventure.
+63. Buying tools? Start with buying the absolute cheapest tools you can find. Upgrade the ones that you use a lot. If you wind up using something as a tool for a job, buy the very best you can afford.
+64. Learn how to take a twenty minute power nap without embarrassment.
+65. Following your bliss is a recipe for paralysis if you don't know what you are passionate about. A better motto for most youth is to master something. Anything. Through mastery of one thing you can drift towards extensions of that mastery that bring you more joy and eventually you'll discover where your bliss is.
+66. I'm positive that in one hundred years much of what I take to be true today will be proved to be wrong. Maybe even embarrassingly wrong. And I try really hard to identify what it is that I am wrong about today.
+67. Over the long term, the future is decided by optimists. To be an optimist you don't have to ignore the many problems we create. You have to imagine improving our capacity to solve those problems.
+68. The universe is conspiring behind your back to make you a success. This would be much easier to do if you embrace this paranoia.
 
 
 #### 视频
