@@ -74,5 +74,12 @@
 7. Believe in yourself.
 8. Be memorable. Be proud. Be you.
 
+### 2022.12.13
+梦里祝克罗地亚小胜阿根廷🙏
+
+### 2022.12.14
+真的是小惊喜，刷算法题，又刷到今年一月份的题了，一点似曾相识的感觉都没有，提交一看，执行用时简直是飞速提升😁，一月份的解题答案已经看不懂了，真是应了[Kevin Kelly的68条建议](https://miasanmia.cc/kevin-kelly-68-bits-of-advice/)那句话“如果你不觉得一年前的自己就是个白痴,那么这一年你丝毫没有进步。”今天果真应验了🤣。
+
+![我承认一年前的自己是个“白痴”](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/12/14/20221214172348.png)
 
 
