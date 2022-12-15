@@ -41,7 +41,7 @@ Kevin Kelly 2020年在他68岁生日时给年轻人提的68条建议：
 
 10. Reading to your children regularly will bond you together and will kick-start their imaginations.
 
-   定期给孩子讲故事。
+    定期给孩子讲故事。
 
 11. Never use a credit card for credit. The only kind of credit or debt that's acceptable is debt to acquire something whose value will increase over time — like a house. The exchange value of most things diminishes or vanishes the moment you purchase them so don't be in debt to losers.
 
@@ -192,27 +192,88 @@ Kevin Kelly 2020年在他68岁生日时给年轻人提的68条建议：
     想象力非常重要。伟大的产品都来自天马行空的想象。
 
 48. When crisis and disaster strike, don't waste them. No problems, no progress.
+
+    享受失败，逃离舒适区，没有问题，就没有进步。
+
 49. On vacation, go to the most remote place on your itinerary first, bypassing the cities. You'll maximize the shock of otherness in the remote and then later you'll welcome the familiar comforts of a city on the way back.
+
+    度假时，先去你行程中最偏远的地方，绕过城市。在偏远地区，你会最大限度地感受到另类的震撼，然后在回来的路上，你会欢迎城市中熟悉的舒适。（先苦后甜？）
+
 50. When you get an invitation to do something in the future, ask yourself, ‘Would I accept this if it was scheduled for tomorrow?’ Not too many promises will pass that immediacy filter.
+
+    当你接受未来做某事的邀请，首先问下自己如果安排到明天我能接受嘛。
+
 51. Don't say anything about someone in an email that you would not be comfortable saying to them directly because eventually they will read it.
+
+    不要在电子邮件中说任何你不愿意直接对他们说的关于某人的事情，因为最终他们会读到它。
+
 52. If you desperately need a job, you are just another problem for a boss. But if you can solve many of the problems the boss has right now, you are hired. To be hired, think like your boss.
+
+    如果你急需一份工作，那只是老板的另一个问题。但是如果你能解决老板当前面临的许多问题，你会被雇佣。想要被雇佣，要像老板一样思考。
+
 53. Art is in what you leave out.
+
+    艺术在你遗漏的地方。
+
 54. Acquiring things will rarely bring you deep satisfaction, but acquiring experiences will.
+
+    获得东西很少会给你带来深刻的满足感，但获得经验会。这句话很妙啊🤩
+
 55. Rule of 7 in research: you can find out almost anything if you're willing to go seven levels. If the first source you ask doesn't know, then you ask them who you should ask next. And so on, down the line. If you're willing to do that to the seventh source, you will almost always get your answer.
+
+    这句说的应该是第一性原理。研究事物要抓住事物的本质。
+
 56. How to apologize? Quickly, specifically, sincerely.
+
+    如何道歉？快速，具体，真诚。
+
 57. Don't ever respond to a solicitation or proposal on the phone. The urgency is a disguise.
+
+    永远不要在电话中回应招标或建议。迫切性是一种伪装。（难道说国外也有电信诈骗一说？😮）
+
 58. When someone is nasty, or rude, or hateful, or mean with you, pretend that they have a disease. That makes it easier to have empathy towards them which can often soften the conflict. 
+
+    当某人对你来说是讨厌的，粗鲁的，可恨的，或刻薄的，假装他们有病，这样你心里还能好过点。（ps.作者真是大智慧啊🤣）
+
 59. Eliminating clutter makes room for your true treasures.
+
+    消除杂乱，为真正值得做的腾出空间。
+
 60. You don't really want to be famous. Read the biography of any famous person.
+
+    你真不想出名，读任何名人的传记。（ps.我也喜欢读名人传记😋）
+
 61. Experience is overrated. When hiring, hire for aptitude, train for skills. Most really amazing or great things have been done by people doing them for the very first time.
+
+    要做第一个吃螃蟹的人。
+
 62. A vacation plus a disaster equals an adventure.
+
+    假期 + 灾难 = 冒险。
+
 63. Buying tools? Start with buying the absolute cheapest tools you can find. Upgrade the ones that you use a lot. If you wind up using something as a tool for a job, buy the very best you can afford.
+
+    购买工具建议：开始买最便宜的，升级你最常用的，如果作为工作的工具买你能负担起的最好的。
+
 64. Learn how to take a twenty minute power nap without embarrassment.
+
+    学习如何在没有尴尬的情况下进行20分钟的能量小憩。
+
 65. Following your bliss is a recipe for paralysis if you don't know what you are passionate about. A better motto for most youth is to master something. Anything. Through mastery of one thing you can drift towards extensions of that mastery that bring you more joy and eventually you'll discover where your bliss is.
+
+    如果你不知道自己对什么有热情，追随你的幸福是一种瘫痪的秘诀。对大多数年轻人来说，一个更好的座右铭是掌握一些东西。任何东西。通过对一件事的掌握，你可以朝着能给你带来更多快乐的掌握的延伸方向发展，最终你会发现你的幸福在哪里。
+
 66. I'm positive that in one hundred years much of what I take to be true today will be proved to be wrong. Maybe even embarrassingly wrong. And I try really hard to identify what it is that I am wrong about today.
+
+    我敢肯定，在一百年后，我今天所认为的大部分事实将被证明是错误的。也许甚至是令人尴尬的错误。我非常努力地找出我今天的错误之处。
+
 67. Over the long term, the future is decided by optimists. To be an optimist you don't have to ignore the many problems we create. You have to imagine improving our capacity to solve those problems.
+
+    从长远来看，未来是由乐观主义者决定的。要成为一个乐观主义者，你不必忽视我们制造的许多问题。你必须想象改善我们解决这些问题的能力。
+
 68. The universe is conspiring behind your back to make you a success. This would be much easier to do if you embrace this paranoia.
 
+    宇宙在你背后密谋让你获得成功。如果你接受这种偏执狂，这将更容易做到。
 
 #### 视频
 {{< youtube Zz70rcguxwk >}}
