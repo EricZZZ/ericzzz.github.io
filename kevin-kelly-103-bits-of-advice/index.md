@@ -163,6 +163,89 @@
 
     在酒店房间里，把你所有的东西都放在看得见的地方，不要放在抽屉里，并且都集中到一个地方。这样你就不会落下任何东西。如果你需要把充电器之类的东西放在一边，就在它旁边放几件其他的大件物品，因为你留下三件物品的可能性比只留下一件更小。
 
+41. Denying or deflecting a compliment is rude. Accept it with thanks, even if you believe it is not deserved.
+
+    拒绝或回避赞美是不礼貌的。即使你认为它是不值得的，也要感谢地接受它。
+
+42. Always read the plaque next to the monument.
+
+    始终阅读纪念碑旁边的牌匾。
+
+43. When you have some success, the feeling of being an imposter can be real. Who am I fooling? But when you create things that only you — with your unique talents and experience — can do, then you are absolutely not an imposter. You are the ordained. It is your duty to work on things that only you can do.
+
+    当您取得一些成功时，成为冒名顶替者的感觉可能是真实的。我在愚弄谁？但是当你创造出只有你——凭借你独特的才能和经验——才能做的事情时，那么你绝对不是冒名顶替者。你是受命的。做只有你能做的事情是你的责任。
+
+44. What you do on your bad days matters more than what you do on your good days.
+
+    你在坏日子里做的事比在好日子里做的事更重要。
+
+45. Make stuff that is good for people to have.
+
+    制作对人们有用的东西。
+
+46. When you open paint, even a tiny bit, it will always find its way to your clothes no matter how careful you are. Dress accordingly.
+
+    当你打开油漆，哪怕是一丁点，它总会找到你的衣服，无论你多么小心。穿上相应的衣服。
+
+47. To keep young kids behaving on a car road trip, have a bag of their favorite candy and throw a piece out the window each time they misbehave.
+
+    为了让年幼的孩子在汽车公路旅行中保持良好的行为习惯，可以准备一袋他们最喜欢的糖果，每次他们行为不端时就向窗外扔一块。
+
+48. You cannot get smart people to work extremely hard just for money.
+
+    你不能让聪明人为了钱而拼命工作。
+
+49. When you don’t know how much to pay someone for a particular task, ask them “what would be fair” and their answer usually is.
+
+    当你不知道该为某项任务付给某人多少钱时，问他们 "什么才是公平的"，他们的答案通常是。
+
+50. 90% of everything is crap. If you think you don’t like opera, romance novels, TikTok, country music, vegan food, NFTs, keep trying to see if you can find the 10% that is not crap.
+
+    90%的东西都是垃圾。如果你认为自己不喜欢歌剧、言情小说、TikTok、乡村音乐、素食、NFT，请继续尝试看看你是否能找到那 10% 不是垃圾的东西。
+
+51. You will be judged on how well you treat those who can do nothing for you.
+
+    人们会根据你对待那些对你无能为力的人有多好来评判你。
+
+52. We tend to overestimate what we can do in a day, and underestimate what we can achieve in a decade. Miraculous things can be accomplished if you give it ten years. A long game will compound small gains to overcome even big mistakes.
+
+    我们往往高估一天能做的事，却低估十年能做的事。
+
+53. Thank a teacher who changed your life.
+
+    感谢那位曾经改变你一生的老师。
+
+54. You cant reason someone out of a notion that they didn’t reason themselves into.
+
+    你不可能把一个人从一个他们自己不知道的概念中推理出来。（不懂）
+
+55. Your best job will be one that you were unqualified for because it stretches you. In fact only apply to jobs you are unqualified for.
+
+    只有让你感到不舒服的工作才是适合你的，逃离自己的舒适圈。
+
+56. Buy used books. They have the same words as the new ones. Also libraries.
+
+    买二手书，它们和新书一样，或者去图书馆。
+
+57. You can be whatever you want, so be the person who ends meetings early.
+
+    你可以成为任何你想成为的人，所以做一个提早结束会议的人吧。
+
+58. A wise man said, “Before you speak, let your words pass through three gates. At the first gate, ask yourself, “Is it true?” At the second gate ask, “Is it necessary?” At the third gate ask, “Is it kind?”
+
+    一位智者说：“在你说话之前，让你的话通过三道门，第一个门，问自己这是真的嘛，第二道门，问这是必须的嘛，第三道门，问他是好心的嘛”
+
+59. Take the stairs.
+
+    多走楼梯。
+
+60. What you actually pay for something is at least twice the listed price because of the energy, time, money needed to set it up, learn, maintain, repair, and dispose of at the end. Not all prices appear on labels. Actual costs are 2x listed prices.
+
+    你实际支付的东西至少是列出价格的两倍，因为需要花费精力、时间、金钱来设置、学习、维护、修理和最后的处置。不是所有的价格都出现在标签上。实际成本是上市价格的2倍。
+
+
+
+
 
 
    未完待续...
