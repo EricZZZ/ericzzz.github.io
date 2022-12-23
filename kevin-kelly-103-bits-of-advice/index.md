@@ -243,10 +243,85 @@
 
     你实际支付的东西至少是列出价格的两倍，因为需要花费精力、时间、金钱来设置、学习、维护、修理和最后的处置。不是所有的价格都出现在标签上。实际成本是上市价格的2倍。
 
+61. When you arrive at your room in a hotel, locate the emergency exits. It only takes a minute.
 
+    当你到达酒店房间，找到紧急出口，只花几分钟。
 
+62. The only productive way to answer “what should I do now?” is to first tackle the question of “who should I become?”
 
+    回答 "我现在应该做什么？"的唯一有效方式是首先解决 "我应该成为谁 "的问题。
 
+63. Average returns sustained over an above-average period of time yield extraordinary results. Buy and hold.
+
+    在超过平均水平的时间内持续的平均回报会产生非凡的结果。买入并持有。
+
+64. It’s thrilling to be extremely polite to rude strangers.
+
+    对无礼的陌生人礼貌，让人很激动。
+
+65. It’s possible that a not-so smart person, who can communicate well, can do much better than a super smart person who can’t communicate well. That is good news because it is much easier to improve your communication skills than your intelligence.
+
+    一个不太聪明的人，如果能很好地沟通，有可能比一个不能很好地沟通的超级聪明人做得更好。这是一个好消息，因为提高沟通能力比提高智力要容易得多。
+
+66. Getting cheated occasionally is the small price for trusting the best of everyone, because when you trust the best in others, they generally treat you best.
+
+    偶尔被骗是相信每个人最好的一面的小代价，因为当你相信别人最好的一面时，他们通常会对你最好。
+
+67. Art is whatever you can get away with.
+
+    艺术就是你能逃脱的一切。
+
+68. For the best results with your children, spend only half the money you think you should, but double the time with them.
+
+    为了在孩子身上取得最好的效果，只花你认为应该花的一半的钱，但要花双倍的时间与他们在一起。
+
+69. Purchase the most recent tourist guidebook to your home town or region. You’ll learn a lot by playing the tourist once a year.
+
+    购买你家乡或地区的最新旅游指南。每年扮演一次游客，你会学到很多东西。
+
+70. Dont wait in line to eat something famous. It is rarely worth the wait.
+
+    不值得排队去吃有名的东西。
+
+71. To rapidly reveal the true character of a person you just met, move them onto an abysmally slow internet connection. Observe.
+
+    不明白。
+
+72. Prescription for popular success: do something strange. Make a habit of your weird.
+
+    流行的成功处方：做一些奇怪的事情。让你的怪异成为一种习惯。
+
+73. Be a pro. Back up your back up. Have at least one physical backup and one backup in the cloud. Have more than one of each. How much would you pay to retrieve all your data, photos, notes, if you lost them? Backups are cheap compared to regrets.
+
+     硬盘有价，数据无价，多备份。
+
+74. Dont believe everything you think you believe.
+
+    不要相信你所相信的一切。
+
+75. To signal an emergency, use the rule of three; 3 shouts, 3 horn blasts, or 3 whistles.
+
+    要发出紧急信号，请使用三个规则； 3 声喊叫、3 声喇叭声或 3 声口哨声。
+
+76. At a restaurant do you order what you know is great, or do you try something new? Do you make what you know will sell or try something new? Do you keep dating new folks or try to commit to someone you already met? The optimal balance for exploring new things vs exploiting them once found is: 1/3. Spend 1/3 of your time on exploring and 2/3 time on deepening. It is harder to devote time to exploring as you age because it seems unproductive, but aim for 1/3.
+
+    在餐厅，您会点您认为很棒的食物，还是会尝试一些新的东西？你是做你知道会卖的东西还是尝试新的东西？您是继续与新朋友约会还是尝试与已经认识的人交往？探索新事物与利用新事物的最佳平衡是：1/3。将 1/3 的时间用于探索，将 2/3 的时间用于深化。随着年龄的增长，花时间去探索就更难了，因为它看起来没有成效，但目标是 1/3。
+
+77. Actual great opportunities do not have “Great Opportunities” in the subject line.
+
+    天上不会掉馅饼，明面告诉你是好机会的地方可能是个陷阱。
+
+78. When introduced to someone make eye contact and count to 4. You’ll both remember each other.
+
+    当介绍给某人时，进行眼神交流并数到 4。你们都会记住对方。
+
+79. Take note if you find yourself wondering “Where is my good knife? Or, where is my good pen?” That means you have bad ones. Get rid of those.
+
+    如果您发现自己想知道“我的好刀在哪里？”，请注意。或者，我的好笔呢？”那意味着你有坏的。摆脱那些。
+
+80. When you are stuck, explain your problem to others. Often simply laying out a problem will present a solution. Make “explaining the problem” part of your troubleshooting process.
+
+    当你被卡住时，向别人解释你的问题。通常情况下，简单地阐述一个问题就能提出一个解决方案。让 "解释问题 "成为你排除故障过程的一部分。
 
    未完待续...
 
