@@ -323,5 +323,96 @@
 
     当你被卡住时，向别人解释你的问题。通常情况下，简单地阐述一个问题就能提出一个解决方案。让 "解释问题 "成为你排除故障过程的一部分。
 
-   未完待续...
+81. When buying a garden hose, an extension cord, or a ladder, get one substantially longer than you think you need. It’ll be the right size.
+
+    在购买花园水管、延长线或梯子时，要买比你认为需要的长很多的。这将是正确的尺寸。
+
+82. Dont bother fighting the old; just build the new.
+
+    不要与旧的斗争，建立新的。
+
+83. Your group can achieve great things way beyond your means simply by showing people that they are appreciated.
+
+    只需向人们展示他们受到赞赏，您的团队就可以取得超出您能力范围的伟大成就。
+
+84. When someone tells you about the peak year of human history, the period of time when things were good before things went downhill, it will always be the years of when they were 10 years old — which is the peak of any human’s existence.
+
+    当有人告诉你人类历史的巅峰之年，在一切都好到走下坡路之前的那段时间，那永远是他们 10 岁的岁月——这是任何人类存在的巅峰时期。
+
+85. You are as big as the things that make you angry.
+
+    你有多生气，你的事情就有多大。
+
+86. When speaking to an audience it’s better to fix your gaze on a few people than to “spray” your gaze across the room. Your eyes telegraph to others whether you really believe what you are saying.
+
+    对听众讲话时，最好将目光集中在几个人身上，而不是将目光“散播”到整个房间。你的眼神告诉别人你是否真的相信你所说的话。
+
+87. Habit is far more dependable than inspiration. Make progress by making habits. Dont focus on getting into shape. Focus on becoming the kind of person who never misses a workout.
+
+    习惯远比灵感更可靠。通过养成习惯来取得进步。不要把注意力放在塑身上。要专注于成为那种从不错过锻炼的人。
+
+88. When negotiating, dont aim for a bigger piece of the pie; aim to create a bigger pie.
+
+    谈判时，不要为了分得更大的一杯羹，而是要创造一个更大的蛋糕。
+
+89. If you repeated what you did today 365 more times will you be where you want to be next year?
+
+    如果你把今天所做的事情再重复365次，你明年会不会达到你想要的目标？
+
+90. You see only 2% of another person, and they see only 2% of you. Attune yourselves to the hidden 98%.
+
+    你只看到另一个人的 2%，他们也只看到你的 2%。将自己调整到隐藏的 98%。
+
+91. Your time and space are limited. Remove, give away, throw out things in your life that dont spark joy any longer in order to make room for those that do.
+
+    你的时间和空间是有限的。移除、放弃、扔掉你生活中不再能激发快乐的东西，以便为那些能激发快乐的东西腾出空间。
+
+92. Our descendants will achieve things that will amaze us, yet a portion of what they will create could have been made with today’s materials and tools if we had had the imagination. Think bigger.
+
+    我们的后代将取得令我们惊讶的成就，然而，如果我们有想象力，他们将创造的一部分东西可以用今天的材料和工具来制造。想得更远。
+
+93. For a great payoff be especially curious about the things you are not interested in.
+
+    为了获得巨大的回报，对你不感兴趣的事情要特别好奇。
+
+94. Focus on directions rather than destinations. Who knows their destiny? But maintain the right direction and you’ll arrive at where you want to go.
+
+    专注于方向而不是目的地。谁知道自己的命运？但保持正确的方向，你就会到达你想去的地方。
+
+95. Every breakthrough is at first laughable and ridiculous. In fact if it did not start out laughable and ridiculous, it is not a breakthrough.
+
+    每一个突破起初都是可笑和可笑的。事实上，如果它没有开始可笑和荒谬，它就不是突破。
+
+96. If you loan someone $20 and you never see them again because they are avoiding paying you back, that makes it worth $20.
+
+    如果你借给某人 20 美元，而你再也见不到他们，因为他们不还钱，那么这 20 美元就值了。
+
+97. Copying others is a good way to start. Copying yourself is a disappointing way to end.
+
+    模仿别人是一个很好的开始。模仿自己是一种令人失望的结束方式。
+
+98. The best time to negotiate your salary for a new job is the moment AFTER they say they want you, and not before. Then it becomes a game of chicken for each side to name an amount first, but it is to your advantage to get them to give a number before you do.
+
+    谈判新工作薪水的最佳时机是在他们说想要你之后，而不是之前。让他们在你之前给出一个数字对你是有利的。
+
+99. Rather than steering your life to avoid surprises, aim directly for them.
+
+     与其引导你的生活避免意外，不如直接瞄准它们。（stop doing something）
+
+100. Dont purchase extra insurance if you are renting a car with a credit card.
+
+     如果你是用信用卡租车，不要购买额外的保险。
+
+101. If your opinions on one subject can be predicted from your opinions on another, you may be in the grip of an ideology. When you truly think for yourself your conclusions will not be predictable.
+
+     如果你对一个主题的看法可以从你对另一个主题的看法中预测出来，那么你可能被一种意识形态所控制。当您真正独立思考时，您的结论将无法预测。
+
+102. Aim to die broke. Give to your beneficiaries before you die; it’s more fun and useful. Spend it all. Your last check should go to the funeral home and it should bounce.
+
+     以死后破产为目标。在你死前捐给你的受益人；这更有趣，更有用。花光所有的钱。你的最后一张支票应该交给殡仪馆，而且应该跳票。
+
+103. The chief prevention against getting old is to remain astonished.
+
+     防止变老的主要方法是保持惊讶。
+
 
