@@ -139,5 +139,5 @@ Merry Christmas🎅
 
 **我们做任何决定，最后或多或少都会后悔或遗憾，面临多种选择时，我们应当选择后悔或遗憾最少的那个。**
 
-{{ youtube jwG_qR6XmDQ }}
+{{< youtube jwG_qR6XmDQ >}}
 
