@@ -175,7 +175,9 @@ Merry Christmas🎅
 {{< youtube z6xslDMimME >}}
 
 
+### 2022.12.31
+在本年度最后一天，完成了读书目标🎉，明年继续加油，目标100本。😎
 
-
+![读书目标](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/12/31/b65bc5e2f4500005643c74ed628bc5a6.jpeg)
 
 
