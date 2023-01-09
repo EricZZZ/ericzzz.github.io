@@ -37,7 +37,10 @@
 
 {{< youtube d0lJ8wx3vag >}}
 
+### 2023.01.09
+你有多久没看过烟花了？
 
+网上找到源码，部署在Vercel上，点开这个[网站](https://fireworks-html.vercel.app/)来一起看看烟花吧。（ps.可能要翻墙才能看到🥲）
 
 
 
