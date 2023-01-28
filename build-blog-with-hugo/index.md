@@ -308,6 +308,19 @@ Netlify跟GitHub搭配也很好用，不用配置Action了。
 
 部署之后就能在文章下面看到评论区了，看到这里的朋友们还不到评论区里留下你的痕迹🤗。
 
+#### 修改字体，大小，行高
+[LoveIt](https://hugoloveit.com/zh-cn/)主题默认的字体不美观，网上非常好看的中文开源字体[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)。
+
+LoveIt设置自定义样式，在根目录建立文件 `assets/css/_override.scss` ,并添加以下内容，这个文件可以覆盖 `themes/LoveIt/assets/css/_variables.scss` 中的变量以自定义样式。
+
+```scss
+@import url('https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css');// 引入字体CDN
+$global-font-family: "LXGW WenKai Screen", sans-serif;// 修改字体
+$global-font-size: 18px;// 修改字体大小
+$global-line-height: 1.8rem;// 修改行高
+```
+
+
 ### 参考链接
 
 [Hugo + GitHub Action，搭建你的博客自动发布系统](https://www.pseudoyu.com/zh/2022/05/29/deploy_your_Blog_using_hugo_and_github_action/)

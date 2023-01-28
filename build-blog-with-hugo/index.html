@@ -9,7 +9,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://miasanmia.cc/build-blog-with-hugo/" /><meta property="og:image" content="https://miasanmia.cc/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-11-24T15:13:17+08:00" />
-<meta property="article:modified_time" content="2022-11-24T15:13:17+08:00" /><meta property="og:site_name" content="🐡ErᎥc的数字花园" />
+<meta property="article:modified_time" content="2023-01-28T16:48:22+08:00" /><meta property="og:site_name" content="🐡ErᎥc的数字花园" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://miasanmia.cc/logo.png"/>
 
@@ -29,8 +29,8 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/miasanmia.cc\/build-blog-with-hugo\/"
-        },"genre": "posts","keywords": "Blog, Hugo","wordcount":  3480 ,
-        "url": "https:\/\/miasanmia.cc\/build-blog-with-hugo\/","datePublished": "2022-11-24T15:13:17+08:00","dateModified": "2022-11-24T15:13:17+08:00","license": "EricZhao","publisher": {
+        },"genre": "posts","keywords": "Blog, Hugo","wordcount":  3613 ,
+        "url": "https:\/\/miasanmia.cc\/build-blog-with-hugo\/","datePublished": "2022-11-24T15:13:17+08:00","dateModified": "2023-01-28T16:48:22+08:00","license": "EricZhao","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -103,8 +103,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">再见了WordPress，全面拥抱Hugo</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EricZhao</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%BC%80%E5%8F%91/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>开发</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-11-24">2022-11-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3480 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 7 分钟&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-11-24">2022-11-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3613 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 8 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
@@ -143,6 +143,7 @@
           <ul>
             <li><a href="#配置google-analyticsgoogle-search-console">配置Google Analytics，Google Search Console</a></li>
             <li><a href="#配置评论">配置评论</a></li>
+            <li><a href="#修改字体大小行高">修改字体，大小，行高</a></li>
           </ul>
         </li>
         <li><a href="#参考链接">参考链接</a></li>
@@ -592,13 +593,30 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>部署之后就能在文章下面看到评论区了，看到这里的朋友们还不到评论区里留下你的痕迹🤗。</p>
-<h3 id="参考链接">参考链接</h3>
+<h4 id="修改字体大小行高">修改字体，大小，行高</h4>
+<p><a href="https://hugoloveit.com/zh-cn/" target="_blank" rel="noopener noreffer ">LoveIt</a>主题默认的字体不美观，网上非常好看的中文开源字体<a href="https://github.com/lxgw/LxgwWenKai" target="_blank" rel="noopener noreffer ">霞鹜文楷</a>。</p>
+<p>LoveIt设置自定义样式，在根目录建立文件 <code>assets/css/_override.scss</code> ,并添加以下内容，这个文件可以覆盖 <code>themes/LoveIt/assets/css/_variables.scss</code> 中的变量以自定义样式。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="k">@import</span> <span class="sx">url(&#39;https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css&#39;)</span><span class="p">;</span><span class="c1">// 引入字体CDN
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nv">$global-font-family</span><span class="o">:</span> <span class="s2">&#34;LXGW WenKai Screen&#34;</span><span class="o">,</span> <span class="ni">sans-serif</span><span class="p">;</span><span class="c1">// 修改字体
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nv">$global-font-size</span><span class="o">:</span> <span class="mi">18</span><span class="kt">px</span><span class="p">;</span><span class="c1">// 修改字体大小
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nv">$global-line-height</span><span class="o">:</span> <span class="mi">1</span><span class="mf">.8</span><span class="kt">rem</span><span class="p">;</span><span class="c1">// 修改行高
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="参考链接">参考链接</h3>
 <p><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_Blog_using_hugo_and_github_action/" target="_blank" rel="noopener noreffer ">Hugo + GitHub Action，搭建你的博客自动发布系统</a></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2022-11-24</span>
+                <span>更新于 2023-01-28</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
