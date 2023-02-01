@@ -3,9 +3,17 @@
         <title>🐡ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 27 Jan 2023 23:30:17 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Wed, 01 Feb 2023 23:37:17 &#43;0800</lastBuildDate>
             <atom:link href="https://miasanmia.cc/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>2023 年 02 月 - 碎碎念</title>
+    <link>https://miasanmia.cc/broken-thoughts-in-february-2023/</link>
+    <pubDate>Wed, 01 Feb 2023 23:37:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/broken-thoughts-in-february-2023/</guid>
+    <description><![CDATA[2023.02.01 独处并不是孤独。]]></description>
+</item>
+<item>
     <title>我从三年疫情中改变了什么？</title>
     <link>https://miasanmia.cc/perception-of-epidemic/</link>
     <pubDate>Fri, 27 Jan 2023 23:30:17 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/reading-low-desire-society/</guid>
     <description><![CDATA[推荐指数 ❤️❤️❤️❤️ 作者大前研一，日本著名管理学家，经济评论家。曾任马兰西亚前首相经济顾问。 谈到低欲望社会都会想到日本，日本经济自90年]]></description>
-</item>
-<item>
-    <title>2022年10月-碎碎念</title>
-    <link>https://miasanmia.cc/broken-thoughts-in-october/</link>
-    <pubDate>Tue, 18 Oct 2022 15:46:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/broken-thoughts-in-october/</guid>
-    <description><![CDATA[2022.10.18 1 往事止于此，未来始于斯。 参与 leetcode1024活动有感马尔可夫链 2022.10.19 如何阅读一份代码 2022.10.20 1 2 3 当你过了30岁，如果你还没有 买房，结婚，]]></description>
 </item>
 </channel>
 </rss>
