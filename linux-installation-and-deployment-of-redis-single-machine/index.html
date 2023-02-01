@@ -4,17 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Linux 安装、部署Redis（单机） - 🐡ErᎥc的数字花园</title><meta name="Description" content="欢迎来到我的小站～"><meta property="og:title" content="Linux 安装、部署Redis（单机）" />
-<meta property="og:description" content="1.下载Redis http://www.redis.cn/download.html 下载相应redis版本，并上传到服务器上 2.安装 解压，编译 1 2 3 tar -xzf redis-5.0.5.tar.gz cd redis-5.0.5 make 编译完成后，通过如下命令开启Redis 1 src/redis-server 3" />
+        <title>Linux 安装、部署 Redis（单机） - 🐡ErᎥc的数字花园</title><meta name="Description" content="欢迎来到我的小站～"><meta property="og:title" content="Linux 安装、部署 Redis（单机）" />
+<meta property="og:description" content="1. 下载 Redis http://www.redis.cn/download.html 下载相应 redis 版本，并上传到服务器上 2. 安装 解压，编译 1 2 3 tar -xzf redis-5.0.5.tar.gz cd redis-5.0.5 make 编译完成后，通过如下命令开启 Redis 1 src/redis-server 3. 设置 Redis 远程连接，后台启动，设" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/" /><meta property="og:image" content="https://miasanmia.cc/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-11-07T19:02:17+08:00" />
-<meta property="article:modified_time" content="2020-11-07T19:02:17+08:00" /><meta property="og:site_name" content="🐡ErᎥc的数字花园" />
+<meta property="article:modified_time" content="2023-02-01T23:54:22+08:00" /><meta property="og:site_name" content="🐡ErᎥc的数字花园" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://miasanmia.cc/logo.png"/>
 
-<meta name="twitter:title" content="Linux 安装、部署Redis（单机）"/>
-<meta name="twitter:description" content="1.下载Redis http://www.redis.cn/download.html 下载相应redis版本，并上传到服务器上 2.安装 解压，编译 1 2 3 tar -xzf redis-5.0.5.tar.gz cd redis-5.0.5 make 编译完成后，通过如下命令开启Redis 1 src/redis-server 3"/>
+<meta name="twitter:title" content="Linux 安装、部署 Redis（单机）"/>
+<meta name="twitter:description" content="1. 下载 Redis http://www.redis.cn/download.html 下载相应 redis 版本，并上传到服务器上 2. 安装 解压，编译 1 2 3 tar -xzf redis-5.0.5.tar.gz cd redis-5.0.5 make 编译完成后，通过如下命令开启 Redis 1 src/redis-server 3. 设置 Redis 远程连接，后台启动，设"/>
 <meta name="application-name" content="我的网站">
 <meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,13 +24,13 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Linux 安装、部署Redis（单机）",
+        "headline": "Linux 安装、部署 Redis（单机）",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/miasanmia.cc\/linux-installation-and-deployment-of-redis-single-machine\/"
-        },"genre": "posts","keywords": "Linux, Redis","wordcount":  232 ,
-        "url": "https:\/\/miasanmia.cc\/linux-installation-and-deployment-of-redis-single-machine\/","datePublished": "2020-11-07T19:02:17+08:00","dateModified": "2020-11-07T19:02:17+08:00","license": "EricZhao","publisher": {
+        },"genre": "posts","keywords": "Linux, Redis","wordcount":  186 ,
+        "url": "https:\/\/miasanmia.cc\/linux-installation-and-deployment-of-redis-single-machine\/","datePublished": "2020-11-07T19:02:17+08:00","dateModified": "2023-02-01T23:54:22+08:00","license": "EricZhao","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -101,9 +101,9 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Linux 安装、部署Redis（单机）</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Linux 安装、部署 Redis（单机）</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EricZhao</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%BF%90%E7%BB%B4/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>运维</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-11-07">2020-11-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 232 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-11-07">2020-11-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 186 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -112,16 +112,16 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#1下载redis">1.下载Redis</a></li>
-    <li><a href="#2安装">2.安装</a></li>
-    <li><a href="#3设置redis远程连接后台启动设置密码">3.设置Redis远程连接，后台启动，设置密码</a></li>
-    <li><a href="#4重新开启redis">4.重新开启Redis</a></li>
+    <li><a href="#1-下载-redis">1. 下载 Redis</a></li>
+    <li><a href="#2-安装">2. 安装</a></li>
+    <li><a href="#3-设置-redis-远程连接后台启动设置密码">3. 设置 Redis 远程连接，后台启动，设置密码</a></li>
+    <li><a href="#4-重新开启-redis">4. 重新开启 Redis</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="1下载redis">1.下载Redis</h2>
+            </div><div class="content" id="content"><h2 id="1-下载-redis">1. 下载 Redis</h2>
 <p><a href="http://www.redis.cn/download.html" target="_blank" rel="noopener noreffer ">http://www.redis.cn/download.html</a>
-下载相应redis版本，并上传到服务器上</p>
-<h2 id="2安装">2.安装</h2>
+下载相应 redis 版本，并上传到服务器上</p>
+<h2 id="2-安装">2. 安装</h2>
 <p>解压，编译</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -135,7 +135,7 @@
 </span></span><span class="line"><span class="cl">make
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>编译完成后，通过如下命令开启Redis</p>
+</div><p>编译完成后，通过如下命令开启 Redis</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -144,7 +144,7 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">src/redis-server
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="3设置redis远程连接后台启动设置密码">3.设置Redis远程连接，后台启动，设置密码</h2>
+</div><h2 id="3-设置-redis-远程连接后台启动设置密码">3. 设置 Redis 远程连接，后台启动，设置密码</h2>
 <p>打开配置文件</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -170,7 +170,7 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">bind</span> 135.224.85.5 <span class="c1"># 修改为主机ip</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">bind</span> 135.224.85.5 <span class="c1"># 修改为主机 ip</span>
 </span></span><span class="line"><span class="cl">protected-mode no <span class="c1"># yes 修改为 no</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -180,40 +180,40 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">requirepass <span class="m">123456</span> <span class="c1"># 设置密码为123456</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">requirepass <span class="m">123456</span> <span class="c1"># 设置密码为 123456</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="4重新开启redis">4.重新开启Redis</h2>
-<p>关闭Redis命令</p>
+</div><h2 id="4-重新开启-redis">4. 重新开启 Redis</h2>
+<p>关闭 Redis 命令</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">lsof -i :6379 <span class="c1"># 找到对应的pid</span>
-</span></span><span class="line"><span class="cl"><span class="nb">kill</span> -9 XXXX <span class="c1"># 杀掉对应的pid进程</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">lsof -i :6379 <span class="c1"># 找到对应的 pid</span>
+</span></span><span class="line"><span class="cl"><span class="nb">kill</span> -9 XXXX <span class="c1"># 杀掉对应的 pid 进程</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>重启Redis命令</p>
+</div><p>重启 Redis 命令</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">src/redis-server redis.conf <span class="c1"># 进入redis目录下</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">src/redis-server redis.conf <span class="c1"># 进入 redis 目录下</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2020-11-07</span>
+                <span>更新于 2023-02-01</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/" data-title="Linux 安装、部署Redis（单机）" data-via="Eric_Zzz0" data-hashtags="Linux,Redis"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/" data-hashtag="Linux"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/" data-title="Linux 安装、部署Redis（单机）"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/" data-title="Linux 安装、部署Redis（单机）"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/" data-title="Linux 安装、部署Redis（单机）"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/" data-title="Linux 安装、部署 Redis（单机）" data-via="Eric_Zzz0" data-hashtags="Linux,Redis"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/" data-hashtag="Linux"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/" data-title="Linux 安装、部署 Redis（单机）"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/" data-title="Linux 安装、部署 Redis（单机）"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/" data-title="Linux 安装、部署 Redis（单机）"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -225,8 +225,8 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/how-to-install-jdk-in-linux-environment/" class="prev" rel="prev" title="Linux环境下如何安装JDK"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Linux环境下如何安装JDK</a>
-            <a href="/how-to-install-and-deploy-rocketmq-in-linux/" class="next" rel="next" title="Linux如何安装、部署RocketMQ">Linux如何安装、部署RocketMQ<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/how-to-install-jdk-in-linux-environment/" class="prev" rel="prev" title="Linux 环境下如何安装 JDK"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Linux 环境下如何安装 JDK</a>
+            <a href="/how-to-install-and-deploy-rocketmq-in-linux/" class="next" rel="next" title="Linux 如何安装、部署 RocketMQ">Linux 如何安装、部署 RocketMQ<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"><div id="giscus" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://giscus.app">Giscus</a>.

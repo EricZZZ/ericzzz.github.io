@@ -1,9 +1,9 @@
-# Linux环境下如何安装JDK
+# Linux 环境下如何安装 JDK
 
 
-## 1.下载JDK
+## 1. 下载 JDK
 
-根据需求下载不同版本的JDK
+根据需求下载不同版本的 JDK
 
 openJDK http://hg.openjdk.java.net/
 
@@ -25,14 +25,14 @@ vi ~/.bash_profile
 
 ```bash
 #在末尾加上
-JAVA_HOME=/home/jenkinsadmin/jdk1.8.0_144 #此处应为jdk的解压目录
+JAVA_HOME=/home/jenkinsadmin/jdk1.8.0_144 #此处应为 jdk 的解压目录
 CLASSPATH=.:$JAVA_HOME/bin/tools.jar
 PATH=$JAVA_HOME/bin:$PATH
 
 export JAVA_HOME CLASSPATH PATH
 ```
 
-## 4.使环境变量文件生效
+## 4. 使环境变量文件生效
 
 ```bash
 java -version
@@ -45,5 +45,4 @@ openjdk version "1.8.0_40"
 OpenJDK Runtime Environment (build 1.8.0_40-b25)
 OpenJDK 64-Bit Server VM (build 25.40-b25, mixed mode)
 ```
-
 

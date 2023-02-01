@@ -4,12 +4,12 @@
         <link>https://miasanmia.cc/tags/%E8%AE%BE%E8%AE%A1%E6%80%9D%E6%83%B3/</link>
         <description>设计思想 - 标签 - 🐡ErᎥc的数字花园</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sat, 27 Mar 2021 00:17:56 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/%E8%AE%BE%E8%AE%A1%E6%80%9D%E6%83%B3/" rel="self" type="application/rss+xml" /><item>
-    <title>优化项目中大量if...else...</title>
+    <title>优化项目中大量 if...else...</title>
     <link>https://miasanmia.cc/optimize-a-lot-of-if...else.../</link>
     <pubDate>Sat, 27 Mar 2021 00:17:56 &#43;0800</pubDate>
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/optimize-a-lot-of-if...else.../</guid>
-    <description><![CDATA[在项目中经常会用if..else&hellip;去判断逻辑，当业务越来越复杂，一个逻辑会有大量的判断，如下面的代码 1 2 3 4 5 6 7 8 9 10 11 if(type.equals(&#34;o1&#34;)){ //]]></description>
+    <description><![CDATA[在项目中经常会用 if..else&hellip; 去判断逻辑，当业务越来越复杂，一个逻辑会有大量的判断，如下面的代码 1 2 3 4 5 6 7 8 9 10 11 if(type.equals(&#34;o1&#34;)){ // 执行 o1 逻辑 }else if(type.equals(&#34;o2&#34;)){ // 执行 o2 逻辑 }else if(type.equals(&#34;o3&#34;)){]]></description>
 </item>
 </channel>
 </rss>

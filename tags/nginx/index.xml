@@ -4,12 +4,12 @@
         <link>https://miasanmia.cc/tags/nginx/</link>
         <description>Nginx - 标签 - 🐡ErᎥc的数字花园</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 04 Dec 2020 00:09:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/nginx/" rel="self" type="application/rss+xml" /><item>
-    <title>Linux安装部署Nginx</title>
+    <title>Linux 安装部署 Nginx</title>
     <link>https://miasanmia.cc/linux-installation-and-deployment-of-nginx/</link>
     <pubDate>Fri, 04 Dec 2020 00:09:17 &#43;0800</pubDate>
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/linux-installation-and-deployment-of-nginx/</guid>
-    <description><![CDATA[1.下载Nginx http://nginx.org/en/download.html 2.上传到服务器上 解压 1 tar -xzf nginx-1.16.1.tar.gz 3.安装 进入nginx 解压后的目录并执行 1 ./configure nginx会自动检查运行nginx所需要的库 其]]></description>
+    <description><![CDATA[1. 下载 Nginx http://nginx.org/en/download.html 2. 上传到服务器上 解压 1 tar -xzf nginx-1.16.1.tar.gz 3. 安装 进入 nginx 解压后的目录并执行 1 ./configure nginx 会自动检查运行 nginx 所需要的库 其中这些库必须要安装 gcc++：ngin]]></description>
 </item>
 </channel>
 </rss>

@@ -1,11 +1,11 @@
-# Kevin Kelly的103条建议
+# Kevin Kelly 的 103 条建议
 
 
-之前写过一篇[Kevin Kelly的68条建议](https://miasanmia.cc/kevin-kelly-68-bits-of-advice/)，这不今年老爷子70岁生日，又来推荐人生建议了😀。
+之前写过一篇 [Kevin Kelly 的 68 条建议](https://miasanmia.cc/kevin-kelly-68-bits-of-advice/)，这不今年老爷子 70 岁生日，又来推荐人生建议了😀。
 
 1. About 99% of the time, the right time is right now.
 
-   大约99%的时间里，最好的时间就是现在。
+   大约 99%的时间里，最好的时间就是现在。
 
 2. No one is as impressed with your possessions as you are.
 
@@ -17,7 +17,7 @@
 
 4. Cultivate 12 people who love you, because they are worth more than 12 million people who like you.
 
-   培养12个爱你的人，他们的价值远远大于1200万喜欢你的人。
+   培养 12 个爱你的人，他们的价值远远大于 1200 万喜欢你的人。
 
 5. Dont keep making the same mistakes; try to make new mistakes.
 
@@ -81,7 +81,7 @@
 
 20. The biggest lie we tell ourselves is “I dont need to write this down because I will remember it.”
 
-    最大的谎言“我不需要写下它，我能记住。”（ps.好记性不如烂笔头）
+    最大的谎言“我不需要写下它，我能记住。”（ps. 好记性不如烂笔头）
 
 21. Your growth as a conscious being is measured by the number of uncomfortable conversations you are willing to have.
 
@@ -129,7 +129,7 @@
 
 32. You’ll get 10x better results by elevating good behavior rather than punishing bad behavior, especially in children and animals.
 
-    通过提升好的行为而不是惩罚坏的行为，你会得到10倍的效果，特别是在儿童和动物身上。
+    通过提升好的行为而不是惩罚坏的行为，你会得到 10 倍的效果，特别是在儿童和动物身上。
 
 33. Spend as much time crafting the subject line of an email as the message itself because the subject line is often the only thing people read.
 
@@ -241,7 +241,7 @@
 
 60. What you actually pay for something is at least twice the listed price because of the energy, time, money needed to set it up, learn, maintain, repair, and dispose of at the end. Not all prices appear on labels. Actual costs are 2x listed prices.
 
-    你实际支付的东西至少是列出价格的两倍，因为需要花费精力、时间、金钱来设置、学习、维护、修理和最后的处置。不是所有的价格都出现在标签上。实际成本是上市价格的2倍。
+    你实际支付的东西至少是列出价格的两倍，因为需要花费精力、时间、金钱来设置、学习、维护、修理和最后的处置。不是所有的价格都出现在标签上。实际成本是上市价格的 2 倍。
 
 61. When you arrive at your room in a hotel, locate the emergency exits. It only takes a minute.
 
@@ -357,7 +357,7 @@
 
 89. If you repeated what you did today 365 more times will you be where you want to be next year?
 
-    如果你把今天所做的事情再重复365次，你明年会不会达到你想要的目标？
+    如果你把今天所做的事情再重复 365 次，你明年会不会达到你想要的目标？
 
 90. You see only 2% of another person, and they see only 2% of you. Attune yourselves to the hidden 98%.
 
@@ -414,5 +414,4 @@
 103. The chief prevention against getting old is to remain astonished.
 
      防止变老的主要方法是保持惊讶。
-
 

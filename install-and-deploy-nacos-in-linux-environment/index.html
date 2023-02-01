@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Linux 环境下安装、部署Nacos - 🐡ErᎥc的数字花园</title><meta name="Description" content="欢迎来到我的小站～"><meta property="og:title" content="Linux 环境下安装、部署Nacos" />
-<meta property="og:description" content="1.环境准备 64位Linux操作系统 64位JDK1.8&#43; 2.下载源码或安装包 https://github.com/alibaba/nacos/releases 3.启动、关闭命令 1 2 sh startup.sh -m standalone # 单机模式启动命令 sh shutdown.sh # 关闭命令" />
+        <title>Linux 环境下安装、部署 Nacos - 🐡ErᎥc的数字花园</title><meta name="Description" content="欢迎来到我的小站～"><meta property="og:title" content="Linux 环境下安装、部署 Nacos" />
+<meta property="og:description" content="1. 环境准备 64 位 Linux 操作系统 64 位 JDK1.8&#43; 2. 下载源码或安装包 https://github.com/alibaba/nacos/releases 3. 启动、关闭命令 1 2 sh startup.sh -m standalone # 单机模式启动命令 sh shutdown.sh # 关闭命令 出现的问题 运行脚本报错：syn" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/" /><meta property="og:image" content="https://miasanmia.cc/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-11-16T16:09:17+08:00" />
@@ -13,8 +13,8 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://miasanmia.cc/logo.png"/>
 
-<meta name="twitter:title" content="Linux 环境下安装、部署Nacos"/>
-<meta name="twitter:description" content="1.环境准备 64位Linux操作系统 64位JDK1.8&#43; 2.下载源码或安装包 https://github.com/alibaba/nacos/releases 3.启动、关闭命令 1 2 sh startup.sh -m standalone # 单机模式启动命令 sh shutdown.sh # 关闭命令"/>
+<meta name="twitter:title" content="Linux 环境下安装、部署 Nacos"/>
+<meta name="twitter:description" content="1. 环境准备 64 位 Linux 操作系统 64 位 JDK1.8&#43; 2. 下载源码或安装包 https://github.com/alibaba/nacos/releases 3. 启动、关闭命令 1 2 sh startup.sh -m standalone # 单机模式启动命令 sh shutdown.sh # 关闭命令 出现的问题 运行脚本报错：syn"/>
 <meta name="application-name" content="我的网站">
 <meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,12 +24,12 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Linux 环境下安装、部署Nacos",
+        "headline": "Linux 环境下安装、部署 Nacos",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/miasanmia.cc\/install-and-deploy-nacos-in-linux-environment\/"
-        },"genre": "posts","keywords": "Linux, Nacos","wordcount":  173 ,
+        },"genre": "posts","keywords": "Linux, Nacos","wordcount":  143 ,
         "url": "https:\/\/miasanmia.cc\/install-and-deploy-nacos-in-linux-environment\/","datePublished": "2020-11-16T16:09:17+08:00","dateModified": "2020-11-16T16:09:17+08:00","license": "EricZhao","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -101,9 +101,9 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Linux 环境下安装、部署Nacos</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Linux 环境下安装、部署 Nacos</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EricZhao</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%BF%90%E7%BB%B4/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>运维</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-11-16">2020-11-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 173 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-11-16">2020-11-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 143 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -112,18 +112,18 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#1环境准备">1.环境准备</a></li>
-    <li><a href="#2下载源码或安装包">2.下载源码或安装包</a></li>
-    <li><a href="#3启动关闭命令">3.启动、关闭命令</a></li>
+    <li><a href="#1-环境准备">1. 环境准备</a></li>
+    <li><a href="#2-下载源码或安装包">2. 下载源码或安装包</a></li>
+    <li><a href="#3-启动关闭命令">3. 启动、关闭命令</a></li>
     <li><a href="#出现的问题">出现的问题</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="1环境准备">1.环境准备</h2>
-<p>64位Linux操作系统
-64位JDK1.8+</p>
-<h2 id="2下载源码或安装包">2.下载源码或安装包</h2>
+            </div><div class="content" id="content"><h2 id="1-环境准备">1. 环境准备</h2>
+<p>64 位 Linux 操作系统
+64 位 JDK1.8+</p>
+<h2 id="2-下载源码或安装包">2. 下载源码或安装包</h2>
 <p><a href="https://github.com/alibaba/nacos/releases" target="_blank" rel="noopener noreffer ">https://github.com/alibaba/nacos/releases</a></p>
-<h2 id="3启动关闭命令">3.启动、关闭命令</h2>
+<h2 id="3-启动关闭命令">3. 启动、关闭命令</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -136,8 +136,8 @@
 </div>
 </div><h2 id="出现的问题">出现的问题</h2>
 <p>运行脚本报错：<strong>syntax error near unexpected token `$&rsquo;{\r&rsquo;</strong>
-这是由于项目是在Windows系统下编译，文件格式是DOC格式，与UNIX格式不符。需要把脚本文件格式改为UNIX格式。
-打开脚本文件，用vi打开</p>
+这是由于项目是在 Windows 系统下编译，文件格式是 DOC 格式，与 UNIX 格式不符。需要把脚本文件格式改为 UNIX 格式。
+打开脚本文件，用 vi 打开</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -164,7 +164,7 @@
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/" data-title="Linux 环境下安装、部署Nacos" data-via="Eric_Zzz0" data-hashtags="Linux,Nacos"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/" data-hashtag="Linux"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/" data-title="Linux 环境下安装、部署Nacos"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/" data-title="Linux 环境下安装、部署Nacos"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/" data-title="Linux 环境下安装、部署Nacos"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/" data-title="Linux 环境下安装、部署 Nacos" data-via="Eric_Zzz0" data-hashtags="Linux,Nacos"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/" data-hashtag="Linux"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/" data-title="Linux 环境下安装、部署 Nacos"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/" data-title="Linux 环境下安装、部署 Nacos"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/" data-title="Linux 环境下安装、部署 Nacos"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -176,8 +176,8 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/how-to-install-and-deploy-rocketmq-in-linux/" class="prev" rel="prev" title="Linux如何安装、部署RocketMQ"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Linux如何安装、部署RocketMQ</a>
-            <a href="/linux-installation-and-deployment-of-nginx/" class="next" rel="next" title="Linux安装部署Nginx">Linux安装部署Nginx<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/how-to-install-and-deploy-rocketmq-in-linux/" class="prev" rel="prev" title="Linux 如何安装、部署 RocketMQ"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Linux 如何安装、部署 RocketMQ</a>
+            <a href="/linux-installation-and-deployment-of-nginx/" class="next" rel="next" title="Linux 安装部署 Nginx">Linux 安装部署 Nginx<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"><div id="giscus" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://giscus.app">Giscus</a>.

@@ -4,17 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Linux安装部署Nginx - 🐡ErᎥc的数字花园</title><meta name="Description" content="欢迎来到我的小站～"><meta property="og:title" content="Linux安装部署Nginx" />
-<meta property="og:description" content="1.下载Nginx http://nginx.org/en/download.html 2.上传到服务器上 解压 1 tar -xzf nginx-1.16.1.tar.gz 3.安装 进入nginx 解压后的目录并执行 1 ./configure nginx会自动检查运行nginx所需要的库 其" />
+        <title>Linux 安装部署 Nginx - 🐡ErᎥc的数字花园</title><meta name="Description" content="欢迎来到我的小站～"><meta property="og:title" content="Linux 安装部署 Nginx" />
+<meta property="og:description" content="1. 下载 Nginx http://nginx.org/en/download.html 2. 上传到服务器上 解压 1 tar -xzf nginx-1.16.1.tar.gz 3. 安装 进入 nginx 解压后的目录并执行 1 ./configure nginx 会自动检查运行 nginx 所需要的库 其中这些库必须要安装 gcc&#43;&#43;：ngin" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://miasanmia.cc/linux-installation-and-deployment-of-nginx/" /><meta property="og:image" content="https://miasanmia.cc/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-12-04T00:09:17+08:00" />
-<meta property="article:modified_time" content="2020-12-04T00:09:17+08:00" /><meta property="og:site_name" content="🐡ErᎥc的数字花园" />
+<meta property="article:modified_time" content="2023-02-01T23:54:22+08:00" /><meta property="og:site_name" content="🐡ErᎥc的数字花园" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://miasanmia.cc/logo.png"/>
 
-<meta name="twitter:title" content="Linux安装部署Nginx"/>
-<meta name="twitter:description" content="1.下载Nginx http://nginx.org/en/download.html 2.上传到服务器上 解压 1 tar -xzf nginx-1.16.1.tar.gz 3.安装 进入nginx 解压后的目录并执行 1 ./configure nginx会自动检查运行nginx所需要的库 其"/>
+<meta name="twitter:title" content="Linux 安装部署 Nginx"/>
+<meta name="twitter:description" content="1. 下载 Nginx http://nginx.org/en/download.html 2. 上传到服务器上 解压 1 tar -xzf nginx-1.16.1.tar.gz 3. 安装 进入 nginx 解压后的目录并执行 1 ./configure nginx 会自动检查运行 nginx 所需要的库 其中这些库必须要安装 gcc&#43;&#43;：ngin"/>
 <meta name="application-name" content="我的网站">
 <meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,13 +24,13 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Linux安装部署Nginx",
+        "headline": "Linux 安装部署 Nginx",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/miasanmia.cc\/linux-installation-and-deployment-of-nginx\/"
-        },"genre": "posts","keywords": "Linux, Nginx","wordcount":  454 ,
-        "url": "https:\/\/miasanmia.cc\/linux-installation-and-deployment-of-nginx\/","datePublished": "2020-12-04T00:09:17+08:00","dateModified": "2020-12-04T00:09:17+08:00","license": "EricZhao","publisher": {
+        },"genre": "posts","keywords": "Linux, Nginx","wordcount":  398 ,
+        "url": "https:\/\/miasanmia.cc\/linux-installation-and-deployment-of-nginx\/","datePublished": "2020-12-04T00:09:17+08:00","dateModified": "2023-02-01T23:54:22+08:00","license": "EricZhao","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -101,9 +101,9 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Linux安装部署Nginx</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Linux 安装部署 Nginx</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EricZhao</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%BF%90%E7%BB%B4/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>运维</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-12-04">2020-12-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 454 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-12-04">2020-12-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 398 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -112,20 +112,20 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#1下载nginx">1.下载Nginx</a></li>
-    <li><a href="#2上传到服务器上">2.上传到服务器上</a></li>
-    <li><a href="#3安装">3.安装</a></li>
-    <li><a href="#4启动停止nginx">4.启动、停止Nginx</a></li>
-    <li><a href="#5遇到的问题">5.遇到的问题</a>
+    <li><a href="#1-下载-nginx">1. 下载 Nginx</a></li>
+    <li><a href="#2-上传到服务器上">2. 上传到服务器上</a></li>
+    <li><a href="#3-安装">3. 安装</a></li>
+    <li><a href="#4-启动停止-nginx">4. 启动、停止 Nginx</a></li>
+    <li><a href="#5-遇到的问题">5. 遇到的问题</a>
       <ul>
-        <li><a href="#1启动完成后访问80端口被拒绝">1.启动完成后，访问80端口被拒绝</a></li>
+        <li><a href="#1-启动完成后访问-80-端口被拒绝">1. 启动完成后，访问 80 端口被拒绝</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="1下载nginx">1.下载Nginx</h2>
+            </div><div class="content" id="content"><h2 id="1-下载-nginx">1. 下载 Nginx</h2>
 <p><a href="http://nginx.org/en/download.html" target="_blank" rel="noopener noreffer ">http://nginx.org/en/download.html</a></p>
-<h2 id="2上传到服务器上">2.上传到服务器上</h2>
+<h2 id="2-上传到服务器上">2. 上传到服务器上</h2>
 <p>解压</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -135,8 +135,8 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tar -xzf nginx-1.16.1.tar.gz
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="3安装">3.安装</h2>
-<p>进入nginx 解压后的目录并执行</p>
+</div><h2 id="3-安装">3. 安装</h2>
+<p>进入 nginx 解压后的目录并执行</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -145,13 +145,13 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">./configure
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>nginx会自动检查运行nginx所需要的库
-其中这些库必须要安装</p>
+</div><p>nginx 会自动检查运行 nginx 所需要的库</p>
+<p>其中这些库必须要安装</p>
 <ul>
 <li>gcc++：nginx 编译需要这个库</li>
-<li>PCRE：nginx 的http模块使用pcre库来解析正则表达式</li>
-<li>zlib：zlib库提供很多解压和压缩的方式</li>
-<li>OpenSSL：nginx支持http, https协议，OpenSSL库提供了常用的密钥和证书封装管理功能及SSL协议</li>
+<li>PCRE：nginx 的 http 模块使用 pcre 库来解析正则表达式</li>
+<li>zlib：zlib 库提供很多解压和压缩的方式</li>
+<li>OpenSSL：nginx 支持 http, https 协议，OpenSSL 库提供了常用的密钥和证书封装管理功能及 SSL 协议</li>
 </ul>
 <p>安装 gcc++</p>
 <div class="highlight"><div class="chroma">
@@ -189,7 +189,7 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yum install openssl openssl-devel
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>编译nginx</p>
+</div><p>编译 nginx</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -200,7 +200,7 @@
 </span></span><span class="line"><span class="cl">make install
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="4启动停止nginx">4.启动、停止Nginx</h2>
+</div><h2 id="4-启动停止-nginx">4. 启动、停止 Nginx</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -217,7 +217,7 @@
 </span></span><span class="line"><span class="cl">./nginx -s reload <span class="c1"># 重新加载配置</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>查询nginx进程</p>
+</div><p>查询 nginx 进程</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -226,9 +226,9 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ps -ef<span class="p">|</span>grep nginx
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="5遇到的问题">5.遇到的问题</h2>
-<h3 id="1启动完成后访问80端口被拒绝">1.启动完成后，访问80端口被拒绝</h3>
-<p>检查本地80端口服务是否正常</p>
+</div><h2 id="5-遇到的问题">5. 遇到的问题</h2>
+<h3 id="1-启动完成后访问-80-端口被拒绝">1. 启动完成后，访问 80 端口被拒绝</h3>
+<p>检查本地 80 端口服务是否正常</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -237,7 +237,7 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">curl 127.0.0.1
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>通过curl 命令检查是否有返回，有返回说明服务正常
+</div><p>通过 curl 命令检查是否有返回，有返回说明服务正常
 检查防火墙端口是否打开</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -247,8 +247,8 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">firewall-cmd --zone<span class="o">=</span>public --query-port<span class="o">=</span>80/tcp
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>返回 yes 说明打开，no说明关闭
-打开防火墙 80端口</p>
+</div><p>返回 yes 说明打开，no 说明关闭</p>
+<p>打开防火墙 80 端口</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -257,8 +257,8 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">firewall-cmd --zone<span class="o">=</span>public --add-port<span class="o">=</span>80/tcp --permanent
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>&ndash;permanent 永久生效，没有此参数重启后失效
-重新载入</p>
+</div><p>&ndash;permanent 永久生效，没有此参数重启后失效</p>
+<p>重新载入</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -271,12 +271,12 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2020-12-04</span>
+                <span>更新于 2023-02-01</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-nginx/" data-title="Linux安装部署Nginx" data-via="Eric_Zzz0" data-hashtags="Linux,Nginx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-nginx/" data-hashtag="Linux"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-nginx/" data-title="Linux安装部署Nginx"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-nginx/" data-title="Linux安装部署Nginx"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-nginx/" data-title="Linux安装部署Nginx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-nginx/" data-title="Linux 安装部署 Nginx" data-via="Eric_Zzz0" data-hashtags="Linux,Nginx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-nginx/" data-hashtag="Linux"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-nginx/" data-title="Linux 安装部署 Nginx"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-nginx/" data-title="Linux 安装部署 Nginx"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://miasanmia.cc/linux-installation-and-deployment-of-nginx/" data-title="Linux 安装部署 Nginx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -288,8 +288,8 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/install-and-deploy-nacos-in-linux-environment/" class="prev" rel="prev" title="Linux 环境下安装、部署Nacos"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Linux 环境下安装、部署Nacos</a>
-            <a href="/optimize-a-lot-of-if...else.../" class="next" rel="next" title="优化项目中大量if...else...">优化项目中大量if...else...<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/install-and-deploy-nacos-in-linux-environment/" class="prev" rel="prev" title="Linux 环境下安装、部署 Nacos"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Linux 环境下安装、部署 Nacos</a>
+            <a href="/optimize-a-lot-of-if...else.../" class="next" rel="next" title="优化项目中大量 if...else...">优化项目中大量 if...else...<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"><div id="giscus" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://giscus.app">Giscus</a>.

@@ -4,44 +4,44 @@
         <link>https://miasanmia.cc/tags/linux/</link>
         <description>Linux - 标签 - 🐡ErᎥc的数字花园</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 04 Dec 2020 00:09:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/linux/" rel="self" type="application/rss+xml" /><item>
-    <title>Linux安装部署Nginx</title>
+    <title>Linux 安装部署 Nginx</title>
     <link>https://miasanmia.cc/linux-installation-and-deployment-of-nginx/</link>
     <pubDate>Fri, 04 Dec 2020 00:09:17 &#43;0800</pubDate>
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/linux-installation-and-deployment-of-nginx/</guid>
-    <description><![CDATA[1.下载Nginx http://nginx.org/en/download.html 2.上传到服务器上 解压 1 tar -xzf nginx-1.16.1.tar.gz 3.安装 进入nginx 解压后的目录并执行 1 ./configure nginx会自动检查运行nginx所需要的库 其]]></description>
+    <description><![CDATA[1. 下载 Nginx http://nginx.org/en/download.html 2. 上传到服务器上 解压 1 tar -xzf nginx-1.16.1.tar.gz 3. 安装 进入 nginx 解压后的目录并执行 1 ./configure nginx 会自动检查运行 nginx 所需要的库 其中这些库必须要安装 gcc++：ngin]]></description>
 </item>
 <item>
-    <title>Linux 环境下安装、部署Nacos</title>
+    <title>Linux 环境下安装、部署 Nacos</title>
     <link>https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/</link>
     <pubDate>Mon, 16 Nov 2020 16:09:17 &#43;0800</pubDate>
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/</guid>
-    <description><![CDATA[1.环境准备 64位Linux操作系统 64位JDK1.8+ 2.下载源码或安装包 https://github.com/alibaba/nacos/releases 3.启动、关闭命令 1 2 sh startup.sh -m standalone # 单机模式启动命令 sh shutdown.sh # 关闭命令]]></description>
+    <description><![CDATA[1. 环境准备 64 位 Linux 操作系统 64 位 JDK1.8+ 2. 下载源码或安装包 https://github.com/alibaba/nacos/releases 3. 启动、关闭命令 1 2 sh startup.sh -m standalone # 单机模式启动命令 sh shutdown.sh # 关闭命令 出现的问题 运行脚本报错：syn]]></description>
 </item>
 <item>
-    <title>Linux如何安装、部署RocketMQ</title>
+    <title>Linux 如何安装、部署 RocketMQ</title>
     <link>https://miasanmia.cc/how-to-install-and-deploy-rocketmq-in-linux/</link>
     <pubDate>Tue, 10 Nov 2020 09:04:17 &#43;0800</pubDate>
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/how-to-install-and-deploy-rocketmq-in-linux/</guid>
-    <description><![CDATA[1.环境配置 64位 Linux操作系统 64位 JDK1.8+ RocketMQ二进制版本 http://rocketmq.apache.org/dowloading/releases/ 2.修改RocketMQ内存配置 修改runserver.sh、run]]></description>
+    <description><![CDATA[1. 环境配置 64 位 Linux 操作系统 64 位 JDK1.8+ RocketMQ 二进制版本 http://rocketmq.apache.org/dowloading/releases/ 2. 修改 RocketMQ 内存配置 修改 runserver.sh、runbbroker.sh 1 JAVA_OPT=&#34;${JAVA_OPT} -server -Xms8g -Xmx8g -Xmn4g&#34; 修改为 1 JAVA_OPT=&#34;${JAVA_OPT} -server]]></description>
 </item>
 <item>
-    <title>Linux 安装、部署Redis（单机）</title>
+    <title>Linux 安装、部署 Redis（单机）</title>
     <link>https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/</link>
     <pubDate>Sat, 07 Nov 2020 19:02:17 &#43;0800</pubDate>
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/</guid>
-    <description><![CDATA[1.下载Redis http://www.redis.cn/download.html 下载相应redis版本，并上传到服务器上 2.安装 解压，编译 1 2 3 tar -xzf redis-5.0.5.tar.gz cd redis-5.0.5 make 编译完成后，通过如下命令开启Redis 1 src/redis-server 3]]></description>
+    <description><![CDATA[1. 下载 Redis http://www.redis.cn/download.html 下载相应 redis 版本，并上传到服务器上 2. 安装 解压，编译 1 2 3 tar -xzf redis-5.0.5.tar.gz cd redis-5.0.5 make 编译完成后，通过如下命令开启 Redis 1 src/redis-server 3. 设置 Redis 远程连接，后台启动，设]]></description>
 </item>
 <item>
-    <title>Linux环境下如何安装JDK</title>
+    <title>Linux 环境下如何安装 JDK</title>
     <link>https://miasanmia.cc/how-to-install-jdk-in-linux-environment/</link>
     <pubDate>Thu, 05 Nov 2020 22:03:17 &#43;0800</pubDate>
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/how-to-install-jdk-in-linux-environment/</guid>
-    <description><![CDATA[1.下载JDK 根据需求下载不同版本的JDK openJDK http://hg.openjdk.java.net/ OracleJDK https://www.oracle.com/technetwork/java/archive-139210.html 2. 上传至服务器并解压 上传至服务器相应的目录下 使用 tar zxvf 命令解压 3. 配置环境变量 配置当前用户下的]]></description>
+    <description><![CDATA[1. 下载 JDK 根据需求下载不同版本的 JDK openJDK http://hg.openjdk.java.net/ OracleJDK https://www.oracle.com/technetwork/java/archive-139210.html 2. 上传至服务器并解压 上传至服务器相应的目录下 使用 tar zxvf 命令解压 3. 配置环境变量 配置当前用户下的环境变量 1]]></description>
 </item>
 </channel>
 </rss>

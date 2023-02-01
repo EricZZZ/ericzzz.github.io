@@ -1,14 +1,15 @@
-# 使用python播放音频（.mp3格式）
+# 使用 python 播放音频（.mp3 格式）
 
 
-## 第一种方式playsound
+## 第一种方式 playsound
 
-### 1.安装依赖包
+### 1. 安装依赖包
 
 ```bash
 pip install playsound
 ```
-### 2.使用
+
+### 2. 使用
 
 ```python
 from playsound import playsound
@@ -18,21 +19,23 @@ print('music play finished')
 
 ```
 
-## 第二种方式pygame.mixer.music(推荐使用)
+## 第二种方式 pygame.mixer.music（推荐使用）
 
-推荐理由，用这个库可以控制播放的音乐，比如暂停，停止，调节声音大小等
-### 1.安装依赖包
+推荐理由，用这个库可以控制播放的音乐，比如暂停，停止，调节声音大小等。
+
+### 1. 安装依赖包
 
 ```bash
 pip install pygame
 ```
-### 2.使用
+
+### 2. 使用
 
 ```python
 from ast import While
 import pygame
 
-"""初始化pygame"""
+"""初始化 pygame"""
 pygame.mixer.init()
 
 """加载音乐文件"""

@@ -4,12 +4,12 @@
         <link>https://miasanmia.cc/tags/rocketmq/</link>
         <description>RocketMQ - 标签 - 🐡ErᎥc的数字花园</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 10 Nov 2020 09:04:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/rocketmq/" rel="self" type="application/rss+xml" /><item>
-    <title>Linux如何安装、部署RocketMQ</title>
+    <title>Linux 如何安装、部署 RocketMQ</title>
     <link>https://miasanmia.cc/how-to-install-and-deploy-rocketmq-in-linux/</link>
     <pubDate>Tue, 10 Nov 2020 09:04:17 &#43;0800</pubDate>
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/how-to-install-and-deploy-rocketmq-in-linux/</guid>
-    <description><![CDATA[1.环境配置 64位 Linux操作系统 64位 JDK1.8+ RocketMQ二进制版本 http://rocketmq.apache.org/dowloading/releases/ 2.修改RocketMQ内存配置 修改runserver.sh、run]]></description>
+    <description><![CDATA[1. 环境配置 64 位 Linux 操作系统 64 位 JDK1.8+ RocketMQ 二进制版本 http://rocketmq.apache.org/dowloading/releases/ 2. 修改 RocketMQ 内存配置 修改 runserver.sh、runbbroker.sh 1 JAVA_OPT=&#34;${JAVA_OPT} -server -Xms8g -Xmx8g -Xmn4g&#34; 修改为 1 JAVA_OPT=&#34;${JAVA_OPT} -server]]></description>
 </item>
 </channel>
 </rss>

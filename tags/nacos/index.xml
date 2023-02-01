@@ -4,12 +4,12 @@
         <link>https://miasanmia.cc/tags/nacos/</link>
         <description>Nacos - 标签 - 🐡ErᎥc的数字花园</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Mon, 16 Nov 2020 16:09:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/nacos/" rel="self" type="application/rss+xml" /><item>
-    <title>Linux 环境下安装、部署Nacos</title>
+    <title>Linux 环境下安装、部署 Nacos</title>
     <link>https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/</link>
     <pubDate>Mon, 16 Nov 2020 16:09:17 &#43;0800</pubDate>
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/install-and-deploy-nacos-in-linux-environment/</guid>
-    <description><![CDATA[1.环境准备 64位Linux操作系统 64位JDK1.8+ 2.下载源码或安装包 https://github.com/alibaba/nacos/releases 3.启动、关闭命令 1 2 sh startup.sh -m standalone # 单机模式启动命令 sh shutdown.sh # 关闭命令]]></description>
+    <description><![CDATA[1. 环境准备 64 位 Linux 操作系统 64 位 JDK1.8+ 2. 下载源码或安装包 https://github.com/alibaba/nacos/releases 3. 启动、关闭命令 1 2 sh startup.sh -m standalone # 单机模式启动命令 sh shutdown.sh # 关闭命令 出现的问题 运行脚本报错：syn]]></description>
 </item>
 </channel>
 </rss>

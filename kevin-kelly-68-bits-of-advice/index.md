@@ -1,7 +1,7 @@
-# Kevin Kelly的68条建议
+# Kevin Kelly 的 68 条建议
 
 
-Kevin Kelly 2020年在他68岁生日时给年轻人提的68条建议：
+Kevin Kelly 2020 年在他 68 岁生日时给年轻人提的 68 条建议：
 
 1. Learn how to learn from those who disagree with you or even offend you. See if you can find truth in what they believe.
 
@@ -105,7 +105,7 @@ Kevin Kelly 2020年在他68岁生日时给年轻人提的68条建议：
 
 26. The golden rule will never fail you. It is the foundation of all the other virtues.
 
-    [golden rule黄金法则](https://zh.wikipedia.org/zh-tw/%E6%81%95%E9%81%93)用中国话来讲就是“己所不欲勿施于人”。   
+    [golden rule 黄金法则](https://zh.wikipedia.org/zh-tw/%E6%81%95%E9%81%93) 用中国话来讲就是“己所不欲勿施于人”。   
 
 27. If you're looking for something in your house and then you finally find it, when you're done with it, don't put it back where you found it, put it back where you first looked for it.
 
@@ -233,7 +233,7 @@ Kevin Kelly 2020年在他68岁生日时给年轻人提的68条建议：
 
 58. When someone is nasty, or rude, or hateful, or mean with you, pretend that they have a disease. That makes it easier to have empathy towards them which can often soften the conflict. 
 
-    当某人对你来说是讨厌的，粗鲁的，可恨的，或刻薄的，假装他们有病，这样你心里还能好过点。（ps.作者真是大智慧啊🤣）
+    当某人对你来说是讨厌的，粗鲁的，可恨的，或刻薄的，假装他们有病，这样你心里还能好过点。（ps. 作者真是大智慧啊🤣）
 
 59. Eliminating clutter makes room for your true treasures.
 
@@ -241,7 +241,7 @@ Kevin Kelly 2020年在他68岁生日时给年轻人提的68条建议：
 
 60. You don't really want to be famous. Read the biography of any famous person.
 
-    你真不想出名，读任何名人的传记。（ps.我也喜欢读名人传记😋）
+    你真不想出名，读任何名人的传记。（ps. 我也喜欢读名人传记😋）
 
 61. Experience is overrated. When hiring, hire for aptitude, train for skills. Most really amazing or great things have been done by people doing them for the very first time.
 
@@ -257,7 +257,7 @@ Kevin Kelly 2020年在他68岁生日时给年轻人提的68条建议：
 
 64. Learn how to take a twenty minute power nap without embarrassment.
 
-    学习如何在没有尴尬的情况下进行20分钟的能量小憩。
+    学习如何在没有尴尬的情况下进行 20 分钟的能量小憩。
 
 65. Following your bliss is a recipe for paralysis if you don't know what you are passionate about. A better motto for most youth is to master something. Anything. Through mastery of one thing you can drift towards extensions of that mastery that bring you more joy and eventually you'll discover where your bliss is.
 
