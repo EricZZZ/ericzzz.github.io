@@ -3,9 +3,17 @@
         <title>🐡ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Wed, 01 Feb 2023 23:37:17 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 03 Feb 2023 21:39:56 &#43;0800</lastBuildDate>
             <atom:link href="https://miasanmia.cc/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Git 分支、提交命名规范</title>
+    <link>https://miasanmia.cc/branch-and-commit-for-git/</link>
+    <pubDate>Fri, 03 Feb 2023 21:39:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/branch-and-commit-for-git/</guid>
+    <description><![CDATA[Git 对于开发者来说经常使用，由于没有标准规范，分支名和提交信息，显得杂乱无章，不利于项目维护，这里简单分享一下 Git 命名规范。 分支命名 格式 1 git branch &]]></description>
+</item>
+<item>
     <title>2023 年 02 月 - 碎碎念</title>
     <link>https://miasanmia.cc/broken-thoughts-in-february-2023/</link>
     <pubDate>Wed, 01 Feb 2023 23:37:17 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/broken-thoughts-in-november/</guid>
     <description><![CDATA[2022.11.01 目前国内云厂商里对开发者来说还是阿里的生态最好，产品体验在线，文档全面。自从我司迁成华为云后，拿一些开源的中间件就出来卖，一点儿附加功能都]]></description>
-</item>
-<item>
-    <title>读《低欲望社会》有感</title>
-    <link>https://miasanmia.cc/reading-low-desire-society/</link>
-    <pubDate>Sun, 30 Oct 2022 00:24:56 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/reading-low-desire-society/</guid>
-    <description><![CDATA[推荐指数 ❤️❤️❤️❤️ 作者 大前研一，日本著名管理学家，经济评论家。曾任马兰西亚前首相经济顾问。 谈到低欲望社会都会想到日本，日本经济自 90 年代]]></description>
 </item>
 </channel>
 </rss>
