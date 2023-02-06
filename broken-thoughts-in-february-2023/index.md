@@ -39,7 +39,7 @@ Everything you want is on the other side of fear.
 ### 2023.02.06
 我又忍不住要分享，日剧 [初恋 First Love](https://movie.douban.com/subject/35275350/) 里的片段了，这是野口也英对她儿子小缀说的：
 
-![意义](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/07/440b077904039651d8eceebf0cb4b7ab.jpg)
+![意义](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/07/b724ba9924cc7196e764d15920a505e1.jpg)
 
 最后小缀成了知名的作曲家，看到小缀爸爸因为儿子太出名，而被骚扰要签名的场景，又好气，又好笑😂。
 
