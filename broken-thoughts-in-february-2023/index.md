@@ -49,3 +49,8 @@ Everything you want is on the other side of fear.
 人最**稀罕**但又最不**经心**的东西就是生活。
 
 —— 拉布吕耶尔《品格论》
+
+### 2023.02.08
+分享陈天大佬的视频，干货很多，很喜欢视频开头讲的小故事。
+{{< bilibili BV1n54y1z7KM >}}
+
