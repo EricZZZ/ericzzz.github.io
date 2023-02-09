@@ -52,5 +52,8 @@ Everything you want is on the other side of fear.
 
 ### 2023.02.08
 分享陈天大佬的视频，干货很多，很喜欢视频开头讲的小故事。
+
 {{< bilibili BV1n54y1z7KM >}}
 
+### 2023.02.09
+使用 Logseq 记录笔记，想同步 Windows，Mac 平台只能使用网盘，目前看坚果云还不错，但是还想要同步 iOS 端，不太好实现，好吧🥲，只能放弃了。本来在手机上编辑笔记就不太方便，字太小了。
