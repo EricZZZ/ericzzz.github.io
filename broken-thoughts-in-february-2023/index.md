@@ -78,3 +78,6 @@ Everything you want is on the other side of fear.
 
 ### 2023.02.14
 晚上加班发版，快乐又充实的一天😜
+
+### 2023.02.15
+对在别人背后议论是非的人，一点好感也没有，尤其是女生。
