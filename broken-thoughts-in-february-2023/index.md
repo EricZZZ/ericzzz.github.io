@@ -86,3 +86,11 @@ Everything you want is on the other side of fear.
 干了罗翔老师的鸡汤，多多平静地感受平凡的幸福😌。
 
 ![罗翔](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/16/edc80b961269f63611642e766ea4a1a0.jpeg)
+
+### 2023.02.17
+一款在线帮助你快速生成漂亮的 GitHub 个人主页的 [工具](https://www.profileme.dev/)。
+
+### 2023.02.18
+再不看球，要成伪球迷了，Mia San Mia 😊
+
+![门兴 vs 拜仁](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/18/59aff855ead03a59dddb77ed7c6f8144.jpeg)
