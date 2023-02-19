@@ -94,3 +94,28 @@ Everything you want is on the other side of fear.
 再不看球，要成伪球迷了，Mia San Mia 😊
 
 ![门兴 vs 拜仁](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/18/59aff855ead03a59dddb77ed7c6f8144.jpeg)
+
+### 2023.02.19
+1. Never stop learning.
+2. See failure as a beginning.
+3. Teach others what you know.
+4. Assume nothing, question everything.
+5. Analyze objectively.
+6. Practice humility.
+7. Respect constructive criticism.
+8. Love what you do.
+9. Give credit where it's due.
+10. Take initiative.
+
+费曼教授给出的 10 条建议。
+
+1. 永远不要停止学习。
+2. 将失败视为开始。
+3. 把你所知道的教给别人。
+4. 什么都不假设，质疑一切。
+5. 客观分析。
+6. 练习谦逊。
+7. 尊重建设性的批评。
+8. 热爱你做的事情。
+9. 给予应有的信任。
+10. 采取行动。
