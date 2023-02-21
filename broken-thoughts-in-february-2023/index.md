@@ -121,10 +121,15 @@ Everything you want is on the other side of fear.
 10. 采取行动。
 
 ### 2023.02.20
-也许这就是私域流量的魅力吧，在微信群里小小分享一下，半个小时的流量就快赶上一个月的自然流量了😅
+也许这就是私域流量的魅力吧，在微信群里小小分享一下，半个小时的流量就快赶上一个月的自然流量了😅。
 
 ![私域流量的魅力](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/20/35709D16-18E9-48ce-8761-0B97733E0ADF.png)
 
+不会推销的程序员，不是好销售😂。
 
+![统计图](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/20/82152b74-d544-4318-abb5-660174faacf2.png)
+
+### 2023.02.21
+Google Voice 提醒我要过期收回了，看来只有用魔法打败魔法了🙃。
 
 
