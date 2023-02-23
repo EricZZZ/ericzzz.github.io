@@ -132,4 +132,13 @@ Everything you want is on the other side of fear.
 ### 2023.02.21
 Google Voice 提醒我要过期收回了，看来只有用魔法打败魔法了🙃。
 
+### 2023.02.22
+别让 1 倒下
+
+![不要让 1 倒下](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/23/044e4009-7e1d-48b4-afa4-c919544e5fe7.jpg)
+
+### 2023.02.23
+理想生活
+
+{{< music auto="https://music.163.com/#/song?id=350760" >}}
 
