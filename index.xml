@@ -3,9 +3,17 @@
         <title>🐡ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 03 Feb 2023 21:39:56 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 24 Feb 2023 17:50:56 &#43;0800</lastBuildDate>
             <atom:link href="https://miasanmia.cc/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>读《论自由》有感</title>
+    <link>https://miasanmia.cc/reading-on-liberty/</link>
+    <pubDate>Fri, 24 Feb 2023 17:50:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/reading-on-liberty/</guid>
+    <description><![CDATA[推荐指数 ❤️❤️❤️❤️❤️ 从开始阅读计划到现在，第一本书给我带来震撼如此之大，就如同三体小说里男主角汪淼，在感受整个宇宙为他闪烁一样，看完]]></description>
+</item>
+<item>
     <title>Git 分支、提交命名规范</title>
     <link>https://miasanmia.cc/branch-and-commit-for-git/</link>
     <pubDate>Fri, 03 Feb 2023 21:39:56 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/build-blog-with-hugo/</guid>
     <description><![CDATA[再见了 WordPress，全面拥抱 Hugo 2020 年 11 月的某天心血来潮，想开个 Blog 吧，说干就干，买服务器，买域名，远程安装 phpstudy，登录 phpstudy 后台，使]]></description>
-</item>
-<item>
-    <title>2022 年 11 月-碎碎念</title>
-    <link>https://miasanmia.cc/broken-thoughts-in-november/</link>
-    <pubDate>Sun, 20 Nov 2022 23:13:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/broken-thoughts-in-november/</guid>
-    <description><![CDATA[2022.11.01 目前国内云厂商里对开发者来说还是阿里的生态最好，产品体验在线，文档全面。自从我司迁成华为云后，拿一些开源的中间件就出来卖，一点儿附加功能都]]></description>
 </item>
 </channel>
 </rss>
