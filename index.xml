@@ -3,9 +3,17 @@
         <title>🐡ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 24 Feb 2023 17:50:56 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Wed, 01 Mar 2023 11:25:17 &#43;0800</lastBuildDate>
             <atom:link href="https://miasanmia.cc/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>2023 年 03 月 - 碎碎念</title>
+    <link>https://miasanmia.cc/broken-thoughts-in-march-2023/</link>
+    <pubDate>Wed, 01 Mar 2023 11:25:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/broken-thoughts-in-march-2023/</guid>
+    <description><![CDATA[2023.03.01 昨天晚上下班嘴贱喝了咖啡😩，现在真想给自己两个大逼兜，半夜12点过后咖啡因开始起作用，头脑大爆炸开始💥，从春秋战国想到俄乌战争，从上帝想到]]></description>
+</item>
+<item>
     <title>读《论自由》有感</title>
     <link>https://miasanmia.cc/reading-on-liberty/</link>
     <pubDate>Fri, 24 Feb 2023 17:50:56 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/broken-thoughts-in-december-2022/</guid>
     <description><![CDATA[2022.12.01 睡觉？ 看球？ 这是一个问题🤔 2022.12.02 今年世界杯日本真的让人刮目相看，分到死亡之组，同组中有西班牙🇪🇸，德国🇩🇪，赛前不被看好，两场逆转，每场比赛都]]></description>
-</item>
-<item>
-    <title>再见了 WordPress，全面拥抱 Hugo</title>
-    <link>https://miasanmia.cc/build-blog-with-hugo/</link>
-    <pubDate>Thu, 24 Nov 2022 15:13:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/build-blog-with-hugo/</guid>
-    <description><![CDATA[再见了 WordPress，全面拥抱 Hugo 2020 年 11 月的某天心血来潮，想开个 Blog 吧，说干就干，买服务器，买域名，远程安装 phpstudy，登录 phpstudy 后台，使]]></description>
 </item>
 </channel>
 </rss>
