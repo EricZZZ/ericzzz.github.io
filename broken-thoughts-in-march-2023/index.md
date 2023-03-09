@@ -34,5 +34,84 @@
 ### 2023.03.07
 房租一交，立马感觉身体被掏空🤕
 
+### 2023.03.08
+培养下艺术细胞😂
+
+![骑马的情侣](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0bb61209-279c-4414-a879-05e907c83ed0_2537x2778.jpeg)
+
+### 2023.03.09
+算法优化中经常讲，用空间换时间，但选择不同空间，效率也不同，HashMap 一般以这种健值对存储的数据结构，有很快的访问速度，查询时间复杂度为O(1),也可以使用数组这种数据结构存储，可能会比HashMap 使用更多的空间，但是在已知存储空间大小时，由于 HashMap 扩容机制会消耗一部分性能，总体来说数组性能会更好。
+
+例： [leetcode 645. 错误的集合](https://leetcode.cn/problems/set-mismatch/) 这道题，分别使用HashMap，数组，排序解题。
+
+使用HashMap的解法：
+
+```java
+class Solution {
+    public int[] findErrorNums(int[] nums) {
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
+        int[] results = new int[2];
+        for (int i = 0; i < nums.length; i++) {
+            hashMap.put(nums[i], hashMap.getOrDefault(nums[i], 0) + 1);
+        }
+        for (int i = 1; i <= nums.length; i++) {
+            if (hashMap.getOrDefault(i, 0) == 2) {
+                results[0] = i;
+            }
+            if (hashMap.getOrDefault(i, 0) == 0) {
+                results[1] = i;
+            }
+        }
+        return results;
+    }
+}
+```
+
+使用数组的解法：
+
+```java
+class Solution {
+    public int[] findErrorNums(int[] nums) {
+        int[] t = new int[nums.length + 1];
+        int[] results = new int[2];
+        for (int i = 0; i < nums.length; i++) {
+            t[nums[i]]++;
+        }
+        for (int i = 1; i <= nums.length; i++) {
+            if (t[i] == 2) {
+                results[0] = i;
+            }
+            if (t[i] == 0) {
+                results[1] = i;
+            }
+        }
+        return results;
+    }
+}
+```
+不使用额外空间，利用排序的解法：
+
+```java
+class Solution {
+    public int[] findErrorNums(int[] nums) {
+        Arrays.sort(nums);
+        int[] results = new int[2];
+        int l = nums[0] == 1 ? 2 : 1;
+        for (int i = 1; i < nums.length; i++) {
+            if (l == nums[i]) {
+                l++;
+            }
+            if (nums[i - 1] == nums[i]) {
+                results[0] = nums[i];
+            }
+        }
+        results[1] = l;
+        return results;
+    }
+}
+```
+
+最后效率最快依次为：数组 > 排序 > HashMap ，占用内存最多依次为：数组 > HashMap > 排序 。（ps.使用了 HashMap 效率还没有排序快😓）
+
 
 
