@@ -3,7 +3,15 @@
         <title>所有文章 - 🐡ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/posts/</link>
         <description>所有文章 | 🐡ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sun, 12 Mar 2023 22:44:56 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Mon, 13 Mar 2023 17:05:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>如何使用 Python 操作 cvs 文件</title>
+    <link>https://miasanmia.cc/how-to-read-and-write-with-csv-files-in-python/</link>
+    <pubDate>Mon, 13 Mar 2023 17:05:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/how-to-read-and-write-with-csv-files-in-python/</guid>
+    <description><![CDATA[使用数据库导出电子表格的格式是 cvs，有时还需要操作表格中的数据，用 Python 语言就是最好的选择。 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25]]></description>
+</item>
+<item>
     <title>读《一生的财富：洛克菲勒写给儿子的 38 封信》有感</title>
     <link>https://miasanmia.cc/reading-life-wealth-the-38-letters-of-rockefeller-to-his-son/</link>
     <pubDate>Sun, 12 Mar 2023 22:44:56 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/kevin-kelly-103-bits-of-advice/</guid>
     <description><![CDATA[之前写过一篇 Kevin Kelly 的 68 条建议，这不今年老爷子 70 岁生日，又来推荐人生建议了😀。 About 99% of the time, the right time is right now. 大约 99%的时间里，最好的时间就是现在。 No one]]></description>
-</item>
-<item>
-    <title>Kevin Kelly 的 68 条建议</title>
-    <link>https://miasanmia.cc/kevin-kelly-68-bits-of-advice/</link>
-    <pubDate>Fri, 09 Dec 2022 15:22:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/kevin-kelly-68-bits-of-advice/</guid>
-    <description><![CDATA[Kevin Kelly 2020 年在他 68 岁生日时给年轻人提的 68 条建议： Learn how to learn from those who disagree with you or even offend you. See if you can find truth in what they believe. 接受不同理念的人，并向他们学习。 Being enthusiastic is worth 25 IQ points. 热]]></description>
 </item>
 </channel>
 </rss>
