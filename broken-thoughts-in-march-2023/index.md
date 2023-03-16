@@ -137,3 +137,8 @@ class Solution {
 
 ![chatgpt-4](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/03/15/0e39c0ab-ab67-4307-9c7a-3bc2f2cfe55d.jpg)
 
+### 2023.03.16
+最近用 ChatGPT 越来越频繁，这玩意确实好用，辅助编写代码时效率提升了不少。恐怕以后真的就一个人 + ChatGPT = 一个公司。
+   
+    
+
