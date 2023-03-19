@@ -3,7 +3,15 @@
         <title>所有文章 - 🐡ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/posts/</link>
         <description>所有文章 | 🐡ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Mon, 13 Mar 2023 17:05:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sun, 19 Mar 2023 22:43:56 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>读《认知觉醒》有感</title>
+    <link>https://miasanmia.cc/reading-cognitive-awakening/</link>
+    <pubDate>Sun, 19 Mar 2023 22:43:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/reading-cognitive-awakening/</guid>
+    <description><![CDATA[推荐指数 ❤️❤️❤️❤️ 本书是讲述如何提升认知的工具书，摘录其中对自己有启发的内容。 缓解焦虑的办法： 克制欲望，不要让自己同时做很多事情。 面对]]></description>
+</item>
+<item>
     <title>如何使用 Python 操作 cvs 文件</title>
     <link>https://miasanmia.cc/how-to-read-and-write-with-csv-files-in-python/</link>
     <pubDate>Mon, 13 Mar 2023 17:05:17 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/broken-thoughts-in-january-2023/</guid>
     <description><![CDATA[2023.01.01 新年快乐🤗 2023.01.02 宝藏网站🤩实时收听全球电台的网站 2023.01.03 今天晚上成都的空气太差了，空气中弥漫一种烧东西的味道🤮，在公园里跑步，像是进入了寂静岭。在这]]></description>
-</item>
-<item>
-    <title>Kevin Kelly 的 103 条建议</title>
-    <link>https://miasanmia.cc/kevin-kelly-103-bits-of-advice/</link>
-    <pubDate>Tue, 20 Dec 2022 15:22:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/kevin-kelly-103-bits-of-advice/</guid>
-    <description><![CDATA[之前写过一篇 Kevin Kelly 的 68 条建议，这不今年老爷子 70 岁生日，又来推荐人生建议了😀。 About 99% of the time, the right time is right now. 大约 99%的时间里，最好的时间就是现在。 No one]]></description>
 </item>
 </channel>
 </rss>
