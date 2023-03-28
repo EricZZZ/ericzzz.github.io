@@ -171,3 +171,12 @@ class Solution {
 
 ### 2023.03.26
 为啥早上看过的书，晚上却回忆不出来看过的内容了呢🤔？
+    
+### 2023.03.27
+之前看[Software-Engineering-at-Google](https://qiangmzsx.github.io/Software-Engineering-at-Google/#/zh-cn/Chapter-2_How_to_Work_Well_on_Teams/Chapter-2_How_to_Work_Well_on_Teams)其中有一章讲述了`The Bus Factor 巴士因子`这一概念还挺有意思的，今天就深深地感受到了，那什么是巴士因子？意思就是在团队中，有多少人因为被巴士撞到而使项目停摆或失败。当然也可能是其他原因，例如：生病，请假，离职... 目前来看我们团队巴士因子很低啊😨，在资源有限的情况下如何提高巴士因子呢🤔
+ 
+### 2023.03.28
+昨天使用 Readwise Web 服务时，epub，pdf 文档突然都打不开，在网站提交 bug 之后，今天早上打开邮箱，连收两份 Readwise 团队邮件（ps.其实是昨天晚上发送的），深深地感受到他们是对用户负责的，是把用户当成上帝的，除了表达歉意外，从 bug 记录，到反馈更新，用时 6 个小时，谁说国外人效率不高的😂，但愿出现 bug 的程序员不要被扣工资，哈哈哈~
+    
+![Readwise 道歉信](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/03/28/fc7d582e-68a3-440f-acf2-6092aa6d3b36.png)
+
