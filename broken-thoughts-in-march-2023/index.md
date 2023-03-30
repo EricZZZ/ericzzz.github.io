@@ -187,3 +187,6 @@ class Solution {
 
 ![2](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/03/29/9dce6320-ce02-11ed-afa1-0242ac120002.jpg)    
 
+### 2023.03.30
+人生在世，只为两件事，第一身体舒适，第二灵魂自在。
+
