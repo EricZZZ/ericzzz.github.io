@@ -13,7 +13,7 @@ ChatGpt 试用到期了，后面想用真的得掏钱了😢。
 ### 2023.04.04
 陈丹青说话总是这么直白😓。
 
-{{youtube YsKbaSWLiAM}}
+{{<youtube YsKbaSWLiAM>}}
 
 ### 2023.04.05
 Morgan Housel指出了七种常见的心理偷懒，看看你占了几条🤔。 
