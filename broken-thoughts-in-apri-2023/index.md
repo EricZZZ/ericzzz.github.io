@@ -67,4 +67,9 @@ Morgan Housel指出了七种常见的心理偷懒，看看你占了几条🤔。
 看电影总仍不住掏出手柄 😂。
 
 ![super mario](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/04/12/54c98706-ec7b-4a11-9415-ec8d9b67c33e.jpg)
+  
+### 2023.04.13
+早上开开心心打开 leetcode,筛选简单难度，心想今天又有哪些简单题目，来让我刷存在感 😎，结果一道[平平无奇](https://leetcode.cn/problems/remove-letter-to-equalize-frequency/)的题，在1个小时内尝试了5次，最后心态崩了，令人欣慰的是，最后Python解题是由目前最强人工智能ChatGPT-4所答，也失败了😂。
+
+![leetcode](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/04/13/e85ff7e6-b964-4de6-89d5-cf5cdf4a7b97.png)  
 
