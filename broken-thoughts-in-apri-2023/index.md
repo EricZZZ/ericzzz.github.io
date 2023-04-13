@@ -16,7 +16,7 @@ ChatGpt 试用到期了，后面想用真的得掏钱了😢。
 {{<youtube YsKbaSWLiAM>}}
 
 ### 2023.04.05
-Morgan Housel指出了七种常见的心理偷懒，看看你占了几条🤔。 
+Morgan Housel 指出了七种常见的心理偷懒，看看你占了几条🤔。 
 1. 快速消除不确定性和疑问。
 2. 使用单一原因来解释所有的复杂事件。
 3. 使用双重标准来衡量他人和自我。
@@ -53,7 +53,7 @@ Morgan Housel指出了七种常见的心理偷懒，看看你占了几条🤔。
 ```
 
 ### 2023.04.09
-没什么好记录的一天...
+没什么好记录的一天。
   
 ### 2023.04.10
 总有那么一首歌，开场旋律一响，就能勾出藏在脑海中的记忆，那年我就是那个在人民广场吃着正新鸡排店里炸鸡的人 🤣，耳机里放着这首歌。什么时候再来一趟上海行 🤔。
@@ -69,7 +69,7 @@ Morgan Housel指出了七种常见的心理偷懒，看看你占了几条🤔。
 ![super mario](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/04/12/54c98706-ec7b-4a11-9415-ec8d9b67c33e.jpg)
   
 ### 2023.04.13
-早上开开心心打开 leetcode,筛选简单难度，心想今天又有哪些简单题目，来让我刷存在感 😎，结果一道[平平无奇](https://leetcode.cn/problems/remove-letter-to-equalize-frequency/)的题，在1个小时内尝试了5次，最后心态崩了，令人欣慰的是，最后Python解题是由目前最强人工智能ChatGPT-4所答，也失败了😂。
+早上开开心心打开 leetcode, 筛选简单难度，心想今天又有哪些简单题目，来让我刷存在感 😎，结果一道 [平平无奇](https://leetcode.cn/problems/remove-letter-to-equalize-frequency/) 的题，在 1 个小时内尝试了 5 次，最后心态崩了，令人欣慰的是，最后 Python 解题是由目前最强人工智能 ChatGPT-4 所答，也失败了😂。
 
 ![leetcode](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/04/13/e85ff7e6-b964-4de6-89d5-cf5cdf4a7b97.png)  
 
