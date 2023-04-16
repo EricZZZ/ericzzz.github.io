@@ -80,4 +80,7 @@ Morgan Housel 指出了七种常见的心理偷懒，看看你占了几条🤔�
 强如马云的阿里巴巴，设计产品都是去迎合消费者。
 
 ![马云云谷演讲](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/04/15/d47c2f91-c46d-44fa-a041-21ba8041bad6.jpg)
+  
+### 2023.04.16
+一到周末总是睡不醒，吃完早饭困，吃完午饭困，吃完晚饭困🥱🥱🥱。
 
