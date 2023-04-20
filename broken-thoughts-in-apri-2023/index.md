@@ -97,3 +97,6 @@ github 这个改版，看代码更方便了啊。
 
 ![github 改版](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/04/19/192ebaeb-cd74-4d92-9189-a86e4c173507.png)
 
+### 2023.04.20
+墙裂建议这两道题 [2235. 两整数相加](https://leetcode.cn/problems/add-two-integers/) , [1. 两数之和](https://leetcode.cn/problems/two-sum/) 互换一下位置 🤣。
+
