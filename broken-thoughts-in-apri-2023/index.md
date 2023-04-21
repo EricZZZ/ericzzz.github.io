@@ -100,3 +100,6 @@ github 这个改版，看代码更方便了啊。
 ### 2023.04.20
 墙裂建议这两道题 [2235. 两整数相加](https://leetcode.cn/problems/add-two-integers/) , [1. 两数之和](https://leetcode.cn/problems/two-sum/) 互换一下位置 🤣。
 
+### 2023.04.21
+这个天气不躲在家里睡觉，真是浪费 😆。
+
