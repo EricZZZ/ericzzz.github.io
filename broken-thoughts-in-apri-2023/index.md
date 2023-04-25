@@ -118,3 +118,8 @@ leetcode 排名终于不是 10w+ 啦🎉
 
 ![leetcode 排名](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/04/24/50e30349-8fcd-4761-80de-b6465bf9e6cb.png)
 
+### 2023.04.25
+> 富在术数，不在劳身；力在势居，不在力耕也。
+  
+——盐铁论
+
