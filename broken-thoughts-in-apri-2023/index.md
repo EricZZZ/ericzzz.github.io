@@ -123,3 +123,6 @@ leetcode 排名终于不是 10w+ 啦🎉
   
 ——盐铁论
 
+### 2023.04.26
+人就得找点事儿干，又找到写[代码](https://github.com/EricZZZ/bookmanage)的乐趣了😂。
+
