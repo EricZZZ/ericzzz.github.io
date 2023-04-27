@@ -53,7 +53,11 @@ feat: add hat wobble
 - `style`：代码格式化，不修改生产代码。
 - `test`：新增、重构测试用例，不修改生产代码。
 
+### VS Code 插件推荐
+https://marketplace.visualstudio.com/items?itemName=redjue.git-commit-plugin
+
 ### 参考
 https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
 
 https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4
+
