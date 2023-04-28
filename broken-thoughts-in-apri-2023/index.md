@@ -126,3 +126,8 @@ leetcode 排名终于不是 10w+ 啦🎉
 ### 2023.04.26
 人就得找点事儿干，又找到写[代码](https://github.com/EricZZZ/bookmanage)的乐趣了😂。
 
+### 2023.04.27
+听古典音乐，敲代码，效率会提高？🤔
+
+{{<youtube shoVsQhou-8>}}
+
