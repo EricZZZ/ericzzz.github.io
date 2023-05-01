@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>排序算法 - 标签 - 🐡ErᎥc的数字花园</title>
-        <link>https://miasanmia.cc/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</link>
-        <description>排序算法 - 标签 - 🐡ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Mon, 01 May 2023 10:15:56 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+        <title>排序 - 标签 - 🐡ErᎥc的数字花园</title>
+        <link>https://miasanmia.cc/tags/%E6%8E%92%E5%BA%8F/</link>
+        <description>排序 - 标签 - 🐡ErᎥc的数字花园</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Mon, 01 May 2023 10:15:56 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/%E6%8E%92%E5%BA%8F/" rel="self" type="application/rss+xml" /><item>
     <title>各种各样的排序算法</title>
     <link>https://miasanmia.cc/algorithm-of-sort/</link>
     <pubDate>Mon, 01 May 2023 10:15:56 &#43;0800</pubDate>
