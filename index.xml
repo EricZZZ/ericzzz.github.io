@@ -14,6 +14,14 @@
     <description><![CDATA[冒泡排序 学习排序算法，大部分首先接触的就是排序算法，因为好理解，命名也很形象。 顾名思义：数值就像是在水中的气泡，数值越大气泡越大，越容易冒出]]></description>
 </item>
 <item>
+    <title>跨越时空的相遇——游三苏祠</title>
+    <link>https://miasanmia.cc/visit-sansu-temple/</link>
+    <pubDate>Mon, 01 May 2023 10:15:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/visit-sansu-temple/</guid>
+    <description><![CDATA[2023 年 4 月 30 号，天气晴，早上大约九时起，骑车从成都出发，中间大约用时 2 个多小时（ps. 听错导航两次🥲），十一点多到达眉山市，五一假期出门的人很]]></description>
+</item>
+<item>
     <title>2023 年 04 月 - 碎碎念</title>
     <link>https://miasanmia.cc/broken-thoughts-in-apri-2023/</link>
     <pubDate>Mon, 03 Apr 2023 10:48:17 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/reading-on-liberty/</guid>
     <description><![CDATA[推荐指数 ❤️❤️❤️❤️❤️ 从开始阅读计划到现在，第一本书给我带来震撼如此之大，就如同三体小说里男主角汪淼，在感受整个宇宙为他闪烁一样，看完]]></description>
-</item>
-<item>
-    <title>Git 分支、提交命名规范</title>
-    <link>https://miasanmia.cc/branch-and-commit-for-git/</link>
-    <pubDate>Fri, 03 Feb 2023 21:39:56 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/branch-and-commit-for-git/</guid>
-    <description><![CDATA[Git 对于开发者来说经常使用，由于没有标准规范，分支名和提交信息，显得杂乱无章，不利于项目维护，这里简单分享一下 Git 命名规范。 分支命名 格式 1 git branch &]]></description>
 </item>
 </channel>
 </rss>
