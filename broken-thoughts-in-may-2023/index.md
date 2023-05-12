@@ -43,3 +43,8 @@
 
 ![duolinguo 1000](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/05/11/f8ea7248-08a4-48d6-9b38-df2eb1458808.jpg)
 
+### 2023.05.12
+[给爷整笑了](https://leetcode.cn/problems/lwyVBB/comments/)😂，哈哈哈
+
+![leetcode 讨论](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/05/12/ccbaec7d-f604-42a0-aca5-a2402b042848.png)
+
