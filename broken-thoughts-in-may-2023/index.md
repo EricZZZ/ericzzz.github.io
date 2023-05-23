@@ -95,3 +95,6 @@
 ```
 典型的营销手法🙄，又想骗我的 money ，哈~ 魔法打败魔法。
 
+### 2023.05.23
+[【人生择偶指南】](https://mp.weixin.qq.com/s/6T3lS81tnkTIlkiPR-I5GA)，Wait but Why 的科普文章总是这么有意思😂
+
