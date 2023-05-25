@@ -98,3 +98,6 @@
 ### 2023.05.23
 [【人生择偶指南】](https://mp.weixin.qq.com/s/6T3lS81tnkTIlkiPR-I5GA)，Wait but Why 的科普文章总是这么有意思😂
 
+### 2023.05.24
+发版，发版，脑袋瓜子嗡嗡地😖
+
