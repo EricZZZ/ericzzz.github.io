@@ -41,3 +41,8 @@ Apple Vision Pro 真有这么邪性嘛，未来已来，等发售了，高低不
 
 {{<youtube WflBIbpeLKQ>}}
 
+### 2023.06.09
+一篇很好的文章，[如此努力的苏联，为什么还是输掉了与美国的“芯片冷战”](https://mp.weixin.qq.com/s/Vqd2tg0Rlx0bSaPxUYc9Cg)
+
+### 2023.06.10
+洗摩托车，真是个辛苦活💦
