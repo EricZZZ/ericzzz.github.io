@@ -46,6 +46,7 @@
 研制 CVCC 发动机，第一个通过《马斯基条例》标准的发动机。
 
 ![思域](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/1977_Honda_Civic_%2822901414069%29.jpg/250px-1977_Honda_Civic_%2822901414069%29.jpg)
+
 本田第一代思域，搭配 CVCC 发动机，主打低油耗和高功率。
 
 1973 年 10 月，本田将社长之位传给河岛喜好，和藤泽武夫一同退出管理层，只担任顾问，功成身退完美谢幕。
