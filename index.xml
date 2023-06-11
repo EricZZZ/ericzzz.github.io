@@ -3,9 +3,17 @@
         <title>🐡ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 02 Jun 2023 14:42:17 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sun, 11 Jun 2023 17:37:56 &#43;0800</lastBuildDate>
             <atom:link href="https://miasanmia.cc/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>读《梦想力》有感</title>
+    <link>https://miasanmia.cc/reading-dream-power/</link>
+    <pubDate>Sun, 11 Jun 2023 17:37:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/reading-dream-power/</guid>
+    <description><![CDATA[豆瓣评分 8.1 推荐指数❤❤❤❤ 滨松乡下铁匠家的孩子 调皮，从小就对机械感兴趣。小学二年级，偷大人的自行车，去二十公里外看飞机，由于带的钱不够，没进]]></description>
+</item>
+<item>
     <title>2023 年 06 月 - 碎碎念</title>
     <link>https://miasanmia.cc/broken-thoughts-in-june-2023/</link>
     <pubDate>Fri, 02 Jun 2023 14:42:17 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/reading-cognitive-awakening/</guid>
     <description><![CDATA[推荐指数 ❤️❤️❤️❤️ 本书是讲述如何提升认知的工具书，摘录其中对自己有启发的内容。 缓解焦虑的办法： 克制欲望，不要让自己同时做很多事情。 面对]]></description>
-</item>
-<item>
-    <title>如何使用 Python 操作 cvs 文件</title>
-    <link>https://miasanmia.cc/how-to-read-and-write-with-csv-files-in-python/</link>
-    <pubDate>Mon, 13 Mar 2023 17:05:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/how-to-read-and-write-with-csv-files-in-python/</guid>
-    <description><![CDATA[使用数据库导出电子表格的格式是 cvs，有时还需要操作表格中的数据，用 Python 语言就是最好的选择。 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25]]></description>
 </item>
 </channel>
 </rss>
