@@ -94,3 +94,10 @@ Apple Vision Pro 真有这么邪性嘛，未来已来，等发售了，高低不
 
 ——[《张雪峰的工具理性之锤以及高考志愿应该如何填报》](https://jarodise.com/how-to-choose-your-major-rationally)
 
+### 2023.06.22
+属于摩托佬的一天😎
+
+### 2023.06.23
+不管什么版本，不管是谁翻唱的，听完都会起一身鸡皮疙瘩。
+{{<youtube AabAbM_Lmuo>}}
+
