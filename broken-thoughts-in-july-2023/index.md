@@ -10,6 +10,10 @@
 > Daily ritual for stress-free living: Do your best then let the universe do the rest!
 > 尽力而为，剩下的就交给宇宙吧。
 
-—— [如果你抑郁低落了，请来看看她的故事
-](https://mp.weixin.qq.com/s/aJbxgIXZaiPA5LtfdyoKeQ)
+—— [如果你抑郁低落了，请来看看她的故事](https://mp.weixin.qq.com/s/aJbxgIXZaiPA5LtfdyoKeQ)
+
+### 2023.07.03
+今日分享：[张潇雨微博精选](https://rili.zxy.wiki/)
+
+
 
