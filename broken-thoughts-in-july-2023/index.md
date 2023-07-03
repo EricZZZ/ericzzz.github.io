@@ -5,3 +5,11 @@
 搞算法这么久，终于弄明白 log 是什么意思了😥
 
 ![对数](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/07/02/d2d45da0-187a-11ee-be56-0242ac120002.png)
+
+### 2023.07.02
+> Daily ritual for stress-free living: Do your best then let the universe do the rest!
+> 尽力而为，剩下的就交给宇宙吧。
+
+—— [如果你抑郁低落了，请来看看她的故事
+](https://mp.weixin.qq.com/s/aJbxgIXZaiPA5LtfdyoKeQ)
+
