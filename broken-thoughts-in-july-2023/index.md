@@ -45,3 +45,6 @@
 
 ![人生的长度](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/07/11/3f46fc1d-ae25-4dda-88cb-40f7f79afcd5.jpg)
 
+### 2023.07.12
+[一个独立创造者的五年](https://mp.weixin.qq.com/s/x6PLSIMn_1qcKnXWPT-J-Q)
+
