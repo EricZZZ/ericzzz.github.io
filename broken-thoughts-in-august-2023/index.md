@@ -27,7 +27,7 @@
 ![动森](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/08/05/85ee62da-e0a7-470e-aec5-8afea6db4de7.jpg)
 
 ### 2023.08.05
-[海蒂和爷爷](https://movie.douban.com/subject/25958717/)豆瓣高分电影，爷爷对海蒂说的，第一句意味深长的话。
+[海蒂和爷爷](https://movie.douban.com/subject/25958717/) 豆瓣高分电影，爷爷对海蒂说的，第一句意味深长的话。
 
 ![温暖的爷爷](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/08/06/f8d51a0724b3c08f07e055379a7eda06.webp)
 
@@ -37,3 +37,11 @@
 
 ### 2023.08.06
 刮风了，下雨啦，回家收衣服啦，一下雨，好凉快。
+
+### 2023.08.07
+周一总是一周最难的一天。
+
+### 2023.08.08
+逼哥的歌，越听越上头。
+
+{{<youtube mLFJapLQJyI>}}
