@@ -3,9 +3,17 @@
         <title>🐡ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sat, 02 Sep 2023 17:49:17 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 05 Sep 2023 15:22:17 &#43;0800</lastBuildDate>
             <atom:link href="https://miasanmia.cc/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>阿里云 OSS 迁移到 CloudFlare R2</title>
+    <link>https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/</link>
+    <pubDate>Tue, 05 Sep 2023 15:22:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/</guid>
+    <description><![CDATA[使用 OSSBrowser 把所有文件下载到本地，再使用 Rclone 工具，把本地文件夹同步到 CloudFlare R2 中。]]></description>
+</item>
+<item>
     <title>2023 年 09 月 - 碎碎念</title>
     <link>https://miasanmia.cc/broken-thoughs-in-september-2023/</link>
     <pubDate>Sat, 02 Sep 2023 17:49:17 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/reading-delivering-happiness/</guid>
     <description><![CDATA[推荐指数 ❤️❤️❤️❤️ 本书讲述了华裔企业家谢家华的创业故事，从小在美国长大，人生刚好赶上互联网革命，大学毕业后，就比同龄人起点高了，入职甲]]></description>
-</item>
-<item>
-    <title>2023 年 05 月 - 碎碎念</title>
-    <link>https://miasanmia.cc/broken-thoughts-in-may-2023/</link>
-    <pubDate>Mon, 01 May 2023 22:41:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/broken-thoughts-in-may-2023/</guid>
-    <description><![CDATA[2023.05.01 听过这首歌的人，小孩儿都会打酱油了吧。 2023.05.02 往年这个时候，个人所得税申报，都要补税，今年真的活久见，居然不用补了，还要给我退钱，哇哈哈😄。 2023.05.03 最]]></description>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>阿里云 OSS 迁移到 CloudFlare R2 - 🐡ErᎥc的数字花园</title><meta name="Description" content="欢迎来到我的小站～"><meta property="og:title" content="阿里云 OSS 迁移到 CloudFlare R2" />
+<meta property="og:description" content="使用 OSSBrowser 把所有文件下载到本地，再使用 Rclone 工具，把本地文件夹同步到 CloudFlare R2 中。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/" /><meta property="og:image" content="https://miasanmia.cc/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-09-05T15:22:17+08:00" />
+<meta property="article:modified_time" content="2023-09-05T15:40:22+08:00" /><meta property="og:site_name" content="🐡ErᎥc的数字花园" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://miasanmia.cc/logo.png"/>
+
+<meta name="twitter:title" content="阿里云 OSS 迁移到 CloudFlare R2"/>
+<meta name="twitter:description" content="使用 OSSBrowser 把所有文件下载到本地，再使用 Rclone 工具，把本地文件夹同步到 CloudFlare R2 中。"/>
+<meta name="application-name" content="我的网站">
+<meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/" /><link rel="prev" href="https://miasanmia.cc/broken-thoughs-in-september-2023/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "阿里云 OSS 迁移到 CloudFlare R2",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/miasanmia.cc\/alibaba-cloud-oss-was-migrated-to-cloudflare-r2\/"
+        },"genre": "posts","keywords": "CloudFlare","wordcount":  1417 ,
+        "url": "https:\/\/miasanmia.cc\/alibaba-cloud-oss-was-migrated-to-cloudflare-r2\/","datePublished": "2023-09-05T15:22:17+08:00","dateModified": "2023-09-05T15:40:22+08:00","license": "EricZhao","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "EricZhao"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="🐡ErᎥc的数字花园">🌻ErᎥc的数字花园</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="🐡ErᎥc的数字花园">🌻ErᎥc的数字花园</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">阿里云 OSS 迁移到 CloudFlare R2</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EricZhao</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%BF%90%E7%BB%B4/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>运维</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-09-05">2023-09-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1417 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#ossbrowser">OSSBrowser</a>
+      <ul>
+        <li><a href="#创建-ram-用户的-accesskeyaccesskey-secret">创建 RAM 用户的 AccessKey，AccessKey Secret</a></li>
+        <li><a href="#授权">授权</a></li>
+        <li><a href="#登录">登录</a></li>
+        <li><a href="#使用">使用</a></li>
+      </ul>
+    </li>
+    <li><a href="#rclone">Rclone</a>
+      <ul>
+        <li><a href="#创建-cloudflare-r2-access-keyhttpsdeveloperscloudflarecomr2apis3tokens"><a href="https://developers.cloudflare.com/r2/api/s3/tokens/">创建 CloudFlare R2 Access Key</a></a></li>
+        <li><a href="#配置-rclone-config">配置 Rclone config</a></li>
+      </ul>
+    </li>
+    <li><a href="#替换博客中图片地址">替换博客中图片地址</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>思路：使用 OSSBrowser 把所有文件下载到本地，再使用 Rclone 工具，把本地文件夹同步到 CloudFlare R2 中。</p>
+<h2 id="ossbrowser">OSSBrowser</h2>
+<p>OSSBrowser 是阿里云官方提供的 OSS 图形化管理工具，提供类似 Windows 资源管理器的功能。使用 OSSBrowser 可以快速完成存储空间（Bucket）和文件（Object）的相关操作</p>
+<p><a href="https://oss.console.aliyun.com/services/tools" target="_blank" rel="noopener noreffer ">下载地址</a></p>
+<h3 id="创建-ram-用户的-accesskeyaccesskey-secret">创建 RAM 用户的 AccessKey，AccessKey Secret</h3>
+<ul>
+<li>登录 <a href="https://ram.console.aliyun.com/" target="_blank" rel="noopener noreffer ">RAM 控制台</a>。</li>
+<li>在左侧导航栏，选择<strong>身份管理</strong> &gt; <strong>用户</strong>。</li>
+<li>在<strong>用户</strong>页面，单击目标 RAM 用户名称。</li>
+<li>在<strong>用户 AccessKey <strong>区域，单击</strong>创建 AccessKey</strong>。</li>
+<li>根据界面提示完成安全验证。</li>
+<li>在**创建 AccessKey **对话框，查看 AccessKey ID 和 AccessKey Secret。</li>
+<li>您可以单击<strong>下载 CSV 文件</strong>，下载 AccessKey 信息。单击<strong>复制</strong>，复制 AccessKey 信息。</li>
+<li>单击<strong>确定</strong>。</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/09/05/6173af98-d151-4706-a6fc-87bfa7663e7c.png"
+        data-srcset="https://image.ericzzz.com/2023/09/05/6173af98-d151-4706-a6fc-87bfa7663e7c.png, https://image.ericzzz.com/2023/09/05/6173af98-d151-4706-a6fc-87bfa7663e7c.png 1.5x, https://image.ericzzz.com/2023/09/05/6173af98-d151-4706-a6fc-87bfa7663e7c.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/09/05/6173af98-d151-4706-a6fc-87bfa7663e7c.png"
+        title="阿里云 RAM" /></p>
+<h3 id="授权">授权</h3>
+<p>需要给 RAM 用户开通<code>AliyunOSSFullAccess</code>，<code>AliyunRAMFullAccess</code>，<code>AliyunSTSAssumeRoleAccess</code>的权限。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/09/05/979627fc-5aed-4ca6-851c-973514fd3914.png"
+        data-srcset="https://image.ericzzz.com/2023/09/05/979627fc-5aed-4ca6-851c-973514fd3914.png, https://image.ericzzz.com/2023/09/05/979627fc-5aed-4ca6-851c-973514fd3914.png 1.5x, https://image.ericzzz.com/2023/09/05/979627fc-5aed-4ca6-851c-973514fd3914.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/09/05/979627fc-5aed-4ca6-851c-973514fd3914.png"
+        title="阿里云 RAM 授权" /></p>
+<h3 id="登录">登录</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/09/05/ecca0eaf-a0ab-4db7-9075-292844216622.png"
+        data-srcset="https://image.ericzzz.com/2023/09/05/ecca0eaf-a0ab-4db7-9075-292844216622.png, https://image.ericzzz.com/2023/09/05/ecca0eaf-a0ab-4db7-9075-292844216622.png 1.5x, https://image.ericzzz.com/2023/09/05/ecca0eaf-a0ab-4db7-9075-292844216622.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/09/05/ecca0eaf-a0ab-4db7-9075-292844216622.png"
+        title="登录界面" /></p>
+<p><code>Endpoint（地域节点）</code>：选择自定义，不是 Bucket 域名，例如<code>oss-cn-beijing.aliyuncs.com</code>。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/09/05/3258d9aa-c32e-4031-9fa1-c036b2b4e198.png"
+        data-srcset="https://image.ericzzz.com/2023/09/05/3258d9aa-c32e-4031-9fa1-c036b2b4e198.png, https://image.ericzzz.com/2023/09/05/3258d9aa-c32e-4031-9fa1-c036b2b4e198.png 1.5x, https://image.ericzzz.com/2023/09/05/3258d9aa-c32e-4031-9fa1-c036b2b4e198.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/09/05/3258d9aa-c32e-4031-9fa1-c036b2b4e198.png"
+        title="Endpoint" /></p>
+<p><code>AccessKeyId</code>：填入第一步申请的<code>AccessKey</code>。
+<code>AccessKeySecret</code>：填入第一步申请的<code>AccessKey Secret</code>。</p>
+<h3 id="使用">使用</h3>
+<p>本地创建文件夹，开始下载。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/09/05/aed68098-871d-47b0-a1e9-036c119c3649.png"
+        data-srcset="https://image.ericzzz.com/2023/09/05/aed68098-871d-47b0-a1e9-036c119c3649.png, https://image.ericzzz.com/2023/09/05/aed68098-871d-47b0-a1e9-036c119c3649.png 1.5x, https://image.ericzzz.com/2023/09/05/aed68098-871d-47b0-a1e9-036c119c3649.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/09/05/aed68098-871d-47b0-a1e9-036c119c3649.png"
+        title="OSSBrowser 下载" /></p>
+<h2 id="rclone">Rclone</h2>
+<p>Rclone 是一个开源，多线程，命令行界面的计算机程序，可用于管理云存储。其功能包括档案同步，文件传输，加密，缓存和挂载。Rclone 支持包括 Amazon S3 和 Google 云端硬盘在内等共五十多种云存储服务。</p>
+<p><a href="https://rclone.org/downloads/" target="_blank" rel="noopener noreffer ">下载地址</a></p>
+<h3 id="创建-cloudflare-r2-access-keyhttpsdeveloperscloudflarecomr2apis3tokens"><a href="https://developers.cloudflare.com/r2/api/s3/tokens/" target="_blank" rel="noopener noreffer ">创建 CloudFlare R2 Access Key</a></h3>
+<ul>
+<li>在<strong>帐户主页</strong>中，选择** R2**。</li>
+<li><strong>在帐户详细信息</strong>下，选择<strong>管理 R2 API 令牌</strong>。</li>
+<li>选择<strong>创建 API 令牌</strong>。</li>
+<li>选择** R2 令牌**文本以编辑您的 API 令牌名称。</li>
+<li>在** Permissions **下，为您的令牌选择权限类型。我们选择最高权限<code>Admin Read and Write</code>。有关每个选项的信息，请参阅 <a href="https://developers.cloudflare.com/r2/api/s3/tokens/#permissions" target="_blank" rel="noopener noreffer ">权限</a>。</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/09/05/95b24245-b86e-4b22-8385-a562a78f4c19.png"
+        data-srcset="https://image.ericzzz.com/2023/09/05/95b24245-b86e-4b22-8385-a562a78f4c19.png, https://image.ericzzz.com/2023/09/05/95b24245-b86e-4b22-8385-a562a78f4c19.png 1.5x, https://image.ericzzz.com/2023/09/05/95b24245-b86e-4b22-8385-a562a78f4c19.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/09/05/95b24245-b86e-4b22-8385-a562a78f4c19.png"
+        title="CloudFlare R2 权限" /></p>
+<ul>
+<li>（可选）如果您选择<strong>对象读写</strong>或<strong>对象读取</strong>权限，则可以将令牌范围限定为一组存储桶。</li>
+<li>选择<strong>创建 API 令牌</strong>。</li>
+</ul>
+<h3 id="配置-rclone-config">配置 Rclone config</h3>
+<p>使用命令行，进入 Rclone 目录。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">rclone config file <span class="c1"># 该命令会告诉你，配置文件保存在哪里</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>创建配置文件 rclone.conf，我的文件目录是：<code>C:\Users\pc\AppData\Roaming\rclone\rclone.conf</code>，编辑文件并保存。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[r2demo]
+</span></span><span class="line"><span class="cl">type = s3
+</span></span><span class="line"><span class="cl">provider = Cloudflare
+</span></span><span class="line"><span class="cl">access_key_id = YOUR_KEY
+</span></span><span class="line"><span class="cl">secret_access_key = YOUR_ACCESS_KEY
+</span></span><span class="line"><span class="cl">endpoint = https://&lt;accountid&gt;.r2.cloudflarestorage.com
+</span></span><span class="line"><span class="cl">acl = private
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>access_key_id</code>：填入第一步申请的<code>Access Key ID</code>。
+<code>secret_access_key</code>：填入第一步申请的<code>Secret Access Key</code>。
+<code>endpoint</code>：accountid 在下图的位置。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/09/05/cb37b286-19f6-4c55-9d9b-05ee47f4b70f.png"
+        data-srcset="https://image.ericzzz.com/2023/09/05/cb37b286-19f6-4c55-9d9b-05ee47f4b70f.png, https://image.ericzzz.com/2023/09/05/cb37b286-19f6-4c55-9d9b-05ee47f4b70f.png 1.5x, https://image.ericzzz.com/2023/09/05/cb37b286-19f6-4c55-9d9b-05ee47f4b70f.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/09/05/cb37b286-19f6-4c55-9d9b-05ee47f4b70f.png"
+        title="accountid" /></p>
+<p>测试，配置是否正确</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">rclone lsf r2demo: <span class="c1">#查看所有 buckets</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">rclone lsf r2demo: <span class="c1">#查看具体 bucket </span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>同步本地目录或文件到远端 bucket</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">rclone sync &lt;LOCAL_PATH&gt; target:bucket-name/target-path/ --progress 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>LOCAL_PATH</code>：之前 OSSBrowser 下载目录。
+<code>target</code>：r2demo。
+<code>bucket-name</code>：CloudFlare R2 上创建的桶，例：image。
+<code>target-path</code>：可以不填。
+<code>--progress</code>： 显示迁移的进度及校验的结果。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/09/05/8f43be60-eb14-4818-9d30-8fd7a685b59f.png"
+        data-srcset="https://image.ericzzz.com/2023/09/05/8f43be60-eb14-4818-9d30-8fd7a685b59f.png, https://image.ericzzz.com/2023/09/05/8f43be60-eb14-4818-9d30-8fd7a685b59f.png 1.5x, https://image.ericzzz.com/2023/09/05/8f43be60-eb14-4818-9d30-8fd7a685b59f.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/09/05/8f43be60-eb14-4818-9d30-8fd7a685b59f.png"
+        title="rclone 同步" /></p>
+<h2 id="替换博客中图片地址">替换博客中图片地址</h2>
+<p>以下操作，记得备份原文件，建议使用<code>Git</code>管理文件。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sed -i <span class="s2">&#34;s/miasanmia.oss-cn-beijing.aliyuncs.com\/picture/image.ericzzz.com/g&#34;</span> <span class="sb">`</span>grep -rl <span class="s1">&#39;miasanmia.oss-cn-beijing.aliyuncs.com/picture&#39;</span> /workspaces/my-blog/content/zh-cn/posts/<span class="sb">`</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>使用<code>sed</code>命令可以进行字符串的批量替换操作，以节省大量的时间及人力。</p>
+<p>使用格式如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sed -i <span class="s2">&#34;s/oldstring/newstring/g&#34;</span> <span class="sb">`</span>grep oldstring -rl path<span class="sb">`</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>oldstring</code>：待替换的字符串。
+<code>newstring</code>：替换之后的新字符串。
+<code>grep</code>命令，按照所给的路径查找<code>oldstring</code>，<code>path</code>是查找替换文件的路径。
+<code>-i</code>：直接在文件中替换，不在终端输出。
+<code>-r</code>：在<code>path</code>中的目录递归查找。
+<code>-l</code>：输出所有匹配到<code>oldstring</code>的文件。</p>
+<p><strong>注意：如果你的文件名中带有空格，需要把文件名修改为不带空格。</strong></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2023-09-05</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/" data-title="阿里云 OSS 迁移到 CloudFlare R2" data-via="Eric_Zzz0" data-hashtags="CloudFlare"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/" data-hashtag="CloudFlare"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/" data-title="阿里云 OSS 迁移到 CloudFlare R2"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/" data-title="阿里云 OSS 迁移到 CloudFlare R2"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/" data-title="阿里云 OSS 迁移到 CloudFlare R2"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/cloudflare/">CloudFlare</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/broken-thoughs-in-september-2023/" class="prev" rel="prev" title="2023 年 09 月 - 碎碎念"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>2023 年 09 月 - 碎碎念</a></div>
+</div>
+<div id="comments"><div id="giscus" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://giscus.app">Giscus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.108.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">EricZhao</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"giscus":{"category":"Announcements","categoryId":"DIC_kwDOH6y4YM4CSkgo","darkTheme":"dark","emitMetadata":"0","inputPosition":"bottom","lang":"zh-CN","lazyLoading":true,"lightTheme":"light","mapping":"pathname","reactionsEnabled":"1","repo":"EricZZZ/ericzzz.github.io","repoId":"R_kgDOH6y4YA"}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-BB6GHBGV7Z', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-BB6GHBGV7Z" async></script></body>
+</html>
