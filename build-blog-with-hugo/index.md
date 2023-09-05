@@ -123,7 +123,7 @@ GitHub Pages 是 GitHub 提供的一个网页代管服务，于 2008 年推出�
 
 创建完成后点击仓库的 Settings，选择 Pages 打开，打开之后的效果。
 
-![gitpages](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gitpages.png)
+![gitpages](https://image.ericzzz.com/2022/11/23/2022.11.23/gitpages.png)
 
 #### 自动发布
 
@@ -185,17 +185,17 @@ jobs:
 
 `EXTERNAL_REPOSITORY`：推送到的远程仓库地址。
 
-![gittoken](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/gittoken.png)
+![gittoken](https://image.ericzzz.com/2022/11/23/2022.11.23/gittoken.png)
 
 再到私有仓库 setting 里的 Actions secrets，把刚才的 Token 添加进去。
 
-![actiontoken](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiontoken.png)
+![actiontoken](https://image.ericzzz.com/2022/11/23/2022.11.23/actiontoken.png)
 
 好了万事俱备，只欠东风。在私有仓库里创建一篇文章并提交到远程。查看 Action 是否触发构建。
 
 如果 Action 运行正常后，通过访问 http://ericzzz.github.io 查看刚才自己提交的文章有没有部署成功。
 
-![actiondep](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/actiondeploy.png)
+![actiondep](https://image.ericzzz.com/2022/11/23/2022.11.23/actiondeploy.png)
 
 ### 配置 Netlify
 
@@ -207,7 +207,7 @@ Netlify 跟 GitHub 搭配也很好用，不用配置 Action 了。
 
 新建网站，选择你的私有仓库，选择分支，使用 Hugo 构建，静态 public 目录。
 
-![netlify](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/netlify.png)
+![netlify](https://image.ericzzz.com/2022/11/23/2022.11.23/netlify.png)
 
 部署完成后通过 netlify 分配的域名访问 https://rad-seahorse-8dd9c0.netlify.app
 
@@ -231,7 +231,7 @@ Netlify 跟 GitHub 搭配也很好用，不用配置 Action 了。
 
 先去 Netlify 新增一个域名，Netlify 会告诉你要去域名提供商添加一条 CNAME 记录。再到 GoDaddy 后台 DNS 管理那里新增一条记录。（ps: 这里 A 标签也改成了 Netlify 的地址）
 
-![dns](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/dns.png)
+![dns](https://image.ericzzz.com/2022/11/23/2022.11.23/dns.png)
 
 新增完成后过上一会儿，Netlify 自动检查成功就能通过自己域名访问了，记得在 Netlify 中把 HTTPS 配置上 https://miasanmia.cc/
 
@@ -247,7 +247,7 @@ Netlify 跟 GitHub 搭配也很好用，不用配置 Action 了。
 
 [Google Analytics](https://analytics.google.com/) 登录后台，搜索** Measurement**，就能找到谷歌分析代码。如下图：
 
-![Google Analytics](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/analytics-1.png)
+![Google Analytics](https://image.ericzzz.com/2022/11/23/2022.11.23/analytics-1.png)
 
 ```toml
   #  网站分析配置
@@ -262,7 +262,7 @@ Netlify 跟 GitHub 搭配也很好用，不用配置 Action 了。
 
 设置完成后，别忘了到 [Google Analytics](https://analytics.google.com/) 管理后台与 Google Search Console 关联，[Google Search Console](https://search.google.com/search-console/about) 帮助人们管理 Google SEO。
 
-![Google Search Console 关联](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/search-1.png)
+![Google Search Console 关联](https://image.ericzzz.com/2022/11/23/2022.11.23/search-1.png)
 
 给 Google 提交 sitemap 方便快速建立索引，增加你的网站曝光率。
 
@@ -280,11 +280,11 @@ Netlify 跟 GitHub 搭配也很好用，不用配置 Action 了。
 
 检测仓库是否满足条件。
 
-![giscus](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-1.png)
+![giscus](https://image.ericzzz.com/2022/11/23/2022.11.23/giscus-1.png)
 
 开启时之后，在 [giscus](https://giscus.app/zh-CN) 页面上填上你的公开仓库地址，自己选择配置，[giscus](https://giscus.app/zh-CN) 会自动生成配置，我们需要把这些配置填到 Hugo 的** config.toml **文件里。
 
-![giscus](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/23/2022.11.23/giscus-2.png)
+![giscus](https://image.ericzzz.com/2022/11/23/2022.11.23/giscus-2.png)
 
 ```toml
    # giscus comment 评论系统设置 (https://giscus.app/zh-CN)

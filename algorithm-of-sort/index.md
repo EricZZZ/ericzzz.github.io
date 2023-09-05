@@ -4,7 +4,7 @@
 ### 冒泡排序
 学习排序算法，大部分首先接触的就是排序算法，因为好理解，命名也很形象。
 
-![冒泡](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/01/ef6a43c0-6001-46ca-9a06-b8972a63a5e8.png)
+![冒泡](https://image.ericzzz.com/2023/01/ef6a43c0-6001-46ca-9a06-b8972a63a5e8.png)
 
 顾名思义：数值就像是在水中的气泡，数值越大气泡越大，越容易冒出水面。
 

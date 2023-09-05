@@ -11,7 +11,7 @@
 ### 2023.03.03
 [举牌小人生成器](https://upuptoyou.com/)，还挺有意思的。
 
-![upup](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/03/05/6d7c96ac0f8110ab840eaac5713df202.jpg)
+![upup](https://image.ericzzz.com/2023/03/05/6d7c96ac0f8110ab840eaac5713df202.jpg)
 
 ### 2023.03.04
 今天天气很好，随便一跑，一不小心就 PB 了😂
@@ -116,7 +116,7 @@ class Solution {
 ### 2023.03.10
 走，去码头整点薯条😎
 
-![去码头整点薯条](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/03/10/c15a75c0ee7260b00a9c6588d40c1dcd.JPG)
+![去码头整点薯条](https://image.ericzzz.com/2023/03/10/c15a75c0ee7260b00a9c6588d40c1dcd.JPG)
 
 ### 2023.03.11
 成都的天气，突然间热起来了🔥
@@ -135,7 +135,7 @@ class Solution {
 ### 2023.03.15
 留给百度的时间不多了🤣
 
-![chatgpt-4](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/03/15/0e39c0ab-ab67-4307-9c7a-3bc2f2cfe55d.jpg)
+![chatgpt-4](https://image.ericzzz.com/2023/03/15/0e39c0ab-ab67-4307-9c7a-3bc2f2cfe55d.jpg)
 
 ### 2023.03.16
 最近用 ChatGPT 越来越频繁，这玩意确实好用，辅助编写代码时效率提升了不少。恐怕以后真的就一个人 + ChatGPT = 一个公司。
@@ -178,14 +178,14 @@ class Solution {
 ### 2023.03.28
 昨天使用 Readwise Web 服务时，epub，pdf 文档突然都打不开，在网站提交 bug 之后，今天早上打开邮箱，连收两份 Readwise 团队邮件（ps. 其实是昨天晚上发送的），深深地感受到他们是对用户负责的，是把用户当成上帝的，除了表达歉意外，从 bug 记录，到反馈更新，用时 6 个小时，谁说国外人效率不高的😂，但愿出现 bug 的程序员不要被扣工资，哈哈哈~
     
-![Readwise 道歉信](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/03/28/fc7d582e-68a3-440f-acf2-6092aa6d3b36.png)
+![Readwise 道歉信](https://image.ericzzz.com/2023/03/28/fc7d582e-68a3-440f-acf2-6092aa6d3b36.png)
     
 ### 2023.03.29
 你得支棱起来啊🤪
     
-![1](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/03/29/efaffc84-723d-4772-aae0-f692d8cad117.jpg)
+![1](https://image.ericzzz.com/2023/03/29/efaffc84-723d-4772-aae0-f692d8cad117.jpg)
 
-![2](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/03/29/9dce6320-ce02-11ed-afa1-0242ac120002.jpg)    
+![2](https://image.ericzzz.com/2023/03/29/9dce6320-ce02-11ed-afa1-0242ac120002.jpg)    
 
 ### 2023.03.30
 人生在世，只为两件事，第一身体舒适，第二灵魂自在。

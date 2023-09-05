@@ -24,7 +24,7 @@
 ### 2022.11.10
 最近越来越多疆内的朋友咨询我“在四川生活怎么样？”新疆好多地方因为疫情在家封了好久了。下图是新疆朋友圈😢
 
-![朋友圈的乌鲁木齐](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/11/20221111154805.jpg)
+![朋友圈的乌鲁木齐](https://image.ericzzz.com/2022/11/11/20221111154805.jpg)
 
 夏，秋，冬，就差春天了🙄
 
@@ -34,7 +34,7 @@
 
 **有观众问张楚：这个世界会好吗**
 
-![张楚的回答](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/13/202211134746844.jpg)
+![张楚的回答](https://image.ericzzz.com/2022/11/13/202211134746844.jpg)
 
 看完他的回答，我更加坚定我的想法：**这个世界一定会好的！**
 
@@ -46,7 +46,7 @@
 ### 2022.11.12
 刷算法题，又是递归，整的脑壳疼，一看就会，一写就废。
 
-![递龟](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/13/86c8ce53d2a91f3d710fdba825333be582a15bd661e9f05a10278bf558fbf1ef-1.png)
+![递龟](https://image.ericzzz.com/2022/11/13/86c8ce53d2a91f3d710fdba825333be582a15bd661e9f05a10278bf558fbf1ef-1.png)
 
 ### 2022.11.13
 一大早就来公司加班，什么仇什么怨？
@@ -111,11 +111,11 @@
 田忌赛马，日本队带着东方智慧，战胜了强大的德国战车。
 
 ### 2022.11.24
-![monty-life1](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/24/2022.11.24/money-life1.jpg)
+![monty-life1](https://image.ericzzz.com/2022/11/24/2022.11.24/money-life1.jpg)
 
-![monty-life2](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/24/2022.11.24/money-life2.jpg)
+![monty-life2](https://image.ericzzz.com/2022/11/24/2022.11.24/money-life2.jpg)
 
-![monty-life3](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/24/2022.11.24/money-life3.jpg)
+![monty-life3](https://image.ericzzz.com/2022/11/24/2022.11.24/money-life3.jpg)
 
 这一定是新消费主义陷阱😭。
 
@@ -130,7 +130,7 @@
 ### 2022.11.25
 今天乌鲁木齐的天是灰色的，向 11.24 的遇难者默哀🕯️
 
-![向乌鲁木齐 11.24 的遇难者默哀](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/26/7312d8ad1981085acbd9cd21162b720a.jpeg)
+![向乌鲁木齐 11.24 的遇难者默哀](https://image.ericzzz.com/2022/11/26/7312d8ad1981085acbd9cd21162b720a.jpeg)
 
 ### 2022.11.26
 又是不平凡的一夜。
@@ -140,13 +140,13 @@ Do You Hear the People Sing?
 ### 2022.11.27
 [人生果实](https://movie.douban.com/subject/26874505/) 这部记录片不错，现在发现记录片比一些电影好看，比起电影的视觉冲击，记录片更多是对人生，社会的深度思考，一部记录片都会改变你的价值观。
 
-![梦想，童话？](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/29/9011e4bd1e58e40561014aa448d9cf14.webp)
+![梦想，童话？](https://image.ericzzz.com/2022/11/29/9011e4bd1e58e40561014aa448d9cf14.webp)
 
-![人比钱重要](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/29/ea4eac0f552d40117d5524c911a1f8ef.webp)
+![人比钱重要](https://image.ericzzz.com/2022/11/29/ea4eac0f552d40117d5524c911a1f8ef.webp)
 
-![慢慢来](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/29/a36960e597818ac6bba3ca172ec9cce7.webp)
+![慢慢来](https://image.ericzzz.com/2022/11/29/a36960e597818ac6bba3ca172ec9cce7.webp)
 
-![她是我最好的女朋友](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/29/00505e4c2b31eaaa21c5028d1c9e0279.webp)
+![她是我最好的女朋友](https://image.ericzzz.com/2022/11/29/00505e4c2b31eaaa21c5028d1c9e0279.webp)
 
 ### 2022.11.28
 每次居家办公的时候，时间就过的飞快，感觉什么还没做呢，就下午 6 点半了🥲

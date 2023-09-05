@@ -20,7 +20,7 @@
 ### 2022.10.21
 学习多邻国 800 天了，给想学习外语的朋友推荐这个 APP，毕竟白嫖很香🤤
 
-![Duolingo](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/10/22/eca3333e42386cfca2914ce0bd46c7e0.jpeg "800 天成就达成")
+![Duolingo](https://image.ericzzz.com/2022/10/22/eca3333e42386cfca2914ce0bd46c7e0.jpeg "800 天成就达成")
 
 ### 2022.10.22
 ```md
@@ -36,7 +36,7 @@
 ```
 {{< music "https://music.163.com/#/song?id=1415604770" >}}
 
-![Remember me](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/10/23/8b37aa53c7797c3bcf190252ac00e0dc.png "Remember me")
+![Remember me](https://image.ericzzz.com/2022/10/23/8b37aa53c7797c3bcf190252ac00e0dc.png "Remember me")
 
 ### 2022.10.24
 今天是 1024 程序员节，拿到了 leetcode 1024 限定徽章，开心😄
@@ -63,7 +63,7 @@
 ### 2022.10.30
 信息是分散的，把信息连接起来就变成了知识，打通不同知识领域之间桥梁就是你的智慧。
 
-![知识分布图](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2022/11/01/d3a95e54fa1c99781a79dc916a0b8b72.JPG)
+![知识分布图](https://image.ericzzz.com/2022/11/01/d3a95e54fa1c99781a79dc916a0b8b72.JPG)
 
 ### 2022.10.31
 十月的最后一天了，如愿以偿拿到了 leectcode 十月徽章。刷了一个月的题讲下几点小感受。

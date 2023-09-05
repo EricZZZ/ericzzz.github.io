@@ -4,7 +4,7 @@
 ### 2023.02.01
 独处并不是孤独。
 
-![孤独？](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/01/560f5e04d79274f9faae1af17fca92e5.jpeg)
+![孤独？](https://image.ericzzz.com/2023/02/01/560f5e04d79274f9faae1af17fca92e5.jpeg)
 
 ### 2023.02.02
 你们的时间有限，别浪费在重复其他人的生活上。不要被教条束缚，教条会把你困在别人思考的结果里。不要让其他人的观点掩盖你内心的声音。
@@ -32,14 +32,14 @@ Everything you want is on the other side of fear.
 
 面对人生，你要大步向前迈进！
 
-![旺太郎](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/06/80683a3f52ab274848520f6f94c7b477.webp)
+![旺太郎](https://image.ericzzz.com/2023/02/06/80683a3f52ab274848520f6f94c7b477.webp)
 
 ありがとうございます🙏
 
 ### 2023.02.06
 我又忍不住要分享，日剧 [初恋 First Love](https://movie.douban.com/subject/35275350/) 里的片段了，这是野口也英对她儿子小缀说的：
 
-![意义](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/07/b724ba9924cc7196e764d15920a505e1.jpg)
+![意义](https://image.ericzzz.com/2023/02/07/b724ba9924cc7196e764d15920a505e1.jpg)
 
 最后小缀成了知名的作曲家，看到小缀爸爸因为儿子太出名，而被骚扰要签名的场景，又好气，又好笑😂。
 
@@ -69,12 +69,12 @@ Everything you want is on the other side of fear.
 ### 2023.02.12
 达成目标😎
 
-![跑进 24 分大关](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/12/6375c47015aba9aca2a71e02afd733c3.jpeg)
+![跑进 24 分大关](https://image.ericzzz.com/2023/02/12/6375c47015aba9aca2a71e02afd733c3.jpeg)
 
 ### 2023.02.13
 人生第一张罚单😓
 
-![罚单](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/13/a9c926af-1a06-49c7-8284-c88741a30489.png)
+![罚单](https://image.ericzzz.com/2023/02/13/a9c926af-1a06-49c7-8284-c88741a30489.png)
 
 ### 2023.02.14
 晚上加班发版，快乐又充实的一天😜
@@ -85,7 +85,7 @@ Everything you want is on the other side of fear.
 ### 2023.02.16
 干了罗翔老师的鸡汤，多多平静地感受平凡的幸福😌。
 
-![罗翔](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/16/edc80b961269f63611642e766ea4a1a0.jpeg)
+![罗翔](https://image.ericzzz.com/2023/02/16/edc80b961269f63611642e766ea4a1a0.jpeg)
 
 ### 2023.02.17
 一款在线帮助你快速生成漂亮的 GitHub 个人主页的 [工具](https://www.profileme.dev/)。
@@ -93,7 +93,7 @@ Everything you want is on the other side of fear.
 ### 2023.02.18
 再不看球，要成伪球迷了，Mia San Mia 😊
 
-![门兴 vs 拜仁](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/18/59aff855ead03a59dddb77ed7c6f8144.jpeg)
+![门兴 vs 拜仁](https://image.ericzzz.com/2023/02/18/59aff855ead03a59dddb77ed7c6f8144.jpeg)
 
 ### 2023.02.19
 1. Never stop learning.
@@ -123,11 +123,11 @@ Everything you want is on the other side of fear.
 ### 2023.02.20
 也许这就是私域流量的魅力吧，在微信群里小小分享一下，半个小时的流量就快赶上一个月的自然流量了😅。
 
-![私域流量的魅力](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/20/35709D16-18E9-48ce-8761-0B97733E0ADF.png)
+![私域流量的魅力](https://image.ericzzz.com/2023/02/20/35709D16-18E9-48ce-8761-0B97733E0ADF.png)
 
 不会推销的程序员，不是好销售😂。
 
-![统计图](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/20/82152b74-d544-4318-abb5-660174faacf2.png)
+![统计图](https://image.ericzzz.com/2023/02/20/82152b74-d544-4318-abb5-660174faacf2.png)
 
 ### 2023.02.21
 Google Voice 提醒我要过期收回了，看来只有用魔法打败魔法了🙃。
@@ -135,7 +135,7 @@ Google Voice 提醒我要过期收回了，看来只有用魔法打败魔法了�
 ### 2023.02.22
 别让 1 倒下
 
-![不要让 1 倒下](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/02/23/044e4009-7e1d-48b4-afa4-c919544e5fe7.jpg)
+![不要让 1 倒下](https://image.ericzzz.com/2023/02/23/044e4009-7e1d-48b4-afa4-c919544e5fe7.jpg)
 
 ### 2023.02.23
 理想生活

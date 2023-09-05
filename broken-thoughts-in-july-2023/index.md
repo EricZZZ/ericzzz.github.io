@@ -4,7 +4,7 @@
 ### 2023.07.01
 搞算法这么久，终于弄明白 log 是什么意思了😥
 
-![对数](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/07/02/d2d45da0-187a-11ee-be56-0242ac120002.png)
+![对数](https://image.ericzzz.com/2023/07/02/d2d45da0-187a-11ee-be56-0242ac120002.png)
 
 ### 2023.07.02
 > Daily ritual for stress-free living: Do your best then let the universe do the rest!
@@ -43,7 +43,7 @@
 
 躺着刷手机刷一天的人，和做了很多事充实度过一天的人，他们的人生长度显然是不同的。
 
-![人生的长度](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/07/11/3f46fc1d-ae25-4dda-88cb-40f7f79afcd5.jpg)
+![人生的长度](https://image.ericzzz.com/2023/07/11/3f46fc1d-ae25-4dda-88cb-40f7f79afcd5.jpg)
 
 ### 2023.07.12
 [一个独立创造者的五年](https://mp.weixin.qq.com/s/x6PLSIMn_1qcKnXWPT-J-Q)
@@ -68,7 +68,7 @@
 ### 2023.07.18
 虽然性能很低，好在是通过了😜。
 
-![丑陋的通过](https://miasanmia.oss-cn-beijing.aliyuncs.com/picture/2023/07/18/68dfb1bc-a188-4b9b-a58b-8c21afa4ebeb.png)
+![丑陋的通过](https://image.ericzzz.com/2023/07/18/68dfb1bc-a188-4b9b-a58b-8c21afa4ebeb.png)
 
 ### 2023.07.19
 我仁怎么买了个韩国棒子后卫，想想当年卢西奥，德米，范比腾，阿滕，狐媚，现在真是，蜀中无大将廖化作先锋，希望最后逃不过真香定律😀。
