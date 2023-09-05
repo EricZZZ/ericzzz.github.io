@@ -37,6 +37,7 @@ OSSBrowser 是阿里云官方提供的 OSS 图形化管理工具，提供类似 
 ![Endpoint](https://image.ericzzz.com/2023/09/05/3258d9aa-c32e-4031-9fa1-c036b2b4e198.png)
 
 `AccessKeyId`：填入第一步申请的`AccessKey`。
+
 `AccessKeySecret`：填入第一步申请的`AccessKey Secret`。
 
 ### 使用
@@ -84,7 +85,9 @@ acl = private
 ```
 
 `access_key_id`：填入第一步申请的`Access Key ID`。
+
 `secret_access_key`：填入第一步申请的`Secret Access Key`。
+
 `endpoint`：accountid 在下图的位置。
 
 ![accountid](https://image.ericzzz.com/2023/09/05/cb37b286-19f6-4c55-9d9b-05ee47f4b70f.png)
@@ -106,9 +109,13 @@ rclone sync <LOCAL_PATH> target:bucket-name/target-path/ --progress
 ```
 
 `LOCAL_PATH`：之前 OSSBrowser 下载目录。
+
 `target`：r2demo。
+
 `bucket-name`：CloudFlare R2 上创建的桶，例：image。
+
 `target-path`：可以不填。
+
 `--progress`： 显示迁移的进度及校验的结果。
 
 ![rclone 同步](https://image.ericzzz.com/2023/09/05/8f43be60-eb14-4818-9d30-8fd7a685b59f.png)
@@ -130,10 +137,15 @@ sed -i "s/oldstring/newstring/g" `grep oldstring -rl path`
 ```
 
 `oldstring`：待替换的字符串。
+
 `newstring`：替换之后的新字符串。
+
 `grep`命令，按照所给的路径查找`oldstring`，`path`是查找替换文件的路径。
+
 `-i`：直接在文件中替换，不在终端输出。
+
 `-r`：在`path`中的目录递归查找。
+
 `-l`：输出所有匹配到`oldstring`的文件。
 
 **注意：如果你的文件名中带有空格，需要把文件名修改为不带空格。**

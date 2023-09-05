@@ -180,8 +180,8 @@
         data-sizes="auto"
         alt="https://image.ericzzz.com/2023/09/05/3258d9aa-c32e-4031-9fa1-c036b2b4e198.png"
         title="Endpoint" /></p>
-<p><code>AccessKeyId</code>：填入第一步申请的<code>AccessKey</code>。
-<code>AccessKeySecret</code>：填入第一步申请的<code>AccessKey Secret</code>。</p>
+<p><code>AccessKeyId</code>：填入第一步申请的<code>AccessKey</code>。</p>
+<p><code>AccessKeySecret</code>：填入第一步申请的<code>AccessKey Secret</code>。</p>
 <h3 id="使用">使用</h3>
 <p>本地创建文件夹，开始下载。</p>
 <p><img
@@ -246,9 +246,9 @@
 </span></span><span class="line"><span class="cl">acl = private
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p><code>access_key_id</code>：填入第一步申请的<code>Access Key ID</code>。
-<code>secret_access_key</code>：填入第一步申请的<code>Secret Access Key</code>。
-<code>endpoint</code>：accountid 在下图的位置。</p>
+</div><p><code>access_key_id</code>：填入第一步申请的<code>Access Key ID</code>。</p>
+<p><code>secret_access_key</code>：填入第一步申请的<code>Secret Access Key</code>。</p>
+<p><code>endpoint</code>：accountid 在下图的位置。</p>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -283,11 +283,11 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">rclone sync &lt;LOCAL_PATH&gt; target:bucket-name/target-path/ --progress 
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p><code>LOCAL_PATH</code>：之前 OSSBrowser 下载目录。
-<code>target</code>：r2demo。
-<code>bucket-name</code>：CloudFlare R2 上创建的桶，例：image。
-<code>target-path</code>：可以不填。
-<code>--progress</code>： 显示迁移的进度及校验的结果。</p>
+</div><p><code>LOCAL_PATH</code>：之前 OSSBrowser 下载目录。</p>
+<p><code>target</code>：r2demo。</p>
+<p><code>bucket-name</code>：CloudFlare R2 上创建的桶，例：image。</p>
+<p><code>target-path</code>：可以不填。</p>
+<p><code>--progress</code>： 显示迁移的进度及校验的结果。</p>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -316,12 +316,12 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sed -i <span class="s2">&#34;s/oldstring/newstring/g&#34;</span> <span class="sb">`</span>grep oldstring -rl path<span class="sb">`</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p><code>oldstring</code>：待替换的字符串。
-<code>newstring</code>：替换之后的新字符串。
-<code>grep</code>命令，按照所给的路径查找<code>oldstring</code>，<code>path</code>是查找替换文件的路径。
-<code>-i</code>：直接在文件中替换，不在终端输出。
-<code>-r</code>：在<code>path</code>中的目录递归查找。
-<code>-l</code>：输出所有匹配到<code>oldstring</code>的文件。</p>
+</div><p><code>oldstring</code>：待替换的字符串。</p>
+<p><code>newstring</code>：替换之后的新字符串。</p>
+<p><code>grep</code>命令，按照所给的路径查找<code>oldstring</code>，<code>path</code>是查找替换文件的路径。</p>
+<p><code>-i</code>：直接在文件中替换，不在终端输出。</p>
+<p><code>-r</code>：在<code>path</code>中的目录递归查找。</p>
+<p><code>-l</code>：输出所有匹配到<code>oldstring</code>的文件。</p>
 <p><strong>注意：如果你的文件名中带有空格，需要把文件名修改为不带空格。</strong></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
