@@ -5,7 +5,7 @@
 
 ## OSSBrowser
 
-OSSBrowser 是阿里云官方提供的 OSS 图形化管理工具，提供类似 Windows 资源管理器的功能。使用 OSSBrowser 可以快速完成存储空间（Bucket）和文件（Object）的相关操作
+OSSBrowser 是阿里云官方提供的 OSS 图形化管理工具，提供类似 Windows 资源管理器的功能。使用 OSSBrowser 可以快速完成存储空间（Bucket）和文件（Object）的相关操作。
 
 [下载地址](https://oss.console.aliyun.com/services/tools)
 
@@ -99,7 +99,7 @@ rclone lsf r2demo: #查看所有 buckets
 ```
 
 ```shell
-rclone lsf r2demo: #查看具体 bucket 
+rclone lsf r2demo:image #查看具体 bucket 
 ```
 
 同步本地目录或文件到远端 bucket
