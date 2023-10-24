@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>使用 Apache ab 工具测试网站性能 - 🐡ErᎥc的数字花园</title><meta name="Description" content="欢迎来到我的小站～"><meta property="og:title" content="使用 Apache ab 工具测试网站性能" />
+<meta property="og:description" content="Apache ab 工具使用，测试指标分析。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://miasanmia.cc/use-apache-ab-tool/" /><meta property="og:image" content="https://miasanmia.cc/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-10-24T16:20:17+08:00" />
+<meta property="article:modified_time" content="2023-10-24T16:33:22+08:00" /><meta property="og:site_name" content="🐡ErᎥc的数字花园" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://miasanmia.cc/logo.png"/>
+
+<meta name="twitter:title" content="使用 Apache ab 工具测试网站性能"/>
+<meta name="twitter:description" content="Apache ab 工具使用，测试指标分析。"/>
+<meta name="application-name" content="我的网站">
+<meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://miasanmia.cc/use-apache-ab-tool/" /><link rel="prev" href="https://miasanmia.cc/reading-the-one-minute-manager/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "使用 Apache ab 工具测试网站性能",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/miasanmia.cc\/use-apache-ab-tool\/"
+        },"genre": "posts","keywords": "性能调优","wordcount":  1705 ,
+        "url": "https:\/\/miasanmia.cc\/use-apache-ab-tool\/","datePublished": "2023-10-24T16:20:17+08:00","dateModified": "2023-10-24T16:33:22+08:00","license": "EricZhao","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "EricZhao"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="🐡ErᎥc的数字花园">🌻ErᎥc的数字花园</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="🐡ErᎥc的数字花园">🌻ErᎥc的数字花园</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">使用 Apache ab 工具测试网站性能</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>EricZhao</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%BC%80%E5%8F%91/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>开发</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-10-24">2023-10-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1705 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 4 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#apache-ab-介绍">Apache ab 介绍</a>
+      <ul>
+        <li><a href="#优点">优点：</a></li>
+        <li><a href="#缺点">缺点：</a></li>
+      </ul>
+    </li>
+    <li><a href="#下载">下载</a></li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#使用">使用</a>
+      <ul>
+        <li><a href="#命令格式">命令格式</a></li>
+        <li><a href="#常用参数">常用参数</a></li>
+        <li><a href="#测试指标">测试指标</a></li>
+      </ul>
+    </li>
+    <li><a href="#实战">实战</a>
+      <ul>
+        <li><a href="#对于不同并发用户数的吞吐率测试结果">对于不同并发用户数的吞吐率测试结果</a></li>
+        <li><a href="#吞吐率随并发用户数变化的曲线图">吞吐率随并发用户数变化的曲线图</a></li>
+        <li><a href="#服务器平均请求处理时间随并发用户数变化的曲线图">服务器平均请求处理时间随并发用户数变化的曲线图</a></li>
+        <li><a href="#用户平均请求等待时间随并发用户数变化的曲线图">用户平均请求等待时间随并发用户数变化的曲线图</a></li>
+        <li><a href="#结论">结论</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="apache-ab-介绍">Apache ab 介绍</h2>
+<p>Apache ab（Apache Bench）是一个用于进行 HTTP/HTTPS 性能测试的工具，它是 Apache HTTP 服务器的一部分。下面是对 Apache ab 工具的评价：</p>
+<h3 id="优点">优点：</h3>
+<ol>
+<li>
+<p>简单易用：Apache ab 工具提供了简单的命令行接口，易于使用和配置。它不需要复杂的设置就可以进行基本的性能测试。</p>
+</li>
+<li>
+<p>轻量级：Apache ab 是一个轻量级的工具，安装和部署都非常简单，不需要过多的资源或依赖。</p>
+</li>
+<li>
+<p>高并发能力：Apache ab 可以模拟大量的并发请求，测试目标服务器在高负载情况下的性能表现。</p>
+</li>
+<li>
+<p>支持多种指标和统计数据：Apache ab 提供了多种测试结果的指标和统计数据，如请求速率、响应时间、吞吐量等，可以帮助分析和评估应用程序的性能。</p>
+</li>
+<li>
+<p>开源和免费：Apache ab 是开源的工具，可以免费使用和修改。</p>
+</li>
+</ol>
+<h3 id="缺点">缺点：</h3>
+<ol>
+<li>
+<p>缺乏图形界面和可视化：Apache ab 是一个命令行工具，没有图形界面和可视化功能，对于非技术人员来说可能不够友好。</p>
+</li>
+<li>
+<p>功能较为有限：相对于其他性能测试工具，Apache ab 的功能相对简单，只能进行基本的负载测试，不支持复杂的场景和协议。</p>
+</li>
+<li>
+<p>对于复杂的应用程序可能不够准确：由于 Apache ab 的简单性，它可能无法准确模拟复杂的应用程序行为和场景，因此在某些情况下，测试结果可能不够准确。</p>
+</li>
+</ol>
+<h2 id="下载">下载</h2>
+<p><a href="https://httpd.apache.org/docs/current/platform/windows.html#down" target="_blank" rel="noopener noreffer ">Windows 版下载</a></p>
+<p><a href="https://httpd.apache.org/download.cgi#apache24" target="_blank" rel="noopener noreffer ">Linux 版下载</a></p>
+<h2 id="安装">安装</h2>
+<p>解压，通过命令行终端，进入文件目录（Apache/bin），执行。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ab -V
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如图下显示，表示安装成功。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/10/24/6de21458-7866-4c15-9ff6-a68e57328b41.png"
+        data-srcset="https://image.ericzzz.com/2023/10/24/6de21458-7866-4c15-9ff6-a68e57328b41.png, https://image.ericzzz.com/2023/10/24/6de21458-7866-4c15-9ff6-a68e57328b41.png 1.5x, https://image.ericzzz.com/2023/10/24/6de21458-7866-4c15-9ff6-a68e57328b41.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/10/24/6de21458-7866-4c15-9ff6-a68e57328b41.png"
+        title="安装成功" /></p>
+<h2 id="使用">使用</h2>
+<h3 id="命令格式">命令格式</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ab <span class="o">[</span>options<span class="o">]</span> <span class="o">[</span>http://<span class="o">]</span>hostname<span class="o">[</span>:port<span class="o">]</span>/path
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="常用参数">常用参数</h3>
+<ul>
+<li>
+<p>-n 总请求数量</p>
+</li>
+<li>
+<p>-c 并发用户数量</p>
+</li>
+</ul>
+<h3 id="测试指标">测试指标</h3>
+<ul>
+<li>
+<p>Server Software：被测试的 Web 服务器软件名称。</p>
+</li>
+<li>
+<p>Server Hostname：请求的 URL 中的主机部分名称。</p>
+</li>
+<li>
+<p>Server Port：被测试的 Web 服务器软件的监听端口。</p>
+</li>
+<li>
+<p>Document Path：请求的 URL 中的根绝对路径。</p>
+</li>
+<li>
+<p>Document Length：HTTP 响应数据的正文长度。</p>
+</li>
+<li>
+<p>Concurrency Level：并发用户数。</p>
+</li>
+<li>
+<p>Time taken for tests：所有这些请求被处理完成所花费的总时间。</p>
+</li>
+<li>
+<p>Complete requests：总请求数。</p>
+</li>
+<li>
+<p>Failed requests：失败的请求数。这里的失败是指请求在连接服务器、发送数据、接收数据等环节发生异常，以及无响应后超时的情况。对于超时时间的设置，可以使用 ab 的-t 参数。如果接收到的 HTTP 响应数据的头信息中含有 2xx 以外的状态码，则会在测试结果中显示另一个名为“Non-2xx requests”的统计项，用于统计这部分请求数，这些请求并不算是失败的请求。</p>
+</li>
+<li>
+<p>Total transferred：所有请求的响应数据长度总和，包括每个 HTTP 响应数据的头信息和正文数据的长度。注意，这里不包括 HTTP 请求数据的长度，所以 Total transferred 代表了从 Web 服务器流向用户 PC 的应用层数据总长度。通过使用 ab 的-v 参数，即可查看详细的 HTTP 头信息。</p>
+</li>
+<li>
+<p>HTML transferred：所有请求的响应数据中正文数据的总和，也就是减去了 Total transferred 中 HTTP 响应数据中头信息的长度。</p>
+</li>
+<li>
+<p>Request per second：<strong>吞吐率。</strong> 等于（Complete requests/Time taken for tests）</p>
+</li>
+<li>
+<p>Time per request：用户平均<strong>请求等待时间。</strong></p>
+</li>
+<li>
+<p>Time per request (across all concurrent requests)：服务器平均<strong>请求处理时间。</strong></p>
+</li>
+<li>
+<p>Transfer rate：这些请求在单位时间内从服务器获取的数据长度。<strong>这个统计项可以很好地说明服务器在处理能力达到极限时，其出口带宽的需求量。</strong></p>
+</li>
+<li>
+<p>Percentage of the requests served within a certain time (ms)：用于描述每个请求处理时间的分布情况。</p>
+</li>
+</ul>
+<h2 id="实战">实战</h2>
+<p>使用我司测试服接口，不动态查询（不计算，不查询数据库），纯测试接口响应、吞吐量，请求总量为 1000。</p>
+<h3 id="对于不同并发用户数的吞吐率测试结果">对于不同并发用户数的吞吐率测试结果</h3>
+<table>
+<thead>
+<tr>
+<th>并发用户数</th>
+<th>吞吐率（reqs/s）</th>
+<th>请求等待时间（ms）</th>
+<th>请求处理时间（ms）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>7.9</td>
+<td>126.566</td>
+<td>126.566</td>
+</tr>
+<tr>
+<td>2</td>
+<td>15.76</td>
+<td>126.894</td>
+<td>66.447</td>
+</tr>
+<tr>
+<td>5</td>
+<td>19.90</td>
+<td>251.301</td>
+<td>50.260</td>
+</tr>
+<tr>
+<td>10</td>
+<td>19.87</td>
+<td>503.215</td>
+<td>50.321</td>
+</tr>
+<tr>
+<td>20</td>
+<td>19.91</td>
+<td>1004.449</td>
+<td>50.222</td>
+</tr>
+<tr>
+<td>50</td>
+<td>19.91</td>
+<td>2511.152</td>
+<td>50.223</td>
+</tr>
+<tr>
+<td>100</td>
+<td>19.91</td>
+<td>5023.291</td>
+<td>50.223</td>
+</tr>
+<tr>
+<td>150</td>
+<td>19.87</td>
+<td>7547.763</td>
+<td>50.318</td>
+</tr>
+<tr>
+<td>200</td>
+<td>19.79</td>
+<td>10107.067</td>
+<td>50.535</td>
+</tr>
+<tr>
+<td>500</td>
+<td>19.83</td>
+<td>25214.845</td>
+<td>50.430</td>
+</tr>
+</tbody>
+</table>
+<h3 id="吞吐率随并发用户数变化的曲线图">吞吐率随并发用户数变化的曲线图</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/10/24/bd49f3e3-49ce-4ce2-bd12-c4b3a6a980c3.png"
+        data-srcset="https://image.ericzzz.com/2023/10/24/bd49f3e3-49ce-4ce2-bd12-c4b3a6a980c3.png, https://image.ericzzz.com/2023/10/24/bd49f3e3-49ce-4ce2-bd12-c4b3a6a980c3.png 1.5x, https://image.ericzzz.com/2023/10/24/bd49f3e3-49ce-4ce2-bd12-c4b3a6a980c3.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/10/24/bd49f3e3-49ce-4ce2-bd12-c4b3a6a980c3.png"
+        title="吞吐率随并发用户数变化的曲线图" /></p>
+<h3 id="服务器平均请求处理时间随并发用户数变化的曲线图">服务器平均请求处理时间随并发用户数变化的曲线图</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/10/24/2959413e-2672-48e5-b0f0-57ab3dab7413.png"
+        data-srcset="https://image.ericzzz.com/2023/10/24/2959413e-2672-48e5-b0f0-57ab3dab7413.png, https://image.ericzzz.com/2023/10/24/2959413e-2672-48e5-b0f0-57ab3dab7413.png 1.5x, https://image.ericzzz.com/2023/10/24/2959413e-2672-48e5-b0f0-57ab3dab7413.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/10/24/2959413e-2672-48e5-b0f0-57ab3dab7413.png"
+        title="服务器平均请求处理时间随并发用户数变化的曲线图" /></p>
+<h3 id="用户平均请求等待时间随并发用户数变化的曲线图">用户平均请求等待时间随并发用户数变化的曲线图</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://image.ericzzz.com/2023/10/24/f1628067-a81a-499b-951a-45b7abf6f433.png"
+        data-srcset="https://image.ericzzz.com/2023/10/24/f1628067-a81a-499b-951a-45b7abf6f433.png, https://image.ericzzz.com/2023/10/24/f1628067-a81a-499b-951a-45b7abf6f433.png 1.5x, https://image.ericzzz.com/2023/10/24/f1628067-a81a-499b-951a-45b7abf6f433.png 2x"
+        data-sizes="auto"
+        alt="https://image.ericzzz.com/2023/10/24/f1628067-a81a-499b-951a-45b7abf6f433.png"
+        title="用户平均请求等待时间随并发用户数变化的曲线图" /></p>
+<h3 id="结论">结论</h3>
+<p>在并发用户增加时，前期吞吐量有一定的增长，平均处理时间减少，后面趋于稳定，不再变化。当并发用户超过 50，平均用户等待时间长达 2s，对于用户是无法忍受的，500 用户并发，等待时间恐怖的达到了 20s 以上😱。</p>
+<p>做为开发人员，设计、开发和提升产品用户体验，不仅是能力与技术的体现，而且是成为一名优秀的架构师迈不过去的坎，如何发现网站性能瓶颈，是重中之重，Apache ab 是一个简单易用、轻量级的性能测试工具，适用于进行基本的负载测试和性能评估，它可以提供一些有用的测试结果和指标。</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2023-10-24</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://miasanmia.cc/use-apache-ab-tool/" data-title="使用 Apache ab 工具测试网站性能" data-via="Eric_Zzz0" data-hashtags="性能调优"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://miasanmia.cc/use-apache-ab-tool/" data-hashtag="性能调优"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://miasanmia.cc/use-apache-ab-tool/" data-title="使用 Apache ab 工具测试网站性能"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://miasanmia.cc/use-apache-ab-tool/" data-title="使用 Apache ab 工具测试网站性能"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://miasanmia.cc/use-apache-ab-tool/" data-title="使用 Apache ab 工具测试网站性能"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/">性能调优</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/reading-the-one-minute-manager/" class="prev" rel="prev" title="读《一分钟经理人》有感"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>读《一分钟经理人》有感</a></div>
+</div>
+<div id="comments"><div id="giscus" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://giscus.app">Giscus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.108.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">EricZhao</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"giscus":{"category":"Announcements","categoryId":"DIC_kwDOH6y4YM4CSkgo","darkTheme":"dark","emitMetadata":"0","inputPosition":"bottom","lang":"zh-CN","lazyLoading":true,"lightTheme":"light","mapping":"pathname","reactionsEnabled":"1","repo":"EricZZZ/ericzzz.github.io","repoId":"R_kgDOH6y4YA"}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-BB6GHBGV7Z', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-BB6GHBGV7Z" async></script></body>
+</html>

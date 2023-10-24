@@ -3,9 +3,17 @@
         <title>🐡ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Wed, 18 Oct 2023 14:40:56 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 24 Oct 2023 16:20:17 &#43;0800</lastBuildDate>
             <atom:link href="https://miasanmia.cc/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>使用 Apache ab 工具测试网站性能</title>
+    <link>https://miasanmia.cc/use-apache-ab-tool/</link>
+    <pubDate>Tue, 24 Oct 2023 16:20:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://miasanmia.cc/use-apache-ab-tool/</guid>
+    <description><![CDATA[Apache ab 工具使用，测试指标分析。]]></description>
+</item>
+<item>
     <title>读《一分钟经理人》有感</title>
     <link>https://miasanmia.cc/reading-the-one-minute-manager/</link>
     <pubDate>Wed, 18 Oct 2023 14:40:56 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://miasanmia.cc/reading-dream-power/</guid>
     <description><![CDATA[梦想像一粒种子，一旦生根发芽，就会迸发出不可思议的力量。]]></description>
-</item>
-<item>
-    <title>2023 年 06 月 - 碎碎念</title>
-    <link>https://miasanmia.cc/broken-thoughts-in-june-2023/</link>
-    <pubDate>Fri, 02 Jun 2023 14:42:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://miasanmia.cc/broken-thoughts-in-june-2023/</guid>
-    <description><![CDATA[欢迎六月，愿你的生活充满阳光和鲜花！]]></description>
 </item>
 </channel>
 </rss>
