@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>运维 - 分类 - 🐡ErᎥc的数字花园</title>
+        <title>运维 - 分类 - 🌻ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/categories/%E8%BF%90%E7%BB%B4/</link>
-        <description>运维 - 分类 - 🐡ErᎥc的数字花园</description>
+        <description>运维 - 分类 - 🌻ErᎥc的数字花园</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 05 Sep 2023 15:22:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/categories/%E8%BF%90%E7%BB%B4/" rel="self" type="application/rss+xml" /><item>
     <title>阿里云 OSS 迁移到 CloudFlare R2</title>
     <link>https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/</link>

@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Hugo - 标签 - 🐡ErᎥc的数字花园</title>
+        <title>Hugo - 标签 - 🌻ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/tags/hugo/</link>
-        <description>Hugo - 标签 - 🐡ErᎥc的数字花园</description>
+        <description>Hugo - 标签 - 🌻ErᎥc的数字花园</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 24 Nov 2022 15:13:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>再见了 WordPress，全面拥抱 Hugo</title>
     <link>https://miasanmia.cc/build-blog-with-hugo/</link>

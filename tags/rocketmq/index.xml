@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>RocketMQ - 标签 - 🐡ErᎥc的数字花园</title>
+        <title>RocketMQ - 标签 - 🌻ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/tags/rocketmq/</link>
-        <description>RocketMQ - 标签 - 🐡ErᎥc的数字花园</description>
+        <description>RocketMQ - 标签 - 🌻ErᎥc的数字花园</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 10 Nov 2020 09:04:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/rocketmq/" rel="self" type="application/rss+xml" /><item>
     <title>Linux 如何安装、部署 RocketMQ</title>
     <link>https://miasanmia.cc/how-to-install-and-deploy-rocketmq-in-linux/</link>

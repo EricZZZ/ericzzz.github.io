@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Git - 标签 - 🐡ErᎥc的数字花园</title>
+        <title>Git - 标签 - 🌻ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/tags/git/</link>
-        <description>Git - 标签 - 🐡ErᎥc的数字花园</description>
+        <description>Git - 标签 - 🌻ErᎥc的数字花园</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 03 Feb 2023 21:39:56 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/git/" rel="self" type="application/rss+xml" /><item>
     <title>Git 分支、提交命名规范</title>
     <link>https://miasanmia.cc/branch-and-commit-for-git/</link>

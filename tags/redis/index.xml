@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Redis - 标签 - 🐡ErᎥc的数字花园</title>
+        <title>Redis - 标签 - 🌻ErᎥc的数字花园</title>
         <link>https://miasanmia.cc/tags/redis/</link>
-        <description>Redis - 标签 - 🐡ErᎥc的数字花园</description>
+        <description>Redis - 标签 - 🌻ErᎥc的数字花园</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sat, 07 Nov 2020 19:02:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/redis/" rel="self" type="application/rss+xml" /><item>
     <title>Linux 安装、部署 Redis（单机）</title>
     <link>https://miasanmia.cc/linux-installation-and-deployment-of-redis-single-machine/</link>
