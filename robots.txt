@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://miasanmia.cc/sitemap.xml
+Sitemap: https://ericzzz.com/sitemap.xml

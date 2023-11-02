@@ -1,88 +1,88 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>🌻ErᎥc的数字花园</title>
-        <link>https://miasanmia.cc/</link>
+        <link>https://ericzzz.com/</link>
         <description>欢迎来到我的小站～</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 02 Nov 2023 21:56:17 &#43;0800</lastBuildDate>
-            <atom:link href="https://miasanmia.cc/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://ericzzz.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>2023 年 11 月 - 碎碎念</title>
-    <link>https://miasanmia.cc/broken-thoughs-in-november-2023/</link>
+    <link>https://ericzzz.com/broken-thoughs-in-november-2023/</link>
     <pubDate>Thu, 02 Nov 2023 21:56:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/broken-thoughs-in-november-2023/</guid>
+    <guid>https://ericzzz.com/broken-thoughs-in-november-2023/</guid>
     <description><![CDATA[不是事物本身让人们烦恼，而是人对事物的看法让人们烦恼。&mdash;塞内卡]]></description>
 </item>
 <item>
     <title>使用 Apache ab 工具测试网站性能</title>
-    <link>https://miasanmia.cc/use-apache-ab-tool/</link>
+    <link>https://ericzzz.com/use-apache-ab-tool/</link>
     <pubDate>Tue, 24 Oct 2023 16:20:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/use-apache-ab-tool/</guid>
+    <guid>https://ericzzz.com/use-apache-ab-tool/</guid>
     <description><![CDATA[Apache ab 工具使用，测试指标分析。]]></description>
 </item>
 <item>
     <title>读《一分钟经理人》有感</title>
-    <link>https://miasanmia.cc/reading-the-one-minute-manager/</link>
+    <link>https://ericzzz.com/reading-the-one-minute-manager/</link>
     <pubDate>Wed, 18 Oct 2023 14:40:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/reading-the-one-minute-manager/</guid>
+    <guid>https://ericzzz.com/reading-the-one-minute-manager/</guid>
     <description><![CDATA[书很薄，道理很简单，但真正做到的人很少。]]></description>
 </item>
 <item>
     <title>2023 年 10 月 - 碎碎念</title>
-    <link>https://miasanmia.cc/broken-thoughs-in-october-2023/</link>
+    <link>https://ericzzz.com/broken-thoughs-in-october-2023/</link>
     <pubDate>Thu, 05 Oct 2023 15:30:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/broken-thoughs-in-october-2023/</guid>
+    <guid>https://ericzzz.com/broken-thoughs-in-october-2023/</guid>
     <description><![CDATA[每一天都是第一天，每一次都是第一次。&mdash;秦才淞]]></description>
 </item>
 <item>
     <title>阿里云 OSS 迁移到 CloudFlare R2</title>
-    <link>https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/</link>
+    <link>https://ericzzz.com/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/</link>
     <pubDate>Tue, 05 Sep 2023 15:22:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/</guid>
+    <guid>https://ericzzz.com/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/</guid>
     <description><![CDATA[使用 OSSBrowser 把所有文件下载到本地，再使用 Rclone 工具，把本地文件夹同步到 CloudFlare R2 中。]]></description>
 </item>
 <item>
     <title>2023 年 09 月 - 碎碎念</title>
-    <link>https://miasanmia.cc/broken-thoughs-in-september-2023/</link>
+    <link>https://ericzzz.com/broken-thoughs-in-september-2023/</link>
     <pubDate>Sat, 02 Sep 2023 17:49:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/broken-thoughs-in-september-2023/</guid>
+    <guid>https://ericzzz.com/broken-thoughs-in-september-2023/</guid>
     <description><![CDATA[枫叶渐红，菊花盛开，金秋九月，人间一片繁华。🍂🍂]]></description>
 </item>
 <item>
     <title>2023 年 08 月 - 碎碎念</title>
-    <link>https://miasanmia.cc/broken-thoughts-in-august-2023/</link>
+    <link>https://ericzzz.com/broken-thoughts-in-august-2023/</link>
     <pubDate>Tue, 01 Aug 2023 16:41:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/broken-thoughts-in-august-2023/</guid>
+    <guid>https://ericzzz.com/broken-thoughts-in-august-2023/</guid>
     <description><![CDATA[八月，暑气蒸腾，荷花怒放。静候秋风来，不辞长作伴。🌞🌞]]></description>
 </item>
 <item>
     <title>读《当妈妈的妈妈》有感</title>
-    <link>https://miasanmia.cc/reading-mothers-mother/</link>
+    <link>https://ericzzz.com/reading-mothers-mother/</link>
     <pubDate>Mon, 03 Jul 2023 00:45:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/reading-mothers-mother/</guid>
+    <guid>https://ericzzz.com/reading-mothers-mother/</guid>
     <description><![CDATA[死亡不是生命的终点，遗忘才是]]></description>
 </item>
 <item>
     <title>2023 年 07 月 - 碎碎念</title>
-    <link>https://miasanmia.cc/broken-thoughts-in-july-2023/</link>
+    <link>https://ericzzz.com/broken-thoughts-in-july-2023/</link>
     <pubDate>Sun, 02 Jul 2023 09:41:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/broken-thoughts-in-july-2023/</guid>
+    <guid>https://ericzzz.com/broken-thoughts-in-july-2023/</guid>
     <description><![CDATA[七月~愿所有的幸运都不期而遇🌞🌞]]></description>
 </item>
 <item>
     <title>读《匠人如神》有感</title>
-    <link>https://miasanmia.cc/reading-craftsmen-are-like-gods/</link>
+    <link>https://ericzzz.com/reading-craftsmen-are-like-gods/</link>
     <pubDate>Sun, 11 Jun 2023 20:14:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/reading-craftsmen-are-like-gods/</guid>
+    <guid>https://ericzzz.com/reading-craftsmen-are-like-gods/</guid>
     <description><![CDATA[从学徒到一手缔造世界 500 强企业，日本经营四圣之一，本田汽车创始人为你讲述他的 240 条匠人之道！]]></description>
 </item>
 </channel>

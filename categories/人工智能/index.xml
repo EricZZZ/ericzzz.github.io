@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>人工智能 - 分类 - 🌻ErᎥc的数字花园</title>
-        <link>https://miasanmia.cc/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
+        <link>https://ericzzz.com/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
         <description>人工智能 - 分类 - 🌻ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 08 Dec 2022 11:22:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 08 Dec 2022 11:22:17 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" rel="self" type="application/rss+xml" /><item>
     <title>注册使用 ChatGPT</title>
-    <link>https://miasanmia.cc/use-chatgpt/</link>
+    <link>https://ericzzz.com/use-chatgpt/</link>
     <pubDate>Thu, 08 Dec 2022 11:22:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/use-chatgpt/</guid>
+    <guid>https://ericzzz.com/use-chatgpt/</guid>
     <description><![CDATA[最近 ChatGPT 在国外特别火💥，想要体验的朋友会被手机验证码拦住，必须使用国外手机号注册，用 Google Voice 虚拟号码接收不到验证码。 准备好翻墙工具。 注册 sms-activate 平台，用]]></description>
 </item>
 </channel>

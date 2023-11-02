@@ -1,30 +1,30 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Python - 标签 - 🌻ErᎥc的数字花园</title>
-        <link>https://miasanmia.cc/tags/python/</link>
+        <link>https://ericzzz.com/tags/python/</link>
         <description>Python - 标签 - 🌻ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Mon, 13 Mar 2023 17:05:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/python/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Mon, 13 Mar 2023 17:05:17 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/tags/python/" rel="self" type="application/rss+xml" /><item>
     <title>如何使用 Python 操作 cvs 文件</title>
-    <link>https://miasanmia.cc/how-to-read-and-write-with-csv-files-in-python/</link>
+    <link>https://ericzzz.com/how-to-read-and-write-with-csv-files-in-python/</link>
     <pubDate>Mon, 13 Mar 2023 17:05:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/how-to-read-and-write-with-csv-files-in-python/</guid>
+    <guid>https://ericzzz.com/how-to-read-and-write-with-csv-files-in-python/</guid>
     <description><![CDATA[使用数据库导出电子表格的格式是 cvs，有时还需要操作表格中的数据，用 Python 语言就是最好的选择。 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25]]></description>
 </item>
 <item>
     <title>使用 python 播放音频（.mp3 格式）</title>
-    <link>https://miasanmia.cc/play-audio-.mp3-format-using-python/</link>
+    <link>https://ericzzz.com/play-audio-.mp3-format-using-python/</link>
     <pubDate>Tue, 29 Mar 2022 20:32:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/play-audio-.mp3-format-using-python/</guid>
+    <guid>https://ericzzz.com/play-audio-.mp3-format-using-python/</guid>
     <description><![CDATA[第一种方式 playsound 1. 安装依赖包 1 pip install playsound 2. 使用 1 2 3 4 from playsound import playsound playsound(&#39;your music file path&#39;) print(&#39;music play finished&#39;) 第二种方式 pygame.mixer.music（推荐使用） 推荐理由，用这]]></description>
 </item>
 <item>
     <title>记录 pip 安装模块时踩过的坑</title>
-    <link>https://miasanmia.cc/record-the-pits-stepped-on-when-pip-installs-modules/</link>
+    <link>https://ericzzz.com/record-the-pits-stepped-on-when-pip-installs-modules/</link>
     <pubDate>Thu, 24 Mar 2022 16:49:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/record-the-pits-stepped-on-when-pip-installs-modules/</guid>
+    <guid>https://ericzzz.com/record-the-pits-stepped-on-when-pip-installs-modules/</guid>
     <description><![CDATA[在网上下了个 python 脚本，第一个问题如何安装包， 在使用 pip 命令行，出现的问题记录下（针对 Windows 用户）。 1.pip 源更换为国内镜像 国内 pip 镜像源，全部使用 https]]></description>
 </item>
 </channel>

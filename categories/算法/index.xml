@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>算法 - 分类 - 🌻ErᎥc的数字花园</title>
-        <link>https://miasanmia.cc/categories/%E7%AE%97%E6%B3%95/</link>
+        <link>https://ericzzz.com/categories/%E7%AE%97%E6%B3%95/</link>
         <description>算法 - 分类 - 🌻ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Mon, 01 May 2023 10:15:56 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Mon, 01 May 2023 10:15:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
     <title>各种各样的排序算法</title>
-    <link>https://miasanmia.cc/algorithm-of-sort/</link>
+    <link>https://ericzzz.com/algorithm-of-sort/</link>
     <pubDate>Mon, 01 May 2023 10:15:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/algorithm-of-sort/</guid>
+    <guid>https://ericzzz.com/algorithm-of-sort/</guid>
     <description><![CDATA[冒泡排序 学习排序算法，大部分首先接触的就是排序算法，因为好理解，命名也很形象。 顾名思义：数值就像是在水中的气泡，数值越大气泡越大，越容易冒出]]></description>
 </item>
 </channel>

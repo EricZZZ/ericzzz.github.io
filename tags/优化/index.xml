@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>优化 - 标签 - 🌻ErᎥc的数字花园</title>
-        <link>https://miasanmia.cc/tags/%E4%BC%98%E5%8C%96/</link>
+        <link>https://ericzzz.com/tags/%E4%BC%98%E5%8C%96/</link>
         <description>优化 - 标签 - 🌻ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sat, 27 Mar 2021 00:17:56 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/tags/%E4%BC%98%E5%8C%96/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sat, 27 Mar 2021 00:17:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/tags/%E4%BC%98%E5%8C%96/" rel="self" type="application/rss+xml" /><item>
     <title>优化项目中大量 if...else...</title>
-    <link>https://miasanmia.cc/optimize-a-lot-of-if...else.../</link>
+    <link>https://ericzzz.com/optimize-a-lot-of-if...else.../</link>
     <pubDate>Sat, 27 Mar 2021 00:17:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/optimize-a-lot-of-if...else.../</guid>
+    <guid>https://ericzzz.com/optimize-a-lot-of-if...else.../</guid>
     <description><![CDATA[在项目中经常会用 if..else&hellip; 去判断逻辑，当业务越来越复杂，一个逻辑会有大量的判断，如下面的代码 1 2 3 4 5 6 7 8 9 10 11 if(type.equals(&#34;o1&#34;)){ // 执行 o1 逻辑 }else if(type.equals(&#34;o2&#34;)){ // 执行 o2 逻辑 }else if(type.equals(&#34;o3&#34;)){]]></description>
 </item>
 </channel>

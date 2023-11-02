@@ -1,54 +1,54 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>开发 - 分类 - 🌻ErᎥc的数字花园</title>
-        <link>https://miasanmia.cc/categories/%E5%BC%80%E5%8F%91/</link>
+        <link>https://ericzzz.com/categories/%E5%BC%80%E5%8F%91/</link>
         <description>开发 - 分类 - 🌻ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 24 Oct 2023 16:20:17 &#43;0800</lastBuildDate><atom:link href="https://miasanmia.cc/categories/%E5%BC%80%E5%8F%91/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 24 Oct 2023 16:20:17 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/categories/%E5%BC%80%E5%8F%91/" rel="self" type="application/rss+xml" /><item>
     <title>使用 Apache ab 工具测试网站性能</title>
-    <link>https://miasanmia.cc/use-apache-ab-tool/</link>
+    <link>https://ericzzz.com/use-apache-ab-tool/</link>
     <pubDate>Tue, 24 Oct 2023 16:20:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/use-apache-ab-tool/</guid>
+    <guid>https://ericzzz.com/use-apache-ab-tool/</guid>
     <description><![CDATA[Apache ab 工具使用，测试指标分析。]]></description>
 </item>
 <item>
     <title>Git 分支、提交命名规范</title>
-    <link>https://miasanmia.cc/branch-and-commit-for-git/</link>
+    <link>https://ericzzz.com/branch-and-commit-for-git/</link>
     <pubDate>Fri, 03 Feb 2023 21:39:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/branch-and-commit-for-git/</guid>
+    <guid>https://ericzzz.com/branch-and-commit-for-git/</guid>
     <description><![CDATA[Git 对于开发者来说经常使用，由于没有标准规范，分支名和提交信息，显得杂乱无章，不利于项目维护，这里简单分享一下 Git 命名规范。 分支命名 格式 1 git branch &]]></description>
 </item>
 <item>
     <title>再见了 WordPress，全面拥抱 Hugo</title>
-    <link>https://miasanmia.cc/build-blog-with-hugo/</link>
+    <link>https://ericzzz.com/build-blog-with-hugo/</link>
     <pubDate>Thu, 24 Nov 2022 15:13:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/build-blog-with-hugo/</guid>
+    <guid>https://ericzzz.com/build-blog-with-hugo/</guid>
     <description><![CDATA[再见了 WordPress，全面拥抱 Hugo 2020 年 11 月的某天心血来潮，想开个 Blog 吧，说干就干，买服务器，买域名，远程安装 phpstudy，登录 phpstudy 后台，使]]></description>
 </item>
 <item>
     <title>使用 python 播放音频（.mp3 格式）</title>
-    <link>https://miasanmia.cc/play-audio-.mp3-format-using-python/</link>
+    <link>https://ericzzz.com/play-audio-.mp3-format-using-python/</link>
     <pubDate>Tue, 29 Mar 2022 20:32:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/play-audio-.mp3-format-using-python/</guid>
+    <guid>https://ericzzz.com/play-audio-.mp3-format-using-python/</guid>
     <description><![CDATA[第一种方式 playsound 1. 安装依赖包 1 pip install playsound 2. 使用 1 2 3 4 from playsound import playsound playsound(&#39;your music file path&#39;) print(&#39;music play finished&#39;) 第二种方式 pygame.mixer.music（推荐使用） 推荐理由，用这]]></description>
 </item>
 <item>
     <title>记录 pip 安装模块时踩过的坑</title>
-    <link>https://miasanmia.cc/record-the-pits-stepped-on-when-pip-installs-modules/</link>
+    <link>https://ericzzz.com/record-the-pits-stepped-on-when-pip-installs-modules/</link>
     <pubDate>Thu, 24 Mar 2022 16:49:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/record-the-pits-stepped-on-when-pip-installs-modules/</guid>
+    <guid>https://ericzzz.com/record-the-pits-stepped-on-when-pip-installs-modules/</guid>
     <description><![CDATA[在网上下了个 python 脚本，第一个问题如何安装包， 在使用 pip 命令行，出现的问题记录下（针对 Windows 用户）。 1.pip 源更换为国内镜像 国内 pip 镜像源，全部使用 https]]></description>
 </item>
 <item>
     <title>优化项目中大量 if...else...</title>
-    <link>https://miasanmia.cc/optimize-a-lot-of-if...else.../</link>
+    <link>https://ericzzz.com/optimize-a-lot-of-if...else.../</link>
     <pubDate>Sat, 27 Mar 2021 00:17:56 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://miasanmia.cc/optimize-a-lot-of-if...else.../</guid>
+    <guid>https://ericzzz.com/optimize-a-lot-of-if...else.../</guid>
     <description><![CDATA[在项目中经常会用 if..else&hellip; 去判断逻辑，当业务越来越复杂，一个逻辑会有大量的判断，如下面的代码 1 2 3 4 5 6 7 8 9 10 11 if(type.equals(&#34;o1&#34;)){ // 执行 o1 逻辑 }else if(type.equals(&#34;o2&#34;)){ // 执行 o2 逻辑 }else if(type.equals(&#34;o3&#34;)){]]></description>
 </item>
 </channel>
