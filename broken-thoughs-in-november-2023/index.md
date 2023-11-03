@@ -9,3 +9,8 @@
 ### 2023.11.02
 🕯
 
+![Respect](https://image.ericzzz.com/2023/11/02/d6adf6d4-fc0b-4ae1-af9e-0e09b51e18f2.jpg)
+
+### 2023.11.03
+昨天不知道怎么了，CloudFlare 服务登不上，Blog 更新之后部署失败了，传个图片都不行😥。
+
