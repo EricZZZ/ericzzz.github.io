@@ -3,7 +3,15 @@
         <title>所有文章 - 🌻ErᎥc的数字花园</title>
         <link>https://ericzzz.com/posts/</link>
         <description>所有文章 | 🌻ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 07 Nov 2023 14:00:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 09 Nov 2023 14:00:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>读《点石成金》有感</title>
+    <link>https://ericzzz.com/reading-dont-make-me-think/</link>
+    <pubDate>Thu, 09 Nov 2023 14:00:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://ericzzz.com/reading-dont-make-me-think/</guid>
+    <description><![CDATA[网站设计第一本书，产品经理和 Web 开发者必读之一，国内关于可用性报告很少提及，更多偏向系统稳定性，降低运行故障，而不是从产品设计角度出发。]]></description>
+</item>
+<item>
     <title>读《塔勒布智慧箴言录》有感</title>
     <link>https://ericzzz.com/reading-the-bed-of-procrustes/</link>
     <pubDate>Tue, 07 Nov 2023 14:00:56 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>EricZhao</author>
     <guid>https://ericzzz.com/reading-mothers-mother/</guid>
     <description><![CDATA[死亡不是生命的终点，遗忘才是]]></description>
-</item>
-<item>
-    <title>2023 年 07 月 - 碎碎念</title>
-    <link>https://ericzzz.com/broken-thoughts-in-july-2023/</link>
-    <pubDate>Sun, 02 Jul 2023 09:41:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://ericzzz.com/broken-thoughts-in-july-2023/</guid>
-    <description><![CDATA[七月~愿所有的幸运都不期而遇🌞🌞]]></description>
 </item>
 </channel>
 </rss>

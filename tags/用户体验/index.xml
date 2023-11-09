@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>用户体验 - 标签 - 🌻ErᎥc的数字花园</title>
+        <link>https://ericzzz.com/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/</link>
+        <description>用户体验 - 标签 - 🌻ErᎥc的数字花园</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 09 Nov 2023 14:00:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/" rel="self" type="application/rss+xml" /><item>
+    <title>读《点石成金》有感</title>
+    <link>https://ericzzz.com/reading-dont-make-me-think/</link>
+    <pubDate>Thu, 09 Nov 2023 14:00:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://ericzzz.com/reading-dont-make-me-think/</guid>
+    <description><![CDATA[网站设计第一本书，产品经理和 Web 开发者必读之一，国内关于可用性报告很少提及，更多偏向系统稳定性，降低运行故障，而不是从产品设计角度出发。]]></description>
+</item>
+</channel>
+</rss>
