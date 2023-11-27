@@ -3,9 +3,17 @@
         <title>🌻ErᎥc的数字花园</title>
         <link>https://ericzzz.com/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 09 Nov 2023 14:00:56 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Mon, 27 Nov 2023 17:31:56 &#43;0800</lastBuildDate>
             <atom:link href="https://ericzzz.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>读《人生赛局》有感</title>
+    <link>https://ericzzz.com/reading-the-biggest-bluff/</link>
+    <pubDate>Mon, 27 Nov 2023 17:31:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://ericzzz.com/reading-the-biggest-bluff/</guid>
+    <description><![CDATA[一场游戏一场梦。]]></description>
+</item>
+<item>
     <title>读《点石成金》有感</title>
     <link>https://ericzzz.com/reading-dont-make-me-think/</link>
     <pubDate>Thu, 09 Nov 2023 14:00:56 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://ericzzz.com/broken-thoughts-in-august-2023/</guid>
     <description><![CDATA[八月，暑气蒸腾，荷花怒放。静候秋风来，不辞长作伴。🌞🌞]]></description>
-</item>
-<item>
-    <title>读《当妈妈的妈妈》有感</title>
-    <link>https://ericzzz.com/reading-mothers-mother/</link>
-    <pubDate>Mon, 03 Jul 2023 00:45:56 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://ericzzz.com/reading-mothers-mother/</guid>
-    <description><![CDATA[死亡不是生命的终点，遗忘才是]]></description>
 </item>
 </channel>
 </rss>
