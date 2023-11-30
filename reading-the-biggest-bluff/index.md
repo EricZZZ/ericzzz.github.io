@@ -103,3 +103,5 @@
 作者 [玛丽亚·康尼科娃](https://www.mariakonnikova.com/) 个人主页
 
 作者导师 [埃里克·塞德尔](https://www.poker.org/poker-players/erik-seidel/) 资料
+
+![埃里克·塞德尔](https://image.ericzzz.com/2023/11/27/94e4e68e-3c3a-46bf-a583-986b1f27a82b.webp)

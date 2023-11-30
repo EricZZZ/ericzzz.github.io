@@ -109,3 +109,13 @@ ChatGPT 语音所有用户免费开放了，已经使用上了，泰酷辣！！
 ### 2023.11.28
 捣鼓了一天 [calibre](https://calibre-ebook.com/zh_CN)，因吹斯汀😏。
 
+### 2023.11.29
+> ...the test of a first-rate intelligence is the ability to hold two opposed ideas in the mind at the same time, and still retain the ability to function. One should, for example, be able to see that things are hopeless and yet be determined to make them otherwise. This philosophy fitted on to my early adult life, when I saw the improbable, the implausible, often the "impossible," come true.
+ 
+——F. Scott Fitzgerald
+
+### 2023.11.30
+想了一整天😂😂😂
+
+![？](https://image.ericzzz.com/2023/11/30/990898eb-d96d-435b-9fec-deb51a605da3.jpg)
+
