@@ -3,7 +3,23 @@
         <title>所有文章 - 🌻ErᎥc的数字花园</title>
         <link>https://ericzzz.com/posts/</link>
         <description>所有文章 | 🌻ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Mon, 27 Nov 2023 17:31:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 05 Dec 2023 15:17:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>读《小而美：持续盈利的经营法则》有感</title>
+    <link>https://ericzzz.com/reading-the-minimalist-entrepreneur/</link>
+    <pubDate>Tue, 05 Dec 2023 15:17:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://ericzzz.com/reading-the-minimalist-entrepreneur/</guid>
+    <description><![CDATA[Slow is Fast,Fast is Slow.]]></description>
+</item>
+<item>
+    <title>2023 年 12 月-碎碎念</title>
+    <link>https://ericzzz.com/broken-thoughts-in-december-2023/</link>
+    <pubDate>Tue, 05 Dec 2023 11:23:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://ericzzz.com/broken-thoughts-in-december-2023/</guid>
+    <description><![CDATA[12 月，天空中下起了鹅毛大雪，到处是一片白色，唯有松树还是那样鲜绿，点点雪片飘落在上面，好像是朵朵白花。❄️❄️]]></description>
+</item>
+<item>
     <title>读《人生赛局》有感</title>
     <link>https://ericzzz.com/reading-the-biggest-bluff/</link>
     <pubDate>Mon, 27 Nov 2023 17:31:56 &#43;0800</pubDate>
@@ -66,22 +82,6 @@
     <author>EricZhao</author>
     <guid>https://ericzzz.com/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/</guid>
     <description><![CDATA[使用 OSSBrowser 把所有文件下载到本地，再使用 Rclone 工具，把本地文件夹同步到 CloudFlare R2 中。]]></description>
-</item>
-<item>
-    <title>2023 年 09 月 - 碎碎念</title>
-    <link>https://ericzzz.com/broken-thoughs-in-september-2023/</link>
-    <pubDate>Sat, 02 Sep 2023 17:49:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://ericzzz.com/broken-thoughs-in-september-2023/</guid>
-    <description><![CDATA[枫叶渐红，菊花盛开，金秋九月，人间一片繁华。🍂🍂]]></description>
-</item>
-<item>
-    <title>2023 年 08 月 - 碎碎念</title>
-    <link>https://ericzzz.com/broken-thoughts-in-august-2023/</link>
-    <pubDate>Tue, 01 Aug 2023 16:41:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://ericzzz.com/broken-thoughts-in-august-2023/</guid>
-    <description><![CDATA[八月，暑气蒸腾，荷花怒放。静候秋风来，不辞长作伴。🌞🌞]]></description>
 </item>
 </channel>
 </rss>
