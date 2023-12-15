@@ -3,7 +3,15 @@
         <title>优化 - 标签 - 🌻ErᎥc的数字花园</title>
         <link>https://ericzzz.com/tags/%E4%BC%98%E5%8C%96/</link>
         <description>优化 - 标签 - 🌻ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sat, 27 Mar 2021 00:17:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/tags/%E4%BC%98%E5%8C%96/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 15 Dec 2023 16:29:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/tags/%E4%BC%98%E5%8C%96/" rel="self" type="application/rss+xml" /><item>
+    <title>对扁平化的简单理解</title>
+    <link>https://ericzzz.com/flat-is-better-than-nested/</link>
+    <pubDate>Fri, 15 Dec 2023 16:29:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://ericzzz.com/flat-is-better-than-nested/</guid>
+    <description><![CDATA[Python 之禅，第五条： Flat is better than nested. 翻译成中文，扁平优于嵌套。无论在生活，软件开发，还是经营管理中都适用。 先从简单判断中理解 根据变量x的值，计算变量y]]></description>
+</item>
+<item>
     <title>优化项目中大量 if...else...</title>
     <link>https://ericzzz.com/optimize-a-lot-of-if...else.../</link>
     <pubDate>Sat, 27 Mar 2021 00:17:56 &#43;0800</pubDate>

@@ -3,7 +3,15 @@
         <title>所有文章 - 🌻ErᎥc的数字花园</title>
         <link>https://ericzzz.com/posts/</link>
         <description>所有文章 | 🌻ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 05 Dec 2023 15:17:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Fri, 15 Dec 2023 16:29:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>对扁平化的简单理解</title>
+    <link>https://ericzzz.com/flat-is-better-than-nested/</link>
+    <pubDate>Fri, 15 Dec 2023 16:29:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://ericzzz.com/flat-is-better-than-nested/</guid>
+    <description><![CDATA[Python 之禅，第五条： Flat is better than nested. 翻译成中文，扁平优于嵌套。无论在生活，软件开发，还是经营管理中都适用。 先从简单判断中理解 根据变量x的值，计算变量y]]></description>
+</item>
+<item>
     <title>读《小而美：持续盈利的经营法则》有感</title>
     <link>https://ericzzz.com/reading-the-minimalist-entrepreneur/</link>
     <pubDate>Tue, 05 Dec 2023 15:17:56 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>EricZhao</author>
     <guid>https://ericzzz.com/broken-thoughs-in-october-2023/</guid>
     <description><![CDATA[每一天都是第一天，每一次都是第一次。&mdash;秦才淞]]></description>
-</item>
-<item>
-    <title>阿里云 OSS 迁移到 CloudFlare R2</title>
-    <link>https://ericzzz.com/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/</link>
-    <pubDate>Tue, 05 Sep 2023 15:22:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://ericzzz.com/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/</guid>
-    <description><![CDATA[使用 OSSBrowser 把所有文件下载到本地，再使用 Rclone 工具，把本地文件夹同步到 CloudFlare R2 中。]]></description>
 </item>
 </channel>
 </rss>
