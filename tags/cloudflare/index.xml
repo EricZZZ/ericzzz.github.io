@@ -3,7 +3,15 @@
         <title>CloudFlare - 标签 - 🌻ErᎥc的数字花园</title>
         <link>https://ericzzz.com/tags/cloudflare/</link>
         <description>CloudFlare - 标签 - 🌻ErᎥc的数字花园</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Tue, 05 Sep 2023 15:22:17 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/tags/cloudflare/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Wed, 31 Jan 2024 17:50:56 &#43;0800</lastBuildDate><atom:link href="https://ericzzz.com/tags/cloudflare/" rel="self" type="application/rss+xml" /><item>
+    <title>优化 Blog 图片访问</title>
+    <link>https://ericzzz.com/optimize-blog-image-access/</link>
+    <pubDate>Wed, 31 Jan 2024 17:50:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://ericzzz.com/optimize-blog-image-access/</guid>
+    <description><![CDATA[优化博客访问速度，通过 Rclone，Python，CloudFlare R2 等工具，把博客图片格式转换为 webp 格式。]]></description>
+</item>
+<item>
     <title>阿里云 OSS 迁移到 CloudFlare R2</title>
     <link>https://ericzzz.com/alibaba-cloud-oss-was-migrated-to-cloudflare-r2/</link>
     <pubDate>Tue, 05 Sep 2023 15:22:17 &#43;0800</pubDate>

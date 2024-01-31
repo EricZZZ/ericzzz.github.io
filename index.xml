@@ -3,9 +3,17 @@
         <title>🌻ErᎥc的数字花园</title>
         <link>https://ericzzz.com/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Thu, 04 Jan 2024 09:49:17 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Wed, 31 Jan 2024 17:50:56 &#43;0800</lastBuildDate>
             <atom:link href="https://ericzzz.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>优化 Blog 图片访问</title>
+    <link>https://ericzzz.com/optimize-blog-image-access/</link>
+    <pubDate>Wed, 31 Jan 2024 17:50:56 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://ericzzz.com/optimize-blog-image-access/</guid>
+    <description><![CDATA[优化博客访问速度，通过 Rclone，Python，CloudFlare R2 等工具，把博客图片格式转换为 webp 格式。]]></description>
+</item>
+<item>
     <title>2024 年 01 月 - 碎碎念</title>
     <link>https://ericzzz.com/broken-thoughts-in-january-2024/</link>
     <pubDate>Thu, 04 Jan 2024 09:49:17 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://ericzzz.com/use-apache-ab-tool/</guid>
     <description><![CDATA[Apache ab 工具使用，测试指标分析。]]></description>
-</item>
-<item>
-    <title>读《一分钟经理人》有感</title>
-    <link>https://ericzzz.com/reading-the-one-minute-manager/</link>
-    <pubDate>Wed, 18 Oct 2023 14:40:56 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://ericzzz.com/reading-the-one-minute-manager/</guid>
-    <description><![CDATA[书很薄，道理很简单，但真正做到的人很少。]]></description>
 </item>
 </channel>
 </rss>
