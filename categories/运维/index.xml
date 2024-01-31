@@ -37,10 +37,10 @@
 </item>
 <item>
     <title>Linux 安装、部署 Redis（单机）</title>
-    <link>https://ericzzz.com/linux-installation-and-deployment-of-redis-single-machine/</link>
+    <link>https://ericzzz.com/linux-installation-and-deployment-of-redissingle-machine/</link>
     <pubDate>Sat, 07 Nov 2020 19:02:17 &#43;0800</pubDate>
     <author>EricZhao</author>
-    <guid>https://ericzzz.com/linux-installation-and-deployment-of-redis-single-machine/</guid>
+    <guid>https://ericzzz.com/linux-installation-and-deployment-of-redissingle-machine/</guid>
     <description><![CDATA[1. 下载 Redis http://www.redis.cn/download.html 下载相应 redis 版本，并上传到服务器上 2. 安装 解压，编译 1 2 3 tar -xzf redis-5.0.5.tar.gz cd redis-5.0.5 make 编译完成后，通过如下命令开启 Redis 1 src/redis-server 3. 设置 Redis 远程连接，后台启动，设]]></description>
 </item>
 <item>
