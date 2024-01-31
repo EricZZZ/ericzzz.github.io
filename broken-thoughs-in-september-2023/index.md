@@ -38,7 +38,7 @@
 ### 2023.09.12
 太上头了，太上头了，根本停不下来。
 
-![杀戮尖塔](https://image.ericzzz.com/2023/09/13/0a91dd8d-ae02-45b0-b31f-ea8f4bdd930c.png)
+![杀戮尖塔](https://image.ericzzz.com/2023/09/13/0a91dd8d-ae02-45b0-b31f-ea8f4bdd930c.webp)
 
 ### 2023.09.13
 提醒自己：今晚早点睡，今晚早点睡，今晚早点睡！！！
@@ -88,7 +88,7 @@ When you open yourself up，the world will open to you（当你敞开心扉，�
 ### 2023.09.26
 你有没有听过那种会记一辈子的称赞？🤔
 
-![cool](https://image.ericzzz.com/2023/09/26/a32a1e47-9075-44c7-9a8e-0e216dc38991.jpg)
+![cool](https://image.ericzzz.com/2023/09/26/a32a1e47-9075-44c7-9a8e-0e216dc38991.webp)
 
 ### 2023.09.27
 花了一顿饭钱，算是补票了 [火炬之光 2](https://store.steampowered.com/app/200710/Torchlight_II/)😆。
@@ -99,7 +99,7 @@ When you open yourself up，the world will open to you（当你敞开心扉，�
 ### 2023.09.29
 100 公里，4 个半小时之内完成，又回了点点本😏。
 
-![100 公里绿道](https://image.ericzzz.com/2023/10/05/eba79ee6-97dd-48b8-8fab-67defc9a2a42.jpg)
+![100 公里绿道](https://image.ericzzz.com/2023/10/05/eba79ee6-97dd-48b8-8fab-67defc9a2a42.webp)
 
 ### 2023.09.30
 真正属于假期的一天。

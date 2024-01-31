@@ -20,21 +20,21 @@ OSSBrowser 是阿里云官方提供的 OSS 图形化管理工具，提供类似 
 - 您可以单击**下载 CSV 文件**，下载 AccessKey 信息。单击**复制**，复制 AccessKey 信息。
 - 单击**确定**。
  
-![阿里云 RAM](https://image.ericzzz.com/2023/09/05/6173af98-d151-4706-a6fc-87bfa7663e7c.png)
+![阿里云 RAM](https://image.ericzzz.com/2023/09/05/6173af98-d151-4706-a6fc-87bfa7663e7c.webp)
 
 ### 授权
 
 需要给 RAM 用户开通`AliyunOSSFullAccess`，`AliyunRAMFullAccess`，`AliyunSTSAssumeRoleAccess`的权限。
 
-![阿里云 RAM 授权](https://image.ericzzz.com/2023/09/05/979627fc-5aed-4ca6-851c-973514fd3914.png)
+![阿里云 RAM 授权](https://image.ericzzz.com/2023/09/05/979627fc-5aed-4ca6-851c-973514fd3914.webp)
 
 ### 登录
 
-![登录界面](https://image.ericzzz.com/2023/09/05/ecca0eaf-a0ab-4db7-9075-292844216622.png)
+![登录界面](https://image.ericzzz.com/2023/09/05/ecca0eaf-a0ab-4db7-9075-292844216622.webp)
 
 `Endpoint（地域节点）`：选择自定义，不是 Bucket 域名，例如`oss-cn-beijing.aliyuncs.com`。
 
-![Endpoint](https://image.ericzzz.com/2023/09/05/3258d9aa-c32e-4031-9fa1-c036b2b4e198.png)
+![Endpoint](https://image.ericzzz.com/2023/09/05/3258d9aa-c32e-4031-9fa1-c036b2b4e198.webp)
 
 `AccessKeyId`：填入第一步申请的`AccessKey`。
 
@@ -44,7 +44,7 @@ OSSBrowser 是阿里云官方提供的 OSS 图形化管理工具，提供类似 
 
 本地创建文件夹，开始下载。
 
-![OSSBrowser 下载](https://image.ericzzz.com/2023/09/05/aed68098-871d-47b0-a1e9-036c119c3649.png)
+![OSSBrowser 下载](https://image.ericzzz.com/2023/09/05/aed68098-871d-47b0-a1e9-036c119c3649.webp)
 
 ## Rclone
 
@@ -60,7 +60,7 @@ Rclone 是一个开源，多线程，命令行界面的计算机程序，可用�
 - 选择** R2 令牌**文本以编辑您的 API 令牌名称。
 - 在** Permissions **下，为您的令牌选择权限类型。我们选择最高权限`Admin Read and Write`。有关每个选项的信息，请参阅 [权限](https://developers.cloudflare.com/r2/api/s3/tokens/#permissions)。
 
-![CloudFlare R2 权限](https://image.ericzzz.com/2023/09/05/95b24245-b86e-4b22-8385-a562a78f4c19.png)
+![CloudFlare R2 权限](https://image.ericzzz.com/2023/09/05/95b24245-b86e-4b22-8385-a562a78f4c19.webp)
 
 - （可选）如果您选择**对象读写**或**对象读取**权限，则可以将令牌范围限定为一组存储桶。
 - 选择**创建 API 令牌**。
@@ -90,7 +90,7 @@ acl = private
 
 `endpoint`：accountid 在下图的位置。
 
-![accountid](https://image.ericzzz.com/2023/09/05/cb37b286-19f6-4c55-9d9b-05ee47f4b70f.png)
+![accountid](https://image.ericzzz.com/2023/09/05/cb37b286-19f6-4c55-9d9b-05ee47f4b70f.webp)
 
 测试，配置是否正确
 
@@ -118,7 +118,7 @@ rclone sync <LOCAL_PATH> target:bucket-name/target-path/ --progress
 
 `--progress`： 显示迁移的进度及校验的结果。
 
-![rclone 同步](https://image.ericzzz.com/2023/09/05/8f43be60-eb14-4818-9d30-8fd7a685b59f.png)
+![rclone 同步](https://image.ericzzz.com/2023/09/05/8f43be60-eb14-4818-9d30-8fd7a685b59f.webp)
 
 ## 替换博客中图片地址
 

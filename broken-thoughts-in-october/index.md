@@ -53,7 +53,7 @@
 ### 2022.10.28
 本来想通过 [github actions](https://github.com/features/actions) 开发个炫酷小玩意儿，中途遇到 docker COPY 命令的小 bug，解决完 docker 之后发现 actions 原来不支持启动 docker，我的心拔凉拔凉滴。
 
-![凉透了](https://p3.itc.cn/q_70/images03/20210218/f6e906be96804952afdcf24782e00e86.jpeg)
+![凉透了](https://p3.itc.cn/q_70/images03/20210218/f6e906be96804952afdcf24782e00e86.webp)
 
 ### 2022.10.29
 ``` md

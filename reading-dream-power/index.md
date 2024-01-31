@@ -25,11 +25,11 @@
 ### 从制造机动自行车到摩托车
 使用废弃的军用微型发动机，放置到自行车上，成为机动自行车，一经推出大受欢迎，导致萌生制造发动机的想法，第一辆摩托车诞生“梦想号”。
 
-![机动自行车](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kreidler_K_50.jpg/1280px-Kreidler_K_50.jpg)
+![机动自行车](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kreidler_K_50.jpg/1280px-Kreidler_K_50.webp)
 
 1952 年，把微型发动机安装在自行车。
 
-![本田幼兽 C100](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Honda_super_cub%2C_1st_Gen._1958%2C_Left_side.jpg/1280px-Honda_super_cub%2C_1st_Gen._1958%2C_Left_side.jpg)
+![本田幼兽 C100](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Honda_super_cub%2C_1st_Gen._1958%2C_Left_side.jpg/1280px-Honda_super_cub%2C_1st_Gen._1958%2C_Left_side.webp)
 
 1958 年 发售 Super Cub 摩托车，成为日后全球销量最多的摩托车型号。
 
@@ -38,7 +38,7 @@
 
 我常常觉得，如果没法和不同性格的人往来，那么一个人作为社会人的价值就高不起来。
 
-![N360](https://upload.wikimedia.org/wikipedia/commons/f/fa/1969_Honda_N360_01.jpg)
+![N360](https://upload.wikimedia.org/wikipedia/commons/f/fa/1969_Honda_N360_01.webp)
 轻型汽车 N360，号称“小 N”，四个轮子的摩托车
 
 ![H1300](https://upload.wikimedia.org/wikipedia/commons/3/33/H1300c_7s.JPG)
@@ -49,7 +49,7 @@
 ### 挑战《玛斯基条例》
 研制 CVCC 发动机，第一个通过《马斯基条例》标准的发动机。
 
-![思域](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/1977_Honda_Civic_%2822901414069%29.jpg/250px-1977_Honda_Civic_%2822901414069%29.jpg)
+![思域](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/1977_Honda_Civic_%2822901414069%29.jpg/250px-1977_Honda_Civic_%2822901414069%29.webp)
 
 本田第一代思域，搭配 CVCC 发动机，主打低油耗和高功率。
 

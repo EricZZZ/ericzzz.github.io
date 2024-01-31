@@ -66,12 +66,12 @@ Morgan Housel 指出了七种常见的心理偷懒，看看你占了几条🤔�
 ### 2023.04.12
 看电影总仍不住掏出手柄 😂。
 
-![super mario](https://image.ericzzz.com/2023/04/12/54c98706-ec7b-4a11-9415-ec8d9b67c33e.jpg)
+![super mario](https://image.ericzzz.com/2023/04/12/54c98706-ec7b-4a11-9415-ec8d9b67c33e.webp)
   
 ### 2023.04.13
 早上开开心心打开 leetcode, 筛选简单难度，心想今天又有哪些简单题目，来让我刷存在感 😎，结果一道 [平平无奇](https://leetcode.cn/problems/remove-letter-to-equalize-frequency/) 的题，在 1 个小时内尝试了 5 次，最后心态崩了，令人欣慰的是，最后 Python 解题是由目前最强人工智能 ChatGPT-4 所答，也失败了😂。
 
-![leetcode](https://image.ericzzz.com/2023/04/13/e85ff7e6-b964-4de6-89d5-cf5cdf4a7b97.png)  
+![leetcode](https://image.ericzzz.com/2023/04/13/e85ff7e6-b964-4de6-89d5-cf5cdf4a7b97.webp)  
 
 ### 2023.04.14
 如果能穿越古代，以前我想去汉代，去见证汉武帝开疆扩土，打跑匈奴，建立丝绸之路。随着时间推移，可能跟最近看《苏东坡传》有关系，现在想去宋朝了（ps. 当然不是因为他们皇帝姓赵😂），准确的讲是北宋，北宋政治开明，经济发达，文化繁荣，唐宋八大家，宋朝就占了六个，诞生了很多有意思的文人，比如范仲淹，三苏，司马光，欧阳修，王安石等。
@@ -79,7 +79,7 @@ Morgan Housel 指出了七种常见的心理偷懒，看看你占了几条🤔�
 ### 2023.04.15
 强如马云的阿里巴巴，设计产品都是去迎合消费者。
 
-![马云云谷演讲](https://image.ericzzz.com/2023/04/15/d47c2f91-c46d-44fa-a041-21ba8041bad6.jpg)
+![马云云谷演讲](https://image.ericzzz.com/2023/04/15/d47c2f91-c46d-44fa-a041-21ba8041bad6.webp)
   
 ### 2023.04.16
 一到周末总是睡不醒，吃完早饭困，吃完午饭困，吃完晚饭困🥱🥱🥱。
@@ -95,7 +95,7 @@ Morgan Housel 指出了七种常见的心理偷懒，看看你占了几条🤔�
 ### 2023.04.19
 github 这个改版，看代码更方便了啊。
 
-![github 改版](https://image.ericzzz.com/2023/04/19/192ebaeb-cd74-4d92-9189-a86e4c173507.png)
+![github 改版](https://image.ericzzz.com/2023/04/19/192ebaeb-cd74-4d92-9189-a86e4c173507.webp)
 
 ### 2023.04.20
 墙裂建议这两道题 [2235. 两整数相加](https://leetcode.cn/problems/add-two-integers/) , [1. 两数之和](https://leetcode.cn/problems/two-sum/) 互换一下位置 🤣。
@@ -116,7 +116,7 @@ github 这个改版，看代码更方便了啊。
 ### 2023.04.24
 leetcode 排名终于不是 10w+ 啦🎉
 
-![leetcode 排名](https://image.ericzzz.com/2023/04/24/50e30349-8fcd-4761-80de-b6465bf9e6cb.png)
+![leetcode 排名](https://image.ericzzz.com/2023/04/24/50e30349-8fcd-4761-80de-b6465bf9e6cb.webp)
 
 ### 2023.04.25
 > 富在术数，不在劳身；力在势居，不在力耕也。
@@ -137,7 +137,7 @@ leetcode 排名终于不是 10w+ 啦🎉
 ### 2023.04.29
 一旦放弃的话，比赛就结束了。
   
-![灌篮高手](https://image.ericzzz.com/2023/04/29/69131904b66345dda7894b0141b8f0a7.jpg)
+![灌篮高手](https://image.ericzzz.com/2023/04/29/69131904b66345dda7894b0141b8f0a7.webp)
 
 ### 2023.04.30
 好累😵

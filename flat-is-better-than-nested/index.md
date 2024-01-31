@@ -109,7 +109,7 @@ def refactor_process_data(data: dict[str, Any] | None) -> bool:
 ## 组织中的扁平化
 传统企业中，组织架构图，如同金字塔结构，等级分明，一层压层，流程繁琐，不论高层发号施令，还是底层向高层意见反馈，都会不能及时传达，执行力降低，导致效率低下，由于中间管理层过多，人员臃肿，企业成本大大增加。种种原因，最终导致企业竞争力下降，最后关门倒闭。
 
-![金字塔结构](https://image.ericzzz.com/2023/12/15/7c0ace9d-525b-44aa-9b9e-d4ec134b0ffa.png)
+![金字塔结构](https://image.ericzzz.com/2023/12/15/7c0ace9d-525b-44aa-9b9e-d4ec134b0ffa.webp)
 
 扁平化组织
 
@@ -123,5 +123,5 @@ def refactor_process_data(data: dict[str, Any] | None) -> bool:
 
 - 更加灵活，快速响应市场需求。不受官僚主义的毒害。
 
-![扁平化结构](https://image.ericzzz.com/2023/12/15/406e23d5-0d5f-4639-88e8-8bd90140ace6.png)
+![扁平化结构](https://image.ericzzz.com/2023/12/15/406e23d5-0d5f-4639-88e8-8bd90140ace6.webp)
 

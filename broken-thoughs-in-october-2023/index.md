@@ -30,7 +30,7 @@
 ### 2023.10.09
 我滴乖乖~哦买噶😲，CloudFlare 家推出自己的 Ai 模型了。
 
-![CloudFlare](https://image.ericzzz.com/2023/10/09/acecc48d-e457-4813-84a2-10e04d6d5883.png)
+![CloudFlare](https://image.ericzzz.com/2023/10/09/acecc48d-e457-4813-84a2-10e04d6d5883.webp)
 
 目前支持 LLM，翻译，语音识别，图像识别，语句分析。
 
@@ -77,12 +77,12 @@
 ### 2023.10.16
 除了生病以外，你所感受到的痛苦几乎都是你的价值观带来的，并非真实存在。
 
-![向日葵](https://image.ericzzz.com/2023/10/17/2e66a825-a04c-4476-b96d-64792f4296de.jpg)
+![向日葵](https://image.ericzzz.com/2023/10/17/2e66a825-a04c-4476-b96d-64792f4296de.webp)
 
 ### 2023.10.17
 哈哈哈，大霄老师的表情管理得加强啊😂。
 
-![李大霄](https://image.ericzzz.com/2023/10/17/24ecb666-debe-493f-8239-aee56ea4c906.jpg)
+![李大霄](https://image.ericzzz.com/2023/10/17/24ecb666-debe-493f-8239-aee56ea4c906.webp)
 
 ### 2023.10.18
 > 华尔街目前对中国的 A 股市场主要分为两派：一派是激进派，另一派是保守派。激进派认为中国 A 股是一个欺骗性市场；保守派认为激进派的这个评价还是太保守了。
@@ -107,7 +107,7 @@ leetcode 今年 1024 节都不搞活动了，看来经济真的不行了😂。
 
 ### 2023.10.25
 我要挂在我的墙上🙄。
-![金句](https://image.ericzzz.com/2023/10/30/cc5a092c-96ba-40de-ba00-f0092e689a74.jpg)
+![金句](https://image.ericzzz.com/2023/10/30/cc5a092c-96ba-40de-ba00-f0092e689a74.webp)
 
 ### 2023.10.26
 全家的三明治，还挺好吃的。
@@ -125,7 +125,7 @@ leetcode 今年 1024 节都不搞活动了，看来经济真的不行了😂。
 
 ### 2023.10.30
 so🤔？
-![人生的意义](https://image.ericzzz.com/2023/10/30/17c049b3-c53b-48c4-932e-c8a098ead569.jpg)
+![人生的意义](https://image.ericzzz.com/2023/10/30/17c049b3-c53b-48c4-932e-c8a098ead569.webp)
 
 ### 2023.10.31
 发现一个有趣的仓库😎。

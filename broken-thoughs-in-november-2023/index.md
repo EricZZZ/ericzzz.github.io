@@ -9,7 +9,7 @@
 ### 2023.11.02
 🕯
 
-![Respect](https://image.ericzzz.com/2023/11/02/d6adf6d4-fc0b-4ae1-af9e-0e09b51e18f2.jpg)
+![Respect](https://image.ericzzz.com/2023/11/02/d6adf6d4-fc0b-4ae1-af9e-0e09b51e18f2.webp)
 
 ### 2023.11.03
 昨天不知道怎么了，CloudFlare 服务登不上，Blog 更新之后部署失败了，传个图片都不行😥。
@@ -17,7 +17,7 @@
 ### 2023.11.04
 跟着 Next.js 官网最新教程，一步一步敲下来，发现前端技术发展太快了，不仅可以画页面，还能自己从数据库中取数据，最可怕的是连登录、鉴权都不需要后端了。就问后端同学们，你怕不怕😂。
 
-![Next.js 14](https://image.ericzzz.com/2023/11/07/c127a51c-61f7-498d-a920-7bcb5ffa48e3.jpg)
+![Next.js 14](https://image.ericzzz.com/2023/11/07/c127a51c-61f7-498d-a920-7bcb5ffa48e3.webp)
 
 ### 2023.11.05
 早知道今天凌晨有德国国家德比，就应该准备点啤酒零食，恭喜凯恩又帽子戏法了。
@@ -33,12 +33,12 @@ OpenAi 召开开发者大会，ChatGPT 又升级了，功能更强大，价钱�
 
 ### 2023.11.09
 行走互联网这么多年，终于让我也薅了一次羊毛😁。
-![leetcode 棒球帽](https://image.ericzzz.com/2023/11/10/c2baafb8-b7ba-44a2-80f2-0f71977e6279.jpg)
+![leetcode 棒球帽](https://image.ericzzz.com/2023/11/10/c2baafb8-b7ba-44a2-80f2-0f71977e6279.webp)
 
 ### 2023.11.10
 牛肉面 + 豌豆尖，绝配，YYDS😋。
 
-![牛肉面](https://image.ericzzz.com/2023/11/10/7ad3d97d-ec02-4dcc-be7f-ea1545836cbf.jpg)
+![牛肉面](https://image.ericzzz.com/2023/11/10/7ad3d97d-ec02-4dcc-be7f-ea1545836cbf.webp)
 
 ### 2023.11.11
 史低入手太鼓达人，真香。
@@ -76,7 +76,7 @@ React 的函数式编程和 JSX，把人心态搞得稀碎，怀念`v-if`,`v-for
 ### 2023.11.19
 来线下看比赛的人太多了，根本挤不到位置，身高毫无优势🙄。
 
-![LOL 总决赛](https://image.ericzzz.com/2023/11/20/ea3d882a-274f-43f5-8355-6171ff0b1204.jpg)
+![LOL 总决赛](https://image.ericzzz.com/2023/11/20/ea3d882a-274f-43f5-8355-6171ff0b1204.webp)
 
 ### 2023.11.20
 阿根廷新总统挺有意思的，极右翼，哈耶克经济学的忠诚粉丝，不知道阿根廷未来如何，拭目以待吧。
@@ -117,5 +117,5 @@ ChatGPT 语音所有用户免费开放了，已经使用上了，泰酷辣！！
 ### 2023.11.30
 想了一整天😂😂😂
 
-![？](https://image.ericzzz.com/2023/11/30/990898eb-d96d-435b-9fec-deb51a605da3.jpg)
+![？](https://image.ericzzz.com/2023/11/30/990898eb-d96d-435b-9fec-deb51a605da3.webp)
 

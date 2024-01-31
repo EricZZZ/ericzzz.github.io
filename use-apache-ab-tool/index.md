@@ -39,7 +39,7 @@ ab -V
 
 如图下显示，表示安装成功。
 
-![安装成功](https://image.ericzzz.com/2023/10/24/6de21458-7866-4c15-9ff6-a68e57328b41.png)
+![安装成功](https://image.ericzzz.com/2023/10/24/6de21458-7866-4c15-9ff6-a68e57328b41.webp)
 
 ## 使用
 
@@ -110,15 +110,15 @@ ab [options] [http://]hostname[:port]/path
 
 ### 吞吐率随并发用户数变化的曲线图
 
-![吞吐率随并发用户数变化的曲线图](https://image.ericzzz.com/2023/10/24/bd49f3e3-49ce-4ce2-bd12-c4b3a6a980c3.png)
+![吞吐率随并发用户数变化的曲线图](https://image.ericzzz.com/2023/10/24/bd49f3e3-49ce-4ce2-bd12-c4b3a6a980c3.webp)
 
 ### 服务器平均请求处理时间随并发用户数变化的曲线图
 
-![服务器平均请求处理时间随并发用户数变化的曲线图](https://image.ericzzz.com/2023/10/24/2959413e-2672-48e5-b0f0-57ab3dab7413.png)
+![服务器平均请求处理时间随并发用户数变化的曲线图](https://image.ericzzz.com/2023/10/24/2959413e-2672-48e5-b0f0-57ab3dab7413.webp)
 
 ### 用户平均请求等待时间随并发用户数变化的曲线图
 
-![用户平均请求等待时间随并发用户数变化的曲线图](https://image.ericzzz.com/2023/10/24/f1628067-a81a-499b-951a-45b7abf6f433.png)
+![用户平均请求等待时间随并发用户数变化的曲线图](https://image.ericzzz.com/2023/10/24/f1628067-a81a-499b-951a-45b7abf6f433.webp)
 
 ### 结论
 

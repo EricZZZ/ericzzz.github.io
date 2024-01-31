@@ -41,12 +41,12 @@
 ### 2023.05.11
 呀吼儿 🚀
 
-![duolinguo 1000](https://image.ericzzz.com/2023/05/11/f8ea7248-08a4-48d6-9b38-df2eb1458808.jpg)
+![duolinguo 1000](https://image.ericzzz.com/2023/05/11/f8ea7248-08a4-48d6-9b38-df2eb1458808.webp)
 
 ### 2023.05.12
 [给爷整笑了](https://leetcode.cn/problems/lwyVBB/comments/)😂，哈哈哈
 
-![leetcode 讨论](https://image.ericzzz.com/2023/05/12/ccbaec7d-f604-42a0-aca5-a2402b042848.png)
+![leetcode 讨论](https://image.ericzzz.com/2023/05/12/ccbaec7d-f604-42a0-aca5-a2402b042848.webp)
 
 ### 2023.05.13
 漫长的季节，嘎嘎好看
@@ -57,7 +57,7 @@
 ### 2023.05.15
 往前看，别回头。
 
-![往前看，别回头](https://image.ericzzz.com/2023/05/15/2770d816d9d82d42660482f797144dd2.jpg)
+![往前看，别回头](https://image.ericzzz.com/2023/05/15/2770d816d9d82d42660482f797144dd2.webp)
 
 ### 2023.05.16
 我认为在任何时间，任何场所，调侃教师，医生，军人都是不合适的，你可以对某个人有意见，但是对这些职业含沙射影嘲讽，何况还是在公共场合，而且也没觉得有多好笑，所以我对脱口秀节目一直没有多大兴趣🥲。
@@ -80,7 +80,7 @@
 ### 2023.05.21
 看似平淡无奇，实则暗藏玄机，又是套上痛苦面具的一天😭
 
-![怎么想，也想不出来](https://image.ericzzz.com/2023/05/21/ea9fb416034a0824e2eea3c1e312c039.png)
+![怎么想，也想不出来](https://image.ericzzz.com/2023/05/21/ea9fb416034a0824e2eea3c1e312c039.webp)
 
 ### 2023.05.22
 在微信看到再不学 Ai 就要被社会淘汰了，国外大公司已经裁员，岗位用 Ai 替代的文章，以前看完我可能会焦虑一整子，现在我聪明了，把文章丢给 AI 让他告诉我目的是什么？
@@ -107,7 +107,7 @@
 ### 2023.05.26
 来场说走就走的旅行？
 
-![passport](https://image.ericzzz.com/2023/05/27/2eea5e8797a66ac2c79e7b77458fd1b3.jpg)
+![passport](https://image.ericzzz.com/2023/05/27/2eea5e8797a66ac2c79e7b77458fd1b3.webp)
 
 ### 2023.05.27
 嗓子吞刀片，果然名不虚传，真有你的。

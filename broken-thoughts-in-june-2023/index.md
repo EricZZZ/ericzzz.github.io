@@ -50,7 +50,7 @@ Apple Vision Pro 真有这么邪性嘛，未来已来，等发售了，高低不
 ### 2023.06.11
 这几天恶补了本田宗一郎的历史，读完了两本关于他的书 [《梦想力》](https://miasanmia.cc/reading-dream-power/) 和 [《匠人如神》](https://miasanmia.cc/reading-craftsmen-are-like-gods/)，不亏为日本“经营四圣”之一，作为技术型企业家，他个性爽朗单纯，一心追寻梦想，为获胜不计得失，失败也绝不气馁；永远笑脸应对，充满幽默感。
 
-![本田宗一郎](https://upload.wikimedia.org/wikipedia/commons/b/bb/Honda_Souichiro_zaikai_1964.jpg)
+![本田宗一郎](https://upload.wikimedia.org/wikipedia/commons/b/bb/Honda_Souichiro_zaikai_1964.webp)
 
 **"去见心上人的路，千里仿佛咫尺。"** 全身心投入所爱的事业，是贯穿本田一生的主线，也是本田主义的原点。
 

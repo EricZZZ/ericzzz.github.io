@@ -58,4 +58,4 @@
   
   > 目标引发行为，结果巩固行为。
 
-  ![一分钟经理人](https://image.ericzzz.com/2023/10/18/e0cf72b7-d603-415f-91ff-d96856d61eba.jpg)
+  ![一分钟经理人](https://image.ericzzz.com/2023/10/18/e0cf72b7-d603-415f-91ff-d96856d61eba.webp)
