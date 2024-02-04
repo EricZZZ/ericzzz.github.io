@@ -3,9 +3,17 @@
         <title>🌻ErᎥc的数字花园</title>
         <link>https://ericzzz.com/</link>
         <description>欢迎来到我的小站～</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Wed, 31 Jan 2024 17:50:56 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>EricZhao</copyright><lastBuildDate>Sun, 04 Feb 2024 14:56:17 &#43;0800</lastBuildDate>
             <atom:link href="https://ericzzz.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>2024 年 02 月 - 碎碎念</title>
+    <link>https://ericzzz.com/broken-thoughts-in-february-2024/</link>
+    <pubDate>Sun, 04 Feb 2024 14:56:17 &#43;0800</pubDate>
+    <author>EricZhao</author>
+    <guid>https://ericzzz.com/broken-thoughts-in-february-2024/</guid>
+    <description><![CDATA[草长莺飞二月天，拂堤杨柳醉春烟。]]></description>
+</item>
+<item>
     <title>优化 Blog 图片访问</title>
     <link>https://ericzzz.com/optimize-blog-image-access/</link>
     <pubDate>Wed, 31 Jan 2024 17:50:56 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>EricZhao</author>
     <guid>https://ericzzz.com/broken-thoughs-in-november-2023/</guid>
     <description><![CDATA[不是事物本身让人们烦恼，而是人对事物的看法让人们烦恼。&mdash;塞内卡]]></description>
-</item>
-<item>
-    <title>使用 Apache ab 工具测试网站性能</title>
-    <link>https://ericzzz.com/use-apache-ab-tool/</link>
-    <pubDate>Tue, 24 Oct 2023 16:20:17 &#43;0800</pubDate>
-    <author>EricZhao</author>
-    <guid>https://ericzzz.com/use-apache-ab-tool/</guid>
-    <description><![CDATA[Apache ab 工具使用，测试指标分析。]]></description>
 </item>
 </channel>
 </rss>
